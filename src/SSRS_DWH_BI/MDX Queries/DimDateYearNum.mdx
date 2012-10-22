@@ -1,0 +1,16 @@
+WITH  
+  MEMBER [Measures].[ParameterCaption] AS 
+    [Account Entry Date].[Calendar].CurrentMember.Member_Caption 
+  MEMBER [Measures].[ParameterValue] AS 
+    [Account Entry Date].[Calendar].Unique_Name 
+SELECT 
+  {
+   [Measures].[ParameterCaption]
+   ,[Measures].[ParameterValue]
+  } ON COLUMNS
+ , Filter (
+	{[Account Entry Date].[Calendar].[Year].ALLMEMBERS
+	}
+	, [Measures].[ParameterCaption] <> 'Unknown'
+)ON ROWS
+FROM [DWH_BI];

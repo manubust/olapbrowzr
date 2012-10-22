@@ -1,0 +1,16 @@
+WITH  
+  MEMBER [Measures].[ParameterCaption] AS 
+    LEFT([Account Entry Date].[Month].CurrentMember.Member_Caption, LEN([Account Entry Date].[Month].CurrentMember.Member_Caption)-5)
+MEMBER [Measures].[ParameterValue] AS 
+    [Account Entry Date].[Month Of Year].CurrentMember.Unique_name
+SELECT 
+  {
+   [Measures].[ParameterCaption],
+   [Measures].[ParameterValue]
+  } ON COLUMNS
+ , Filter (
+	{[Account Entry Date].[Month].ALLMEMBERS
+	}
+	, [Account Entry Date].[Month].CurrentMember.Properties("Year") = "2000"
+)ON ROWS
+FROM [DWH_BI];

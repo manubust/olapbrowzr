@@ -1,0 +1,89 @@
+SELECT 
+    {
+      [Measures].[Account Entry Balance]
+     ,[Measures].[Budget Amount]
+    } ON COLUMNS
+ ,NON EMPTY
+    {
+        [Account Entry Date].[Year].[Year].ALLMEMBERS*
+        [Account Entry Date].[Month].[Month].ALLMEMBERS*
+        [Fourth Report Plan].[Hierarchy].[Report Plan Level3 Name].ALLMEMBERS*
+        [Accounting Plan].[Account Label].[Account Label].ALLMEMBERS
+    }
+  DIMENSION PROPERTIES 
+    MEMBER_CAPTION
+   ,MEMBER_UNIQUE_NAME
+   ,[Account Entry Date].[Month].[Month Of Year]
+   ,[Fourth Report Plan].[Hierarchy].[Report Plan Level3 Name].[Report Plan Level3 Num]
+   ,[Fourth Report Plan].[Hierarchy].[Report Plan Level2 Name].[Report Plan Level2 Num]
+   ,[Fourth Report Plan].[Hierarchy].[Report Plan Level1 Name].[Report Plan Level1 Num]
+   ,[Fourth Report Plan].[Hierarchy].[Report Plan Level0 Name].[Report Plan Level0 Num]
+   ON ROWS
+FROM 
+(
+  SELECT 
+    StrToSet
+    (@CompanyCompanySurname
+     ,CONSTRAINED
+    ) ON COLUMNS
+  FROM 
+  (
+    SELECT 
+        [Account Entry Date].[Month Of Year].&[1]        
+      : 
+        StrToMember
+        (@ToAccountEntryDateMonth
+         ,CONSTRAINED
+        ) ON COLUMNS
+    FROM 
+    (
+	  SELECT 
+        ParallelPeriod(
+          [Account Entry Date].[Calendar].[Year]
+          ,
+          2,
+          StrToMember
+          (@ToAccountEntryDateYear
+           ,CONSTRAINED
+          )
+          )
+      : 
+        StrToMember
+        (@ToAccountEntryDateYear
+         ,CONSTRAINED
+        ) ON COLUMNS
+      FROM  
+      (
+        SELECT 
+          {[Fourth Report Plan].[Report Plan Type Name].&[Bilan]} ON COLUMNS
+        FROM [DWH_BI]
+      )
+    )
+  )
+)
+WHERE 
+  (
+    [Fourth Report Plan].[Report Plan Type Name].&[Bilan]
+   ,IIF
+    (
+        StrToSet
+        (@CompanyCompanySurname
+         ,CONSTRAINED
+        ).Count
+      = 1
+     ,StrToSet
+      (@CompanyCompanySurname
+       ,CONSTRAINED
+      )
+     ,[Company].[Company Surname].CurrentMember
+    )
+  )
+CELL PROPERTIES 
+  VALUE
+ ,BACK_COLOR
+ ,FORE_COLOR
+ ,FORMATTED_VALUE
+ ,FORMAT_STRING
+ ,FONT_NAME
+ ,FONT_SIZE
+ ,FONT_FLAGS;

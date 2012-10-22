@@ -1,0 +1,516 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a5e88527-0455-43d4-9f24-3c1838b51fb5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DIM Company</ID>
+  <Name>DIM Company</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2705" scrolltop="-4979" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11298" y="21325" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DIM_Company" left="20" top="5125" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="5239" height="9524" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800007714000034250000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_Company" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DIM_Country" left="920" top="-900" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3413" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000550d0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_Country" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1127" top="1326" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="4099" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DIM_Company_DIM_Country]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="1" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1526" y="1825" />
+              <point x="1526" y="3925" />
+              <point x="1539" y="3925" />
+              <point x="1539" y="5125" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2705</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4979</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-900</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="208">
+            <Shape Id="Company SK" Expanded="true">
+              <Attributes>
+                <Attribute Id="Company SK" />
+                <Attribute Id="Company Country Sk Fk" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Country Name Fra" Expanded="true">
+              <Attributes>
+                <Attribute Id="Country Name Fra" />
+                <Attribute Id="Country Sk" />
+              </Attributes>
+              <Position x="285" y="20" />
+            </Shape>
+            <Shape Id="Company Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Company Name" />
+                <Attribute Id="Company Address Form" />
+                <Attribute Id="Company CD" />
+                <Attribute Id="Company City" />
+                <Attribute Id="Company Contact" />
+                <Attribute Id="Company Email" />
+                <Attribute Id="Company Is Adjusting Company" />
+                <Attribute Id="Company Polite Phrase" />
+                <Attribute Id="Company Street" />
+                <Attribute Id="Company Surname" />
+                <Attribute Id="Company Tel1" />
+                <Attribute Id="Company Tel2" />
+                <Attribute Id="Company Tel3" />
+                <Attribute Id="Company Vat Num" />
+                <Attribute Id="Company WWW" />
+                <Attribute Id="Company Zip Code" />
+              </Attributes>
+              <Position x="285" y="68" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="baf91b98-bdb0-44c0-acee-6cb77949910b">
+    <DataSourceViewID>DWH_BDOBI_DSW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="70aff838-b27f-4b7a-8430-2918289b21cf">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="a08242c9-70d1-4b30-b013-96825bfda89b">
+      <ID>Company SK</ID>
+      <Name>Company SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2eda97df-a257-4827-b028-f80d964cfb7b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="426bd91a-9a91-4071-b795-acff67c6299a">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanySK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="01f5d4aa-322f-4377-abf8-967f82b310f5">
+          <AttributeID>Company Name</AttributeID>
+          <Name>Company Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cdc4a4cd-7adc-47a9-8afe-e92c9a6c673e">
+          <AttributeID>Company Country Sk Fk</AttributeID>
+          <Name>Company Country Sk Fk</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b6cd6501-ab91-460f-811e-8563150834d6">
+          <AttributeID>Company Address</AttributeID>
+          <Name>Company Address</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="14d82d00-3052-41a7-8048-eae1600e8b6b">
+          <AttributeID>Company Code</AttributeID>
+          <Name>Company Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b6b78d15-f3fd-42b1-a88e-0cb9772e3acd">
+          <AttributeID>Company VAT</AttributeID>
+          <Name>Company VAT</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="51601359-2102-4584-9a94-0ae4a0a2cbc7">
+          <AttributeID>Country Name FR</AttributeID>
+          <Name>Country Name FR</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="199122cd-479f-4eaa-a7ec-113b96a457de">
+      <ID>Company Name</ID>
+      <Name>Company Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c51e1177-0911-4d6e-86a8-cc59ac051477">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="81fcf083-24ac-40e3-9392-86c8c970b266">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a853cc4c-b16e-4709-a2ec-6bf9443ea6df">
+          <AttributeID>Company City</AttributeID>
+          <Name>Company City</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c8dc80f5-5a9b-4b82-942b-7b571b96f3b3">
+          <AttributeID>Company Contact</AttributeID>
+          <Name>Company Contact</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8713e567-8462-4823-8698-8ae5bd7423c9">
+          <AttributeID>Company Email</AttributeID>
+          <Name>Company Email</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="81b932aa-b11d-4eb0-bec1-f3e12c07db0a">
+          <AttributeID>Company Is Adjusting Company</AttributeID>
+          <Name>Company Is Adjusting Company</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="95cc57b4-527b-4de3-a372-9672a67e39ae">
+          <AttributeID>Company Polite Phrase</AttributeID>
+          <Name>Company Polite Phrase</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fc1fa086-6ca5-411a-bc15-8c0684f1e66e">
+          <AttributeID>Company Street</AttributeID>
+          <Name>Company Street</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1754c7a8-1ad4-404e-b4cb-79725e67cbf5">
+          <AttributeID>Company Surname</AttributeID>
+          <Name>Company Surname</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dbd90b50-e654-4903-9f5c-85b92f2f9566">
+          <AttributeID>Company Tel1</AttributeID>
+          <Name>Company Tel1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ef72e088-8fba-409d-8405-ce09a5d88a01">
+          <AttributeID>Company Tel2</AttributeID>
+          <Name>Company Tel2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="eb0bf5f9-b7be-4801-b21a-f71abf8d5df2">
+          <AttributeID>Company Tel3</AttributeID>
+          <Name>Company Tel3</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="00f0d1a1-9697-4281-b298-c84c9f8eee67">
+          <AttributeID>Company WWW</AttributeID>
+          <Name>Company WWW</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8179b2ba-fcda-46b3-9f2c-ac22133b03d2">
+          <AttributeID>Company Zip Code</AttributeID>
+          <Name>Company Zip Code</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bce269b6-056c-4363-8010-82a9012863c0">
+      <ID>Company Surname</ID>
+      <Name>Company Surname</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6d4ade74-fb01-4bb7-9809-94320b7e0f12">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0e3c3e5f-cf3c-47b6-814d-92a220c9a297">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanySurname</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="833a9787-2b74-4358-8404-b4e070a15c0e">
+      <ID>Company Country Sk Fk</ID>
+      <Name>Company Country Sk Fk</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="27db0615-ae9c-4b3a-b483-f2f5ff73381d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d70add3f-8bd3-412c-992c-583598f2ee95">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyCountrySkFk</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c46acd54-e2f3-4984-b982-ce4c3bbaf856">
+      <ID>Company Street</ID>
+      <Name>Company Street</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f501fb4f-ed58-409d-abef-b5b746206cfa">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="be89abc0-41a3-4d75-bd2e-bddf2019c4fb">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyStreet</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="be6a7ba2-c0e6-47b6-9708-6a4fe2462295">
+      <ID>Company Zip Code</ID>
+      <Name>Company Zip Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4c2dc815-e171-4620-af10-4fb358ad5020">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cea7f4ec-abee-47c1-97d9-a0bf404d57b4">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyZipCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="14d565b9-4dfc-4351-88df-e55619a0b8b2">
+      <ID>Company City</ID>
+      <Name>Company City</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c16d098f-4df7-4ce2-bd53-0563ead5f494">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d3196b4a-4fac-4a01-a29f-1438c156d479">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyCity</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b21bb161-7a13-403a-9866-9a9463f0d136">
+      <ID>Company Polite Phrase</ID>
+      <Name>Company Polite Phrase</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1a44052a-ba5e-4ce2-ab03-f07915ffa0af">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d5afe38d-62d0-4d69-8309-9ab8c161c35e">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyPolitePhrase</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="17befc3d-bc94-4e6b-b774-725419aac5b8">
+      <ID>Company Contact</ID>
+      <Name>Company Contact</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d093b143-b022-4ef0-bad8-3c41ee23e198">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2c2cff72-811d-4773-b0a9-ab0251b9663f">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyContact</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="966c9e9e-44bc-4ac7-9e06-41ca6e5ba1a6">
+      <ID>Company Tel1</ID>
+      <Name>Company Tel1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="05cb6c73-c9bd-4782-b60c-161fa15e3596">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f42e4e49-d5ab-4b1f-b9b5-4a05c6bcc1a3">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyTel1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3df55f36-9f4b-4f7b-91df-7b13f8466ebf">
+      <ID>Company Tel2</ID>
+      <Name>Company Tel2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8734f28c-83d5-43d9-833e-151fc2d39eb1">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ca49938f-1a85-4b32-a341-a9aad35b2b56">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyTel2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3608b6d5-e97a-47a5-bc60-ac4977072f36">
+      <ID>Company Tel3</ID>
+      <Name>Company Tel3</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="80848e45-f821-41cd-9702-feb3e5c0346d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="50f44cce-5477-4163-8616-6edfea612bb3">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyTel3</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="133ea6be-4940-49a5-ad57-e4044c574db0">
+      <ID>Company Email</ID>
+      <Name>Company Email</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0f3cca98-aea1-4237-b930-bf1aaa9da373">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7573b4a6-7694-482c-9069-d8cb675e074f">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyEmail</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6d8a5e3f-89e6-4d53-a311-8a42a9aaabcf">
+      <ID>Company WWW</ID>
+      <Name>Company WWW</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d080289b-443c-4c86-b581-2327bb3bb346">
+          <DataType>WChar</DataType>
+          <DataSize>70</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f27df85e-f6f9-4c17-bd3e-93439ee52737">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyWWW</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="95817893-1742-4610-825f-08640d227539">
+      <ID>Company Is Adjusting Company</ID>
+      <Name>Company Is Adjusting Company</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d2f89c05-c95a-4601-9215-17ba36ea328e">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="122d783c-bca7-4e09-822a-f2a289be1967">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyIsAdjustingCompany</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dbb6d70b-6577-4752-bc18-9600a55fd668">
+      <ID>Company Address</ID>
+      <Name>Company Address</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3987a28f-4ed0-416d-9e91-c9fdf363813e">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="67314973-19f0-4da1-8295-a0d62001078a">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyAddress</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cca8e293-794a-42fd-9589-07f144f91198">
+      <ID>Company Code</ID>
+      <Name>Company Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2e9eaf9e-bee1-44d6-a918-b63b24747e22">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8703d967-240b-45e1-802d-67279f7a84ab">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ac27d427-a98d-4643-a15d-16fc25af5ee3">
+      <ID>Company VAT</ID>
+      <Name>Company VAT</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="96d41b45-887c-41cb-a89c-0e7f07139446">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="39db047f-51ed-47d2-afd2-faa86bd27a0c">
+            <TableID>dbo_DIM_Company</TableID>
+            <ColumnID>CompanyVAT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a60f6685-9563-4aac-a1c5-88a5088a448e">
+      <ID>Country Name FR</ID>
+      <Name>Country Name FR</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3fdcbe34-1acf-4cd4-b986-e4ca10360839">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b8592705-7694-45fe-9e2b-064b1fbf4c9b">
+            <TableID>dbo_DIM_Country</TableID>
+            <ColumnID>CountryNameFR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+</Dimension>

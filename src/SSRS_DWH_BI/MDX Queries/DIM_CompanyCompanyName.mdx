@@ -1,0 +1,21 @@
+WITH 
+  MEMBER [Measures].[ParameterCaption] AS 
+    [Company].[Company Surname].CurrentMember.Member_Caption 
+  MEMBER [Measures].[ParameterValue] AS 
+    [Company].[Company Surname].CurrentMember.UniqueName 
+  MEMBER [Measures].[ParameterLevel] AS 
+    [Company].[Company Surname].CurrentMember.Level.Ordinal
+SELECT 
+  { 
+    [Measures].[ParameterCaption]
+   ,[Measures].[ParameterValue]
+   ,[Measures].[ParameterLevel]
+  } ON COLUMNS
+ ,Filter([Company].[Company Surname].ALLMEMBERS,
+		 [Company].[Company Surname].CurrentMember.Member_Caption <> 'All'	AND
+		 not(ISEMPTY([Measures].[Account Entry Balance]))
+ )
+ ON ROWS
+FROM 
+ [DWH_BI]
+;

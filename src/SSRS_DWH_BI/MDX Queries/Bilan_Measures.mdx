@@ -1,0 +1,115 @@
+SELECT 
+    {
+      [Measures].[Account Entry Balance]
+     ,[Measures].[Budget Amount]
+     ,[Measures].[Capitaux employés]
+     ,[Measures].[%QFP/P]
+     ,[Measures].[Annuité t+1]
+     ,[Measures].[BFR (HT)]
+     ,[Measures].[Clients - Fournisseurs]
+     ,[Measures].[Dettes financières LT]
+     ,[Measures].[Dettes Financières Nettes totales]
+     ,[Measures].[dFRN]
+	 ,[Measures].[FRN]
+	 ,[Measures].[Insuffisance de  F.R.N. pour RLS = 1]
+     ,[Measures].[Prêts subordonnés LT]
+     ,[Measures].[Ratio Liquidité Stricte %]
+     ,[Measures].[Rotation des Créances]
+     ,[Measures].[Rotation des Dettes Fournisseurs]
+     ,[Measures].[Rotation des Stocks]
+     ,[Measures].[TN]
+     ,[Measures].[TN (hors 42)]
+     ,[Measures].[Budget - Capitaux employés]
+     ,[Measures].[Budget - %QFP/P]
+     ,[Measures].[Budget - Annuité t+1]
+     ,[Measures].[Budget - BFR (HT)]
+     ,[Measures].[Budget - Clients - Fournisseurs]
+     ,[Measures].[Budget - Dettes financières LT]
+     ,[Measures].[Budget - Dettes Financières Nettes totales]
+     ,[Measures].[Budget - dFRN]
+	 ,[Measures].[Budget - FRN]
+	 ,[Measures].[Budget - Insuffisance de  F.R.N. pour RLS = 1]
+     ,[Measures].[Budget - Prêts subordonnés LT]
+     ,[Measures].[Budget - Ratio Liquidité Stricte %]
+     ,[Measures].[Budget - Rotation des Créances]
+     ,[Measures].[Budget - Rotation des Dettes Fournisseurs]
+     ,[Measures].[Budget - Rotation des Stocks]
+     ,[Measures].[Budget - TN]
+     ,[Measures].[Budget - TN (hors 42)]
+    } ON COLUMNS
+ ,NON EMPTY
+    {
+        [Account Entry Date].[Year].[Year].ALLMEMBERS
+    }
+  DIMENSION PROPERTIES 
+    MEMBER_CAPTION
+   ,MEMBER_UNIQUE_NAME
+   ON ROWS
+FROM 
+(
+  SELECT 
+    StrToSet
+    (@CompanyCompanySurname
+     ,CONSTRAINED
+    ) ON COLUMNS
+  FROM 
+  (
+    SELECT 
+        [Account Entry Date].[Month Of Year].&[1]        
+      : 
+        StrToMember
+        (@ToAccountEntryDateMonth
+         ,CONSTRAINED
+        ) ON COLUMNS
+    FROM 
+    (
+	  SELECT 
+        ParallelPeriod(
+          [Account Entry Date].[Calendar].[Year]
+          ,
+          2,
+          StrToMember
+          (@ToAccountEntryDateYear
+           ,CONSTRAINED
+          )
+          )
+      : 
+        StrToMember
+        (@ToAccountEntryDateYear
+         ,CONSTRAINED
+        ) ON COLUMNS
+      FROM  
+      (
+        SELECT 
+          {[Fourth Report Plan].[Report Plan Type Name].&[Bilan]} ON COLUMNS
+        FROM [DWH_BI]
+      )
+    )
+  )
+)
+WHERE 
+  (
+    [Fourth Report Plan].[Report Plan Type Name].&[Bilan]
+   ,IIF
+    (
+        StrToSet
+        (@CompanyCompanySurname
+         ,CONSTRAINED
+        ).Count
+      = 1
+     ,StrToSet
+      (@CompanyCompanySurname
+       ,CONSTRAINED
+      )
+     ,[Company].[Company Surname].CurrentMember
+    )
+  )
+CELL PROPERTIES 
+  VALUE
+ ,BACK_COLOR
+ ,FORE_COLOR
+ ,FORMATTED_VALUE
+ ,FORMAT_STRING
+ ,FONT_NAME
+ ,FONT_SIZE
+ ,FONT_FLAGS;
