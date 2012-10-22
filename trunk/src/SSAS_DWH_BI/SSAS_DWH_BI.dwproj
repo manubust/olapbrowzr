@@ -1,0 +1,96 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>10.50.1617.0</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD50cnVlPC9FbmFibGVkPg0KICA8UHJvamVjdE5hbWU+U3ZuPC9Qcm9qZWN0TmFtZT4NCiAgPEF1eFBhdGg+U3ZuPC9BdXhQYXRoPg0KICA8TG9jYWxQYXRoPlN2bjwvTG9jYWxQYXRoPg0KICA8UHJvdmlkZXI+U3VidmVyc2lvblNjYzwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>SSAS_BDOBI.database</Name>
+    <FullPath>SSAS_BDOBI.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>DWH_BI.cube</Name>
+      <FullPath>DWH_BI.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>DWH_BI.partitions</Name>
+          <FullPath>DWH_BI.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>DIM Report Plan.dim</Name>
+      <FullPath>DIM Report Plan.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Company.dim</Name>
+      <FullPath>DIM Company.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Third Party.dim</Name>
+      <FullPath>DIM Third Party.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Accounting Plan.dim</Name>
+      <FullPath>DIM Accounting Plan.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Account Entry Details.dim</Name>
+      <FullPath>DIM Account Entry Details.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Active Directory.dim</Name>
+      <FullPath>DIM Active Directory.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Time.dim</Name>
+      <FullPath>DIM Time.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM First Analytical Code.dim</Name>
+      <FullPath>DIM First Analytical Code.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Second Analytical Code.dim</Name>
+      <FullPath>DIM Second Analytical Code.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Specific Accounting Plan.dim</Name>
+      <FullPath>DIM Specific Accounting Plan.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>DWH_BI_DS.ds</Name>
+      <FullPath>DWH_BI_DS.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>DWH_BI_DSW.dsv</Name>
+      <FullPath>DWH_BI_DSW.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>DWH_BDOBI_DS</Id>
+            <Name>DWH_BDOBI_DS</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=CS5WXN1-PC\MSSQLSERVER_R2;Integrated Security=SSPI;Initial Catalog=DWH_BI</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>DWH_BDOBI_DS</Id>
+            <Name>DWH_BDOBI_DS</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

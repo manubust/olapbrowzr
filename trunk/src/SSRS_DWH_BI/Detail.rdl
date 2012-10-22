@@ -1,0 +1,3061 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>2.7cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.15251cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.73271cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>8.55896cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.30281cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.508cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Year_Month_Num">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Month_Name_En.Value+ ", " +Left(Fields!Year_Month_Num.Value, 4)</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <LeftIndent>2pt</LeftIndent>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Year_Month_Num</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <TopBorder>
+                          <Style>None</Style>
+                        </TopBorder>
+                        <RightBorder>
+                          <Style>None</Style>
+                        </RightBorder>
+                        <BackgroundColor>Gray</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox25">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox25</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Color>Gray</Color>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>Gray</Color>
+                        </RightBorder>
+                        <BackgroundColor>Gray</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox26">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox26</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Color>Gray</Color>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>Gray</Color>
+                        </RightBorder>
+                        <BackgroundColor>Gray</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox27">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox27</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Color>Gray</Color>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>Gray</Color>
+                        </RightBorder>
+                        <BackgroundColor>Gray</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox28">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox28</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Color>Gray</Color>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>Gray</Color>
+                        </RightBorder>
+                        <BackgroundColor>Gray</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox29">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox29</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Color>Gray</Color>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>Gray</Color>
+                        </RightBorder>
+                        <BackgroundColor>Gray</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox30">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox30</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>None</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Color>Gray</Color>
+                        </LeftBorder>
+                        <BackgroundColor>Gray</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Account_Entry_Amount_Debit2">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=ABS(Sum(Fields!Account_Entry_Amount_Debit.Value))</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                                <Format># ### ###.00;-# ### ###.00; </Format>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <RightIndent>2pt</RightIndent>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Account_Entry_Amount_Debit</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Color>Gray</Color>
+                        </LeftBorder>
+                        <BackgroundColor>Gray</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Account_Entry_Amount_Credit2">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=ABS(Sum(Fields!Account_Entry_Amount_Credit.Value))</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                                <Format># ### ###.00;-# ### ###.00; </Format>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <RightIndent>2pt</RightIndent>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Account_Entry_Amount_Credit</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Color>Gray</Color>
+                        </LeftBorder>
+                        <BackgroundColor>Gray</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="ACCOUNT_ENTRY_BALANCE2">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=abs(Fields!ACCOUNT_ENTRY_BALANCE_INVERTED.Value)</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                                <Format># ### ###.00;-# ### ###.00; </Format>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <RightIndent>2pt</RightIndent>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>ACCOUNT_ENTRY_BALANCE</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Color>Gray</Color>
+                        </LeftBorder>
+                        <BackgroundColor>Gray</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.508cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="LastYearMonth1">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Account_Entry_Ledger_Date.Value</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                                <Format>### ### ### ##0;-### ### ### ##0;-</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <LeftIndent>5pt</LeftIndent>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Style>None</Style>
+                        </LeftBorder>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Account_Entry_Ledger_Num">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Account_Entry_Ledger_Num.Value</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <LeftIndent>2pt</LeftIndent>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Account_Entry_Ledger_Num</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Account_Entry_Document_Num">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Account_Entry_Document_Num.Value</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <LeftIndent>2pt</LeftIndent>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Account_Entry_Document_Num</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="PRIMARY_ANALYTICAL_ACCOUNT_CODE">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!PRIMARY_ANALYTICAL_ACCOUNT_CODE.Value</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>PRIMARY_ANALYTICAL_ACCOUNT_CODE</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="THIRD_PARTY_NAME">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!THIRD_PARTY_NAME.Value</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>THIRD_PARTY_NAME</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Account_Entry_Remarks">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Account_Entry_Remarks.Value</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <LeftIndent>2pt</LeftIndent>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Account_Entry_Remarks</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Image Name="Image1">
+                      <Source>Embedded</Source>
+                      <Value>ReportGo32</Value>
+                      <Sizing>FitProportional</Sizing>
+                      <ActionInfo>
+                        <Actions>
+                          <Action>
+                            <Hyperlink>="javascript:void(window.open('" + replace(Fields!Account_Entry_Invoice_URL.Value, "\", "/") + "'))"</Hyperlink>
+                          </Action>
+                        </Actions>
+                      </ActionInfo>
+                      <Visibility>
+                        <Hidden>=IIF(Fields!Account_Entry_Invoice_URL.Value &lt;&gt; "", False, True)</Hidden>
+                      </Visibility>
+                      <ToolTip>=Fields!Account_Entry_Invoice_URL.Value</ToolTip>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>10pt</PaddingLeft>
+                      </Style>
+                    </Image>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Account_Entry_Amount_Debit">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=ABS(Sum(Fields!Account_Entry_Amount_Debit.Value))</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                                <Format># ### ###.00;-# ### ###.00; </Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <RightIndent>2pt</RightIndent>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Account_Entry_Amount_Debit</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Account_Entry_Amount_Credit">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=ABS(Sum(Fields!Account_Entry_Amount_Credit.Value))</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                                <Format># ### ###.00;-# ### ###.00; </Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <RightIndent>2pt</RightIndent>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Account_Entry_Amount_Credit</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="ACCOUNT_ENTRY_BALANCE">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>= abs(Fields!ACCOUNT_ENTRY_BALANCE_INVERTED.Value)</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>8pt</FontSize>
+                                <Format># ### ###.00;-# ### ###.00; </Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <RightIndent>2pt</RightIndent>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>ACCOUNT_ENTRY_BALANCE</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <TablixHeader>
+                <Size>0.5cm</Size>
+                <CellContents>
+                  <Textbox Name="Textbox5">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>=Fields!ACCOUNTING_PLAN_NUM.Value + " - " + Fields!Account_Level6_Label_Eng.Value</Value>
+                            <Style>
+                              <FontFamily>Verdana</FontFamily>
+                              <FontSize>8pt</FontSize>
+                              <Color>White</Color>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <LeftIndent>2pt</LeftIndent>
+                        <Style>
+                          <TextAlign>Left</TextAlign>
+                        </Style>
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox5</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>Firebrick</Color>
+                        <Style>None</Style>
+                      </Border>
+                      <LeftBorder>
+                        <Style>Solid</Style>
+                      </LeftBorder>
+                      <RightBorder>
+                        <Style>Solid</Style>
+                      </RightBorder>
+                      <BackgroundColor>Firebrick</BackgroundColor>
+                      <VerticalAlign>Middle</VerticalAlign>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <TablixMembers>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.5cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox8">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>Date</Value>
+                                <Style>
+                                  <FontFamily>Verdana</FontFamily>
+                                  <FontSize>8pt</FontSize>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <LeftIndent>2pt</LeftIndent>
+                            <Style>
+                              <TextAlign>Left</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox8</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>Gainsboro</Color>
+                            <Style>None</Style>
+                          </Border>
+                          <TopBorder>
+                            <Style>None</Style>
+                          </TopBorder>
+                          <LeftBorder>
+                            <Style>Solid</Style>
+                          </LeftBorder>
+                          <RightBorder>
+                            <Style>Solid</Style>
+                          </RightBorder>
+                          <BackgroundColor>Gainsboro</BackgroundColor>
+                          <VerticalAlign>Middle</VerticalAlign>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                      <rd:Selected>true</rd:Selected>
+                    </CellContents>
+                  </TablixHeader>
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.5cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox674">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>Book</Value>
+                                <Style>
+                                  <FontFamily>Verdana</FontFamily>
+                                  <FontSize>8pt</FontSize>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <LeftIndent>2pt</LeftIndent>
+                            <Style>
+                              <TextAlign>Left</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox674</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>Gainsboro</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <TopBorder>
+                            <Style>None</Style>
+                          </TopBorder>
+                          <BottomBorder>
+                            <Style>None</Style>
+                          </BottomBorder>
+                          <LeftBorder>
+                            <Style>Solid</Style>
+                          </LeftBorder>
+                          <RightBorder>
+                            <Style>Solid</Style>
+                          </RightBorder>
+                          <BackgroundColor>Gainsboro</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.5cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox10">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>Doc</Value>
+                                <Style>
+                                  <FontFamily>Verdana</FontFamily>
+                                  <FontSize>8pt</FontSize>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <LeftIndent>2pt</LeftIndent>
+                            <Style>
+                              <TextAlign>Left</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox10</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>Gainsboro</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <TopBorder>
+                            <Style>None</Style>
+                          </TopBorder>
+                          <BottomBorder>
+                            <Style>None</Style>
+                          </BottomBorder>
+                          <LeftBorder>
+                            <Style>Solid</Style>
+                          </LeftBorder>
+                          <RightBorder>
+                            <Style>Solid</Style>
+                          </RightBorder>
+                          <BackgroundColor>Gainsboro</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.5cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox2">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>Ana. Code</Value>
+                                <Style>
+                                  <FontFamily>Verdana</FontFamily>
+                                  <FontSize>8pt</FontSize>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Left</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox2</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>Gainsboro</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <TopBorder>
+                            <Style>None</Style>
+                          </TopBorder>
+                          <BottomBorder>
+                            <Style>None</Style>
+                          </BottomBorder>
+                          <LeftBorder>
+                            <Style>Solid</Style>
+                          </LeftBorder>
+                          <RightBorder>
+                            <Style>Solid</Style>
+                          </RightBorder>
+                          <BackgroundColor>Gainsboro</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.5cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox9">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>Fournisseur</Value>
+                                <Style>
+                                  <FontFamily>Verdana</FontFamily>
+                                  <FontSize>8pt</FontSize>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Left</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox9</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>Gainsboro</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <TopBorder>
+                            <Style>None</Style>
+                          </TopBorder>
+                          <BottomBorder>
+                            <Style>None</Style>
+                          </BottomBorder>
+                          <LeftBorder>
+                            <Style>Solid</Style>
+                          </LeftBorder>
+                          <RightBorder>
+                            <Style>Solid</Style>
+                          </RightBorder>
+                          <BackgroundColor>Gainsboro</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.5cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox13">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>Remarks</Value>
+                                <Style>
+                                  <FontFamily>Verdana</FontFamily>
+                                  <FontSize>8pt</FontSize>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <LeftIndent>2pt</LeftIndent>
+                            <Style>
+                              <TextAlign>Left</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox13</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>Gainsboro</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <TopBorder>
+                            <Style>None</Style>
+                          </TopBorder>
+                          <BottomBorder>
+                            <Style>None</Style>
+                          </BottomBorder>
+                          <LeftBorder>
+                            <Style>Solid</Style>
+                          </LeftBorder>
+                          <RightBorder>
+                            <Style>Solid</Style>
+                          </RightBorder>
+                          <BackgroundColor>Gainsboro</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+              </TablixMembers>
+            </TablixMember>
+            <TablixMember>
+              <TablixHeader>
+                <Size>0.5cm</Size>
+                <CellContents>
+                  <Textbox Name="Textbox4">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value />
+                            <Style>
+                              <FontFamily>Verdana</FontFamily>
+                              <FontSize>8pt</FontSize>
+                              <Color>White</Color>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style>
+                          <TextAlign>Right</TextAlign>
+                        </Style>
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox4</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>Firebrick</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <TopBorder>
+                        <Style>None</Style>
+                      </TopBorder>
+                      <BottomBorder>
+                        <Style>None</Style>
+                      </BottomBorder>
+                      <LeftBorder>
+                        <Style>Solid</Style>
+                      </LeftBorder>
+                      <RightBorder>
+                        <Style>Solid</Style>
+                      </RightBorder>
+                      <BackgroundColor>Firebrick</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <TablixMembers>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.5cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox6">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>Invoice</Value>
+                                <Style>
+                                  <FontFamily>Verdana</FontFamily>
+                                  <FontSize>8pt</FontSize>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Right</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox6</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>Gainsboro</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <TopBorder>
+                            <Style>None</Style>
+                          </TopBorder>
+                          <BottomBorder>
+                            <Color>Gainsboro</Color>
+                            <Style>None</Style>
+                          </BottomBorder>
+                          <LeftBorder>
+                            <Style>Solid</Style>
+                          </LeftBorder>
+                          <RightBorder>
+                            <Style>Solid</Style>
+                          </RightBorder>
+                          <BackgroundColor>Gainsboro</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+              </TablixMembers>
+            </TablixMember>
+            <TablixMember>
+              <TablixHeader>
+                <Size>0.5cm</Size>
+                <CellContents>
+                  <Textbox Name="Textbox15">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>=ABS(Sum(Fields!Account_Entry_Amount_Debit.Value))</Value>
+                            <Style>
+                              <FontFamily>Verdana</FontFamily>
+                              <FontSize>8pt</FontSize>
+                              <Format>### ### ### ##0.00;-### ### ### ##0.00;-</Format>
+                              <Color>White</Color>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style>
+                          <TextAlign>Right</TextAlign>
+                        </Style>
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox15</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>Firebrick</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <TopBorder>
+                        <Style>None</Style>
+                      </TopBorder>
+                      <BottomBorder>
+                        <Style>None</Style>
+                      </BottomBorder>
+                      <LeftBorder>
+                        <Style>Solid</Style>
+                      </LeftBorder>
+                      <RightBorder>
+                        <Style>Solid</Style>
+                      </RightBorder>
+                      <BackgroundColor>Firebrick</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <TablixMembers>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.5cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox17">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>Debit</Value>
+                                <Style>
+                                  <FontFamily>Verdana</FontFamily>
+                                  <FontSize>8pt</FontSize>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <RightIndent>2pt</RightIndent>
+                            <Style>
+                              <TextAlign>Right</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox17</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>Gainsboro</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <TopBorder>
+                            <Style>None</Style>
+                          </TopBorder>
+                          <BottomBorder>
+                            <Style>None</Style>
+                          </BottomBorder>
+                          <LeftBorder>
+                            <Style>Solid</Style>
+                          </LeftBorder>
+                          <RightBorder>
+                            <Style>Solid</Style>
+                          </RightBorder>
+                          <BackgroundColor>Gainsboro</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+              </TablixMembers>
+            </TablixMember>
+            <TablixMember>
+              <TablixHeader>
+                <Size>0.5cm</Size>
+                <CellContents>
+                  <Textbox Name="Textbox19">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>=ABS(Sum(Fields!Account_Entry_Amount_Credit.Value))</Value>
+                            <Style>
+                              <FontFamily>Verdana</FontFamily>
+                              <FontSize>8pt</FontSize>
+                              <Format>### ### ### ##0.00;-### ### ### ##0.00;-</Format>
+                              <Color>White</Color>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style>
+                          <TextAlign>Right</TextAlign>
+                        </Style>
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox19</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>Firebrick</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <TopBorder>
+                        <Style>None</Style>
+                      </TopBorder>
+                      <BottomBorder>
+                        <Style>None</Style>
+                      </BottomBorder>
+                      <LeftBorder>
+                        <Style>Solid</Style>
+                      </LeftBorder>
+                      <RightBorder>
+                        <Style>Solid</Style>
+                      </RightBorder>
+                      <BackgroundColor>Firebrick</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <TablixMembers>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.5cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox20">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>Credit</Value>
+                                <Style>
+                                  <FontFamily>Verdana</FontFamily>
+                                  <FontSize>8pt</FontSize>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <RightIndent>2pt</RightIndent>
+                            <Style>
+                              <TextAlign>Right</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox20</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>Gainsboro</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <TopBorder>
+                            <Style>None</Style>
+                          </TopBorder>
+                          <BottomBorder>
+                            <Style>None</Style>
+                          </BottomBorder>
+                          <LeftBorder>
+                            <Style>Solid</Style>
+                          </LeftBorder>
+                          <RightBorder>
+                            <Style>Solid</Style>
+                          </RightBorder>
+                          <BackgroundColor>Gainsboro</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+              </TablixMembers>
+            </TablixMember>
+            <TablixMember>
+              <TablixHeader>
+                <Size>0.5cm</Size>
+                <CellContents>
+                  <Textbox Name="Textbox22">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>= ReportItems!Textbox15.Value - ReportItems!Textbox19.Value</Value>
+                            <Style>
+                              <FontFamily>Verdana</FontFamily>
+                              <FontSize>8pt</FontSize>
+                              <Format>### ### ### ##0.00;-### ### ### ##0.00;-</Format>
+                              <Color>White</Color>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style>
+                          <TextAlign>Right</TextAlign>
+                        </Style>
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox22</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>Firebrick</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <TopBorder>
+                        <Style>None</Style>
+                      </TopBorder>
+                      <BottomBorder>
+                        <Style>None</Style>
+                      </BottomBorder>
+                      <LeftBorder>
+                        <Style>Solid</Style>
+                      </LeftBorder>
+                      <RightBorder>
+                        <Style>Solid</Style>
+                      </RightBorder>
+                      <BackgroundColor>Firebrick</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <TablixMembers>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.5cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox23">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>Balance</Value>
+                                <Style>
+                                  <FontFamily>Verdana</FontFamily>
+                                  <FontSize>8pt</FontSize>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <RightIndent>2pt</RightIndent>
+                            <Style>
+                              <TextAlign>Right</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox23</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>Gainsboro</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <TopBorder>
+                            <Style>None</Style>
+                          </TopBorder>
+                          <BottomBorder>
+                            <Style>None</Style>
+                          </BottomBorder>
+                          <LeftBorder>
+                            <Style>Solid</Style>
+                          </LeftBorder>
+                          <RightBorder>
+                            <Style>Solid</Style>
+                          </RightBorder>
+                          <BackgroundColor>Gainsboro</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+              </TablixMembers>
+            </TablixMember>
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Year_Month_Num">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!Year_Month_Num.Value</GroupExpression>
+                </GroupExpressions>
+              </Group>
+              <SortExpressions>
+                <SortExpression>
+                  <Value>=Fields!Year_Month_Num.Value</Value>
+                </SortExpression>
+              </SortExpressions>
+              <TablixMembers>
+                <TablixMember>
+                  <KeepWithGroup>After</KeepWithGroup>
+                </TablixMember>
+                <TablixMember>
+                  <Group Name="Revenues" />
+                  <SortExpressions>
+                    <SortExpression>
+                      <Value>=Fields!Account_Entry_Ledger_Date.Value</Value>
+                    </SortExpression>
+                    <SortExpression>
+                      <Value>=Fields!Account_Entry_Ledger_Num.Value</Value>
+                    </SortExpression>
+                    <SortExpression>
+                      <Value>=Fields!Account_Entry_Document_Num.Value</Value>
+                    </SortExpression>
+                  </SortExpressions>
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixMember>
+              </TablixMembers>
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSetUSHA</DataSetName>
+        <Top>0.29104cm</Top>
+        <Left>0.33549cm</Left>
+        <Height>2.016cm</Height>
+        <Width>26.94699cm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>1.18651in</Height>
+    <Style />
+  </Body>
+  <Width>10.80074in</Width>
+  <Page>
+    <PageHeader>
+      <Height>2.61091cm</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Image Name="ImageRezidorGroup">
+          <Source>Embedded</Source>
+          <Value>the_rezidor_group_white</Value>
+          <Sizing>FitProportional</Sizing>
+          <ActionInfo>
+            <Actions>
+              <Action>
+                <Hyperlink>http://www.rezidor.com/</Hyperlink>
+              </Action>
+            </Actions>
+          </ActionInfo>
+          <Top>0.25612cm</Top>
+          <Left>0.33549cm</Left>
+          <Height>2.09021cm</Height>
+          <Width>5.24757cm</Width>
+          <ToolTip>Rezidor Group</ToolTip>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </Image>
+        <Textbox Name="Textbox1">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Parameters!FromReport.Value+vbNewLine + 
+Parameters!DIMDateYearMonth.Label+vbNewLine+
+Code.LittleDot(Parameters!DIMCompanyCOMPANYSURNAME.Label)+vbNewLine+
+"TEUR"</Value>
+                  <Style>
+                    <FontFamily>Verdana</FontFamily>
+                    <FontSize>11pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <LeftIndent>0cm</LeftIndent>
+              <HangingIndent>0cm</HangingIndent>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox1</rd:DefaultName>
+          <Top>0.25612cm</Top>
+          <Left>6.42091cm</Left>
+          <Height>2.09021cm</Height>
+          <Width>15.05517cm</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageHeader>
+    <PageFooter>
+      <Height>1.42874cm</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Textbox Name="Textbox75">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=" Printed by " + User!UserID + " on " + Globals!ExecutionTime.ToString()</Value>
+                  <Style>
+                    <FontFamily>Verdana</FontFamily>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox75</rd:DefaultName>
+          <Top>0.26458cm</Top>
+          <Left>0.33549cm</Left>
+          <Height>0.45833in</Height>
+          <Width>6.11141in</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox76">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>="Page " + Globals!PageNumber.ToString() + " of " + Globals!TotalPages.ToString()</Value>
+                  <Style>
+                    <FontFamily>Verdana</FontFamily>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Right</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox76</rd:DefaultName>
+          <Top>0.10417in</Top>
+          <Left>7.6671in</Left>
+          <Height>0.25in</Height>
+          <Width>3.12855in</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageFooter>
+    <PageHeight>21cm</PageHeight>
+    <PageWidth>29.7cm</PageWidth>
+    <LeftMargin>1cm</LeftMargin>
+    <RightMargin>1cm</RightMargin>
+    <TopMargin>1cm</TopMargin>
+    <BottomMargin>1cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <DataSourceReference>DWH_RadissonBI_DS</DataSourceReference>
+      <rd:SecurityType>Integrated</rd:SecurityType>
+      <rd:DataSourceID>863098e7-f37e-4a8a-8284-070a39b132fc</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DIMDateYearMonth">
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText>WITH  
+  MEMBER [Measures].[ParameterCaptionYearMonth] AS 
+	[DIM Date].[Month Name En].CurrentMember.Member_Caption +', '+[DIM Date].[Year Num].CurrentMember.Member_Caption 
+  MEMBER [Measures].[ParameterCaption] AS 
+    [DIM Date].[Year Month Num].CurrentMember.Member_Caption 
+  MEMBER [Measures].[ParameterValue] AS 
+    [DIM Date].[Year Month Num].CurrentMember.UniqueName 
+  MEMBER [Measures].[ParameterLevel] AS 
+    [DIM Date].[Year Month Num].CurrentMember.Level.Ordinal 
+SELECT 
+  {
+    [Measures].[ParameterCaptionYearMonth]
+   ,[Measures].[ParameterCaption]
+   ,[Measures].[ParameterValue]
+   ,[Measures].[ParameterLevel]
+  } ON COLUMNS
+ , Filter (
+	{[DIM Date].[Year Month Num].ALLMEMBERS*
+	 [DIM Date].[Month Name En].ALLMEMBERS*
+	 [DIM Date].[Year Num].ALLMEMBERS  
+	}
+	, [Measures].[ParameterCaption] &gt;= '201001' AND [Measures].[ParameterCaption] &lt;= '202012'
+	   AND [DIM Date].[Month Name En].CurrentMember.Level.Ordinal &gt; 0
+	   AND [DIM Date].[Year Num].CurrentMember.Level.Ordinal &gt; 0
+)ON ROWS
+FROM [DWH_BDORadissonBI];</CommandText>
+        <rd:DesignerState>
+          <QueryDefinition xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition">
+            <CommandType>MDX</CommandType>
+            <Type>Query</Type>
+            <QuerySpecification xsi:type="MDXQuerySpecification" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <Select>
+                <Items>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Date</DimensionName>
+                      <HierarchyName>Year Month Num</HierarchyName>
+                      <HierarchyUniqueName>[DIM Date].[Year Month Num]</HierarchyUniqueName>
+                      <LevelName>Year Month Num</LevelName>
+                      <UniqueName>[DIM Date].[Year Month Num].[Year Month Num]</UniqueName>
+                    </ID>
+                    <ItemCaption>Year Month Num</ItemCaption>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Date</DimensionName>
+                      <HierarchyName>Month Name En</HierarchyName>
+                      <HierarchyUniqueName>[DIM Date].[Month Name En]</HierarchyUniqueName>
+                      <LevelName>Month Name En</LevelName>
+                      <UniqueName>[DIM Date].[Month Name En].[Month Name En]</UniqueName>
+                    </ID>
+                    <ItemCaption>Month Name En</ItemCaption>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Date</DimensionName>
+                      <HierarchyName>Year Num</HierarchyName>
+                      <HierarchyUniqueName>[DIM Date].[Year Num]</HierarchyUniqueName>
+                      <LevelName>Year Num</LevelName>
+                      <UniqueName>[DIM Date].[Year Num].[Year Num]</UniqueName>
+                    </ID>
+                    <ItemCaption>Year Num</ItemCaption>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterCaptionYearMonth</MeasureName>
+                      <UniqueName>[Measures].[ParameterCaptionYearMonth]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterCaptionYearMonth</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterCaption</MeasureName>
+                      <UniqueName>[Measures].[ParameterCaption]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterCaption</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterValue</MeasureName>
+                      <UniqueName>[Measures].[ParameterValue]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterValue</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterLevel</MeasureName>
+                      <UniqueName>[Measures].[ParameterLevel]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterLevel</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                </Items>
+              </Select>
+              <From>DWH_BDORadissonBI</From>
+              <Filter>
+                <FilterItems />
+              </Filter>
+              <Calculations />
+              <Aggregates />
+              <QueryProperties />
+            </QuerySpecification>
+            <Query>
+              <Statement>WITH  
+  MEMBER [Measures].[ParameterCaptionYearMonth] AS 
+	[DIM Date].[Month Name En].CurrentMember.Member_Caption +', '+[DIM Date].[Year Num].CurrentMember.Member_Caption 
+  MEMBER [Measures].[ParameterCaption] AS 
+    [DIM Date].[Year Month Num].CurrentMember.Member_Caption 
+  MEMBER [Measures].[ParameterValue] AS 
+    [DIM Date].[Year Month Num].CurrentMember.UniqueName 
+  MEMBER [Measures].[ParameterLevel] AS 
+    [DIM Date].[Year Month Num].CurrentMember.Level.Ordinal 
+SELECT 
+  {
+    [Measures].[ParameterCaptionYearMonth]
+   ,[Measures].[ParameterCaption]
+   ,[Measures].[ParameterValue]
+   ,[Measures].[ParameterLevel]
+  } ON COLUMNS
+ , Filter (
+	{[DIM Date].[Year Month Num].ALLMEMBERS*
+	 [DIM Date].[Month Name En].ALLMEMBERS*
+	 [DIM Date].[Year Num].ALLMEMBERS  
+	}
+	, [Measures].[ParameterCaption] &gt;= '201001' AND [Measures].[ParameterCaption] &lt;= '202012'
+	   AND [DIM Date].[Month Name En].CurrentMember.Level.Ordinal &gt; 0
+	   AND [DIM Date].[Year Num].CurrentMember.Level.Ordinal &gt; 0
+)ON ROWS
+FROM [DWH_BDORadissonBI];</Statement>
+              <ParameterDefinitions />
+            </Query>
+          </QueryDefinition>
+        </rd:DesignerState>
+      </Query>
+      <Fields>
+        <Field Name="Year_Month_Num">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Date].[Year Month Num].[Year Month Num]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Month_Name_En">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Date].[Month Name En].[Month Name En]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Year_Num">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Date].[Year Num].[Year Num]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ParameterCaptionYearMonth">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterCaptionYearMonth]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ParameterCaption">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterCaption]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ParameterValue">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterValue]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ParameterLevel">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterLevel]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="DataSetUSHA">
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="FromDIMDateYearMonthNum">
+            <Value>=Parameters!FromDIMDateYearMonth.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="ToDIMDateYearMonthNum">
+            <Value>=Parameters!DIMDateYearMonth.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="DIMCompanyCOMPANYSURNAME">
+            <Value>=Parameters!DIMCompanyCOMPANYSURNAME.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="DIMThirdReportPlanReportPlanLevelName">
+            <Value>=Parameters!ReportPlanLevel5.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="DIMThirdReportPlanReportPlanLevelName2">
+            <Value>=Parameters!ReportPlanLevel6.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="DIMAccountingPlanACCOUNTINGPLANNUM">
+            <Value>=Parameters!AccountLevel6Num.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText> SELECT NON EMPTY { [Measures].[ACCOUNT ENTRY BALANCE INVERTED], [Measures].[ACCOUNT ENTRY BALANCE], [Measures].[Account Entry Amount Credit], [Measures].[Account Entry Amount Debit] } ON COLUMNS, NON EMPTY { ([DIM Date].[Year Num].[Year Num].ALLMEMBERS * [DIM Account Entry Details].[Account Entry Document Num].[Account Entry Document Num].ALLMEMBERS * [DIM Date].[Year Month Num].[Year Month Num].ALLMEMBERS * [DIM Date].[Month Name En].[Month Name En].ALLMEMBERS * [DIM Account Entry Details].[Account Entry Ledger Date].[Account Entry Ledger Date].ALLMEMBERS * [DIM Accounting Plan].[Account Level6 Label Eng].[Account Level6 Label Eng].ALLMEMBERS * [DIM Account Entry Details].[Account Entry Ledger Num].[Account Entry Ledger Num].ALLMEMBERS * [DIM Account Entry Details].[Account Entry Document Date].[Account Entry Document Date].ALLMEMBERS * [DIM Account Entry Details].[Account Entry Remarks].[Account Entry Remarks].ALLMEMBERS * [DIM Account Entry Details].[Account Entry Invoice URL].[Account Entry Invoice URL].ALLMEMBERS * [DIM Accounting Plan].[ACCOUNTING PLAN NUM].[ACCOUNTING PLAN NUM].ALLMEMBERS * [DIM Primary Analytical Account].[PRIMARY ANALYTICAL ACCOUNT CODE].[PRIMARY ANALYTICAL ACCOUNT CODE].ALLMEMBERS * [DIM Third Party].[THIRD PARTY NAME].[THIRD PARTY NAME].ALLMEMBERS ) } DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS FROM ( SELECT ( STRTOSET(@DIMAccountingPlanACCOUNTINGPLANNUM, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOSET(@DIMThirdReportPlanReportPlanLevelName2, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOSET(@DIMThirdReportPlanReportPlanLevelName, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOSET(@DIMCompanyCOMPANYSURNAME, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOMEMBER(@FromDIMDateYearMonthNum, CONSTRAINED) : STRTOMEMBER(@ToDIMDateYearMonthNum, CONSTRAINED) ) ON COLUMNS FROM [DWH_BDORadissonBI]))))) WHERE ( IIF( STRTOSET(@DIMCompanyCOMPANYSURNAME, CONSTRAINED).Count = 1, STRTOSET(@DIMCompanyCOMPANYSURNAME, CONSTRAINED), [DIM Company].[COMPANY SURNAME].currentmember ), IIF( STRTOSET(@DIMThirdReportPlanReportPlanLevelName, CONSTRAINED).Count = 1, STRTOSET(@DIMThirdReportPlanReportPlanLevelName, CONSTRAINED), [DIM Third Report Plan].[Report Plan Level5 Name].currentmember ), IIF( STRTOSET(@DIMThirdReportPlanReportPlanLevelName2, CONSTRAINED).Count = 1, STRTOSET(@DIMThirdReportPlanReportPlanLevelName2, CONSTRAINED), [DIM Third Report Plan].[Report Plan Level6 Name].currentmember ) ) CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS</CommandText>
+        <rd:DesignerState>
+          <QueryDefinition xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition">
+            <CommandType>MDX</CommandType>
+            <QuerySpecification xsi:type="MDXQuerySpecification" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <Select>
+                <Items>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Date</DimensionName>
+                      <HierarchyName>Year Num</HierarchyName>
+                      <HierarchyUniqueName>[DIM Date].[Year Num]</HierarchyUniqueName>
+                      <LevelName>Year Num</LevelName>
+                      <UniqueName>[DIM Date].[Year Num].[Year Num]</UniqueName>
+                    </ID>
+                    <ItemCaption>Year Num</ItemCaption>
+                    <UniqueName>true</UniqueName>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Account Entry Details</DimensionName>
+                      <HierarchyName>Account Entry Document Num</HierarchyName>
+                      <HierarchyUniqueName>[DIM Account Entry Details].[Account Entry Document Num]</HierarchyUniqueName>
+                      <LevelName>Account Entry Document Num</LevelName>
+                      <UniqueName>[DIM Account Entry Details].[Account Entry Document Num].[Account Entry Document Num]</UniqueName>
+                    </ID>
+                    <ItemCaption>Account Entry Document Num</ItemCaption>
+                    <UniqueName>true</UniqueName>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Date</DimensionName>
+                      <HierarchyName>Year Month Num</HierarchyName>
+                      <HierarchyUniqueName>[DIM Date].[Year Month Num]</HierarchyUniqueName>
+                      <LevelName>Year Month Num</LevelName>
+                      <UniqueName>[DIM Date].[Year Month Num].[Year Month Num]</UniqueName>
+                    </ID>
+                    <ItemCaption>Year Month Num</ItemCaption>
+                    <UniqueName>true</UniqueName>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Date</DimensionName>
+                      <HierarchyName>Month Name En</HierarchyName>
+                      <HierarchyUniqueName>[DIM Date].[Month Name En]</HierarchyUniqueName>
+                      <LevelName>Month Name En</LevelName>
+                      <UniqueName>[DIM Date].[Month Name En].[Month Name En]</UniqueName>
+                    </ID>
+                    <ItemCaption>Month Name En</ItemCaption>
+                    <UniqueName>true</UniqueName>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Account Entry Details</DimensionName>
+                      <HierarchyName>Account Entry Ledger Date</HierarchyName>
+                      <HierarchyUniqueName>[DIM Account Entry Details].[Account Entry Ledger Date]</HierarchyUniqueName>
+                      <LevelName>Account Entry Ledger Date</LevelName>
+                      <UniqueName>[DIM Account Entry Details].[Account Entry Ledger Date].[Account Entry Ledger Date]</UniqueName>
+                    </ID>
+                    <ItemCaption>Account Entry Ledger Date</ItemCaption>
+                    <UniqueName>true</UniqueName>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Accounting Plan</DimensionName>
+                      <HierarchyName>Account Level6 Label Eng</HierarchyName>
+                      <HierarchyUniqueName>[DIM Accounting Plan].[Account Level6 Label Eng]</HierarchyUniqueName>
+                      <LevelName>Account Level6 Label Eng</LevelName>
+                      <UniqueName>[DIM Accounting Plan].[Account Level6 Label Eng].[Account Level6 Label Eng]</UniqueName>
+                    </ID>
+                    <ItemCaption>Account Level6 Label Eng</ItemCaption>
+                    <UniqueName>true</UniqueName>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Account Entry Details</DimensionName>
+                      <HierarchyName>Account Entry Ledger Num</HierarchyName>
+                      <HierarchyUniqueName>[DIM Account Entry Details].[Account Entry Ledger Num]</HierarchyUniqueName>
+                      <LevelName>Account Entry Ledger Num</LevelName>
+                      <UniqueName>[DIM Account Entry Details].[Account Entry Ledger Num].[Account Entry Ledger Num]</UniqueName>
+                    </ID>
+                    <ItemCaption>Account Entry Ledger Num</ItemCaption>
+                    <UniqueName>true</UniqueName>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Account Entry Details</DimensionName>
+                      <HierarchyName>Account Entry Document Date</HierarchyName>
+                      <HierarchyUniqueName>[DIM Account Entry Details].[Account Entry Document Date]</HierarchyUniqueName>
+                      <LevelName>Account Entry Document Date</LevelName>
+                      <UniqueName>[DIM Account Entry Details].[Account Entry Document Date].[Account Entry Document Date]</UniqueName>
+                    </ID>
+                    <ItemCaption>Account Entry Document Date</ItemCaption>
+                    <UniqueName>true</UniqueName>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Account Entry Details</DimensionName>
+                      <HierarchyName>Account Entry Remarks</HierarchyName>
+                      <HierarchyUniqueName>[DIM Account Entry Details].[Account Entry Remarks]</HierarchyUniqueName>
+                      <LevelName>Account Entry Remarks</LevelName>
+                      <UniqueName>[DIM Account Entry Details].[Account Entry Remarks].[Account Entry Remarks]</UniqueName>
+                    </ID>
+                    <ItemCaption>Account Entry Remarks</ItemCaption>
+                    <UniqueName>true</UniqueName>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Account Entry Details</DimensionName>
+                      <HierarchyName>Account Entry Invoice URL</HierarchyName>
+                      <HierarchyUniqueName>[DIM Account Entry Details].[Account Entry Invoice URL]</HierarchyUniqueName>
+                      <LevelName>Account Entry Invoice URL</LevelName>
+                      <UniqueName>[DIM Account Entry Details].[Account Entry Invoice URL].[Account Entry Invoice URL]</UniqueName>
+                    </ID>
+                    <ItemCaption>Account Entry Invoice URL</ItemCaption>
+                    <UniqueName>true</UniqueName>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Accounting Plan</DimensionName>
+                      <HierarchyName>ACCOUNTING PLAN NUM</HierarchyName>
+                      <HierarchyUniqueName>[DIM Accounting Plan].[ACCOUNTING PLAN NUM]</HierarchyUniqueName>
+                      <LevelName>ACCOUNTING PLAN NUM</LevelName>
+                      <UniqueName>[DIM Accounting Plan].[ACCOUNTING PLAN NUM].[ACCOUNTING PLAN NUM]</UniqueName>
+                    </ID>
+                    <ItemCaption>ACCOUNTING PLAN NUM</ItemCaption>
+                    <UniqueName>true</UniqueName>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Primary Analytical Account</DimensionName>
+                      <HierarchyName>PRIMARY ANALYTICAL ACCOUNT CODE</HierarchyName>
+                      <HierarchyUniqueName>[DIM Primary Analytical Account].[PRIMARY ANALYTICAL ACCOUNT CODE]</HierarchyUniqueName>
+                      <LevelName>PRIMARY ANALYTICAL ACCOUNT CODE</LevelName>
+                      <UniqueName>[DIM Primary Analytical Account].[PRIMARY ANALYTICAL ACCOUNT CODE].[PRIMARY ANALYTICAL ACCOUNT CODE]</UniqueName>
+                    </ID>
+                    <ItemCaption>PRIMARY ANALYTICAL ACCOUNT CODE</ItemCaption>
+                    <UniqueName>true</UniqueName>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Third Party</DimensionName>
+                      <HierarchyName>THIRD PARTY NAME</HierarchyName>
+                      <HierarchyUniqueName>[DIM Third Party].[THIRD PARTY NAME]</HierarchyUniqueName>
+                      <LevelName>THIRD PARTY NAME</LevelName>
+                      <UniqueName>[DIM Third Party].[THIRD PARTY NAME].[THIRD PARTY NAME]</UniqueName>
+                    </ID>
+                    <ItemCaption>THIRD PARTY NAME</ItemCaption>
+                    <UniqueName>true</UniqueName>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ACCOUNT ENTRY BALANCE</MeasureName>
+                      <UniqueName>[Measures].[ACCOUNT ENTRY BALANCE]</UniqueName>
+                    </ID>
+                    <ItemCaption>ACCOUNT ENTRY BALANCE</ItemCaption>
+                    <BackColor>true</BackColor>
+                    <ForeColor>true</ForeColor>
+                    <FontFamily>true</FontFamily>
+                    <FontSize>true</FontSize>
+                    <FontWeight>true</FontWeight>
+                    <FontStyle>true</FontStyle>
+                    <FontDecoration>true</FontDecoration>
+                    <FormattedValue>true</FormattedValue>
+                    <FormatString>true</FormatString>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ACCOUNT ENTRY BALANCE INVERTED</MeasureName>
+                      <UniqueName>[Measures].[ACCOUNT ENTRY BALANCE INVERTED]</UniqueName>
+                    </ID>
+                    <ItemCaption>ACCOUNT ENTRY BALANCE INVERTED</ItemCaption>
+                    <BackColor>true</BackColor>
+                    <ForeColor>true</ForeColor>
+                    <FontFamily>true</FontFamily>
+                    <FontSize>true</FontSize>
+                    <FontWeight>true</FontWeight>
+                    <FontStyle>true</FontStyle>
+                    <FontDecoration>true</FontDecoration>
+                    <FormattedValue>true</FormattedValue>
+                    <FormatString>true</FormatString>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>Account Entry Amount Debit</MeasureName>
+                      <UniqueName>[Measures].[Account Entry Amount Debit]</UniqueName>
+                    </ID>
+                    <ItemCaption>Account Entry Amount Debit</ItemCaption>
+                    <BackColor>true</BackColor>
+                    <ForeColor>true</ForeColor>
+                    <FontFamily>true</FontFamily>
+                    <FontSize>true</FontSize>
+                    <FontWeight>true</FontWeight>
+                    <FontStyle>true</FontStyle>
+                    <FontDecoration>true</FontDecoration>
+                    <FormattedValue>true</FormattedValue>
+                    <FormatString>true</FormatString>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>Account Entry Amount Credit</MeasureName>
+                      <UniqueName>[Measures].[Account Entry Amount Credit]</UniqueName>
+                    </ID>
+                    <ItemCaption>Account Entry Amount Credit</ItemCaption>
+                    <BackColor>true</BackColor>
+                    <ForeColor>true</ForeColor>
+                    <FontFamily>true</FontFamily>
+                    <FontSize>true</FontSize>
+                    <FontWeight>true</FontWeight>
+                    <FontStyle>true</FontStyle>
+                    <FontDecoration>true</FontDecoration>
+                    <FormattedValue>true</FormattedValue>
+                    <FormatString>true</FormatString>
+                  </Item>
+                </Items>
+              </Select>
+              <From>DWH_BDORadissonBI</From>
+              <Filter>
+                <FilterItems>
+                  <FilterItem>
+                    <HierarchyUniqueName>[DIM Date].[Year Month Num]</HierarchyUniqueName>
+                    <Condition xsi:type="Range">
+                      <Basis>Member</Basis>
+                      <From />
+                      <FromParametrized>true</FromParametrized>
+                      <To />
+                      <ToParametrized>true</ToParametrized>
+                    </Condition>
+                  </FilterItem>
+                  <FilterItem>
+                    <HierarchyUniqueName>[DIM Company].[COMPANY SURNAME]</HierarchyUniqueName>
+                    <Condition xsi:type="EqualTo">
+                      <Members />
+                      <Parametrized>true</Parametrized>
+                    </Condition>
+                  </FilterItem>
+                  <FilterItem>
+                    <HierarchyUniqueName>[DIM Third Report Plan].[Report Plan Level5 Name]</HierarchyUniqueName>
+                    <Condition xsi:type="EqualTo">
+                      <Members />
+                      <Parametrized>true</Parametrized>
+                    </Condition>
+                  </FilterItem>
+                  <FilterItem>
+                    <HierarchyUniqueName>[DIM Third Report Plan].[Report Plan Level6 Name]</HierarchyUniqueName>
+                    <Condition xsi:type="EqualTo">
+                      <Members />
+                      <Parametrized>true</Parametrized>
+                    </Condition>
+                  </FilterItem>
+                  <FilterItem>
+                    <HierarchyUniqueName>[DIM Accounting Plan].[ACCOUNTING PLAN NUM]</HierarchyUniqueName>
+                    <Condition xsi:type="EqualTo">
+                      <Members />
+                      <Parametrized>true</Parametrized>
+                    </Condition>
+                  </FilterItem>
+                </FilterItems>
+              </Filter>
+              <Calculations />
+              <Aggregates />
+              <QueryProperties />
+            </QuerySpecification>
+            <Query>
+              <Statement> SELECT NON EMPTY { [Measures].[ACCOUNT ENTRY BALANCE INVERTED], [Measures].[ACCOUNT ENTRY BALANCE], [Measures].[Account Entry Amount Credit], [Measures].[Account Entry Amount Debit] } ON COLUMNS, NON EMPTY { ([DIM Date].[Year Num].[Year Num].ALLMEMBERS * [DIM Account Entry Details].[Account Entry Document Num].[Account Entry Document Num].ALLMEMBERS * [DIM Date].[Year Month Num].[Year Month Num].ALLMEMBERS * [DIM Date].[Month Name En].[Month Name En].ALLMEMBERS * [DIM Account Entry Details].[Account Entry Ledger Date].[Account Entry Ledger Date].ALLMEMBERS * [DIM Accounting Plan].[Account Level6 Label Eng].[Account Level6 Label Eng].ALLMEMBERS * [DIM Account Entry Details].[Account Entry Ledger Num].[Account Entry Ledger Num].ALLMEMBERS * [DIM Account Entry Details].[Account Entry Document Date].[Account Entry Document Date].ALLMEMBERS * [DIM Account Entry Details].[Account Entry Remarks].[Account Entry Remarks].ALLMEMBERS * [DIM Account Entry Details].[Account Entry Invoice URL].[Account Entry Invoice URL].ALLMEMBERS * [DIM Accounting Plan].[ACCOUNTING PLAN NUM].[ACCOUNTING PLAN NUM].ALLMEMBERS * [DIM Primary Analytical Account].[PRIMARY ANALYTICAL ACCOUNT CODE].[PRIMARY ANALYTICAL ACCOUNT CODE].ALLMEMBERS * [DIM Third Party].[THIRD PARTY NAME].[THIRD PARTY NAME].ALLMEMBERS ) } DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS FROM ( SELECT ( STRTOSET(@DIMAccountingPlanACCOUNTINGPLANNUM, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOSET(@DIMThirdReportPlanReportPlanLevelName2, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOSET(@DIMThirdReportPlanReportPlanLevelName, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOSET(@DIMCompanyCOMPANYSURNAME, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOMEMBER(@FromDIMDateYearMonthNum, CONSTRAINED) : STRTOMEMBER(@ToDIMDateYearMonthNum, CONSTRAINED) ) ON COLUMNS FROM [DWH_BDORadissonBI]))))) WHERE ( IIF( STRTOSET(@DIMCompanyCOMPANYSURNAME, CONSTRAINED).Count = 1, STRTOSET(@DIMCompanyCOMPANYSURNAME, CONSTRAINED), [DIM Company].[COMPANY SURNAME].currentmember ), IIF( STRTOSET(@DIMThirdReportPlanReportPlanLevelName, CONSTRAINED).Count = 1, STRTOSET(@DIMThirdReportPlanReportPlanLevelName, CONSTRAINED), [DIM Third Report Plan].[Report Plan Level5 Name].currentmember ), IIF( STRTOSET(@DIMThirdReportPlanReportPlanLevelName2, CONSTRAINED).Count = 1, STRTOSET(@DIMThirdReportPlanReportPlanLevelName2, CONSTRAINED), [DIM Third Report Plan].[Report Plan Level6 Name].currentmember ) ) CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS</Statement>
+              <ParameterDefinitions>
+                <ParameterDefinition>
+                  <Name>FromDIMDateYearMonthNum</Name>
+                  <Usage>RangeFrom</Usage>
+                  <DefaultValues>
+                    <DefaultValue />
+                  </DefaultValues>
+                  <Caption>From DIM Date.Year Month Num</Caption>
+                  <HierarchyUniqueName>[DIM Date].[Year Month Num]</HierarchyUniqueName>
+                  <ParameterValuesQuery>
+                    <Statement>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Date].[Year Month Num].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Date].[Year Month Num].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Date].[Year Month Num].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Date].[Year Month Num].ALLMEMBERS ON ROWS FROM [DWH_BDORadissonBI]</Statement>
+                    <ParameterizedStatement>
+                      <ReferencedParameters />
+                    </ParameterizedStatement>
+                  </ParameterValuesQuery>
+                </ParameterDefinition>
+                <ParameterDefinition>
+                  <Name>ToDIMDateYearMonthNum</Name>
+                  <Usage>RangeTo</Usage>
+                  <DefaultValues>
+                    <DefaultValue />
+                  </DefaultValues>
+                  <Caption>To DIM Date.Year Month Num</Caption>
+                  <HierarchyUniqueName>[DIM Date].[Year Month Num]</HierarchyUniqueName>
+                  <ParameterValuesQuery>
+                    <Statement>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Date].[Year Month Num].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Date].[Year Month Num].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Date].[Year Month Num].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Date].[Year Month Num].ALLMEMBERS ON ROWS FROM [DWH_BDORadissonBI]</Statement>
+                    <ParameterizedStatement>
+                      <ReferencedParameters />
+                    </ParameterizedStatement>
+                  </ParameterValuesQuery>
+                </ParameterDefinition>
+                <ParameterDefinition>
+                  <Name>DIMCompanyCOMPANYSURNAME</Name>
+                  <DefaultValues />
+                  <Caption>COMPANY SURNAME</Caption>
+                  <HierarchyUniqueName>[DIM Company].[COMPANY SURNAME]</HierarchyUniqueName>
+                  <ParameterValuesQuery>
+                    <Statement>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Company].[COMPANY SURNAME].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Company].[COMPANY SURNAME].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Company].[COMPANY SURNAME].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Company].[COMPANY SURNAME].ALLMEMBERS ON ROWS FROM ( SELECT ( STRTOMEMBER(@FromDIMDateYearMonthNum, CONSTRAINED) : STRTOMEMBER(@ToDIMDateYearMonthNum, CONSTRAINED) ) ON COLUMNS FROM [DWH_BDORadissonBI])</Statement>
+                    <ParameterizedStatement>
+                      <Statement>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Company].[COMPANY SURNAME].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Company].[COMPANY SURNAME].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Company].[COMPANY SURNAME].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Company].[COMPANY SURNAME].ALLMEMBERS ON ROWS FROM ( SELECT ( STRTOMEMBER(@FromDIMDateYearMonthNum, CONSTRAINED) : STRTOMEMBER(@ToDIMDateYearMonthNum, CONSTRAINED) ) ON COLUMNS FROM [DWH_BDORadissonBI])</Statement>
+                      <ReferencedParameters>
+                        <ReferencedParameter>
+                          <Name>FromDIMDateYearMonthNum</Name>
+                        </ReferencedParameter>
+                        <ReferencedParameter>
+                          <Name>ToDIMDateYearMonthNum</Name>
+                        </ReferencedParameter>
+                      </ReferencedParameters>
+                    </ParameterizedStatement>
+                  </ParameterValuesQuery>
+                  <MultipleValues>true</MultipleValues>
+                </ParameterDefinition>
+                <ParameterDefinition>
+                  <Name>DIMThirdReportPlanReportPlanLevelName</Name>
+                  <DefaultValues />
+                  <Caption>DIM Third Report Plan.Report Plan Level5 Name</Caption>
+                  <HierarchyUniqueName>[DIM Third Report Plan].[Report Plan Level5 Name]</HierarchyUniqueName>
+                  <ParameterValuesQuery>
+                    <Statement>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Third Report Plan].[Report Plan Level5 Name].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Third Report Plan].[Report Plan Level5 Name].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Third Report Plan].[Report Plan Level5 Name].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Third Report Plan].[Report Plan Level5 Name].ALLMEMBERS ON ROWS FROM ( SELECT ( STRTOSET(@DIMCompanyCOMPANYSURNAME, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOMEMBER(@FromDIMDateYearMonthNum, CONSTRAINED) : STRTOMEMBER(@ToDIMDateYearMonthNum, CONSTRAINED) ) ON COLUMNS FROM [DWH_BDORadissonBI]))</Statement>
+                    <ParameterizedStatement>
+                      <Statement>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Third Report Plan].[Report Plan Level5 Name].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Third Report Plan].[Report Plan Level5 Name].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Third Report Plan].[Report Plan Level5 Name].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Third Report Plan].[Report Plan Level5 Name].ALLMEMBERS ON ROWS FROM ( SELECT ( STRTOSET(@DIMCompanyCOMPANYSURNAME, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOMEMBER(@FromDIMDateYearMonthNum, CONSTRAINED) : STRTOMEMBER(@ToDIMDateYearMonthNum, CONSTRAINED) ) ON COLUMNS FROM [DWH_BDORadissonBI]))</Statement>
+                      <ReferencedParameters>
+                        <ReferencedParameter>
+                          <Name>FromDIMDateYearMonthNum</Name>
+                        </ReferencedParameter>
+                        <ReferencedParameter>
+                          <Name>ToDIMDateYearMonthNum</Name>
+                        </ReferencedParameter>
+                        <ReferencedParameter>
+                          <Name>DIMCompanyCOMPANYSURNAME</Name>
+                        </ReferencedParameter>
+                      </ReferencedParameters>
+                    </ParameterizedStatement>
+                  </ParameterValuesQuery>
+                  <MultipleValues>true</MultipleValues>
+                </ParameterDefinition>
+                <ParameterDefinition>
+                  <Name>DIMThirdReportPlanReportPlanLevelName2</Name>
+                  <DefaultValues />
+                  <Caption>DIM Third Report Plan.Report Plan Level6 Name</Caption>
+                  <HierarchyUniqueName>[DIM Third Report Plan].[Report Plan Level6 Name]</HierarchyUniqueName>
+                  <ParameterValuesQuery>
+                    <Statement>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Third Report Plan].[Report Plan Level6 Name].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Third Report Plan].[Report Plan Level6 Name].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Third Report Plan].[Report Plan Level6 Name].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Third Report Plan].[Report Plan Level6 Name].ALLMEMBERS ON ROWS FROM ( SELECT ( STRTOSET(@DIMThirdReportPlanReportPlanLevelName, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOSET(@DIMCompanyCOMPANYSURNAME, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOMEMBER(@FromDIMDateYearMonthNum, CONSTRAINED) : STRTOMEMBER(@ToDIMDateYearMonthNum, CONSTRAINED) ) ON COLUMNS FROM [DWH_BDORadissonBI])))</Statement>
+                    <ParameterizedStatement>
+                      <Statement>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Third Report Plan].[Report Plan Level6 Name].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Third Report Plan].[Report Plan Level6 Name].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Third Report Plan].[Report Plan Level6 Name].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Third Report Plan].[Report Plan Level6 Name].ALLMEMBERS ON ROWS FROM ( SELECT ( STRTOSET(@DIMThirdReportPlanReportPlanLevelName, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOSET(@DIMCompanyCOMPANYSURNAME, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOMEMBER(@FromDIMDateYearMonthNum, CONSTRAINED) : STRTOMEMBER(@ToDIMDateYearMonthNum, CONSTRAINED) ) ON COLUMNS FROM [DWH_BDORadissonBI])))</Statement>
+                      <ReferencedParameters>
+                        <ReferencedParameter>
+                          <Name>FromDIMDateYearMonthNum</Name>
+                        </ReferencedParameter>
+                        <ReferencedParameter>
+                          <Name>ToDIMDateYearMonthNum</Name>
+                        </ReferencedParameter>
+                        <ReferencedParameter>
+                          <Name>DIMCompanyCOMPANYSURNAME</Name>
+                        </ReferencedParameter>
+                        <ReferencedParameter>
+                          <Name>DIMThirdReportPlanReportPlanLevelName</Name>
+                        </ReferencedParameter>
+                      </ReferencedParameters>
+                    </ParameterizedStatement>
+                  </ParameterValuesQuery>
+                  <MultipleValues>true</MultipleValues>
+                </ParameterDefinition>
+                <ParameterDefinition>
+                  <Name>DIMAccountingPlanACCOUNTINGPLANNUM</Name>
+                  <DefaultValues />
+                  <Caption>ACCOUNTING PLAN NUM</Caption>
+                  <HierarchyUniqueName>[DIM Accounting Plan].[ACCOUNTING PLAN NUM]</HierarchyUniqueName>
+                  <ParameterValuesQuery>
+                    <Statement>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Accounting Plan].[ACCOUNTING PLAN NUM].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Accounting Plan].[ACCOUNTING PLAN NUM].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Accounting Plan].[ACCOUNTING PLAN NUM].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Accounting Plan].[ACCOUNTING PLAN NUM].ALLMEMBERS ON ROWS FROM ( SELECT ( STRTOSET(@DIMThirdReportPlanReportPlanLevelName2, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOSET(@DIMThirdReportPlanReportPlanLevelName, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOSET(@DIMCompanyCOMPANYSURNAME, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOMEMBER(@FromDIMDateYearMonthNum, CONSTRAINED) : STRTOMEMBER(@ToDIMDateYearMonthNum, CONSTRAINED) ) ON COLUMNS FROM [DWH_BDORadissonBI]))))</Statement>
+                    <ParameterizedStatement>
+                      <Statement>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Accounting Plan].[ACCOUNTING PLAN NUM].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Accounting Plan].[ACCOUNTING PLAN NUM].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Accounting Plan].[ACCOUNTING PLAN NUM].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Accounting Plan].[ACCOUNTING PLAN NUM].ALLMEMBERS ON ROWS FROM ( SELECT ( STRTOSET(@DIMThirdReportPlanReportPlanLevelName2, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOSET(@DIMThirdReportPlanReportPlanLevelName, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOSET(@DIMCompanyCOMPANYSURNAME, CONSTRAINED) ) ON COLUMNS FROM ( SELECT ( STRTOMEMBER(@FromDIMDateYearMonthNum, CONSTRAINED) : STRTOMEMBER(@ToDIMDateYearMonthNum, CONSTRAINED) ) ON COLUMNS FROM [DWH_BDORadissonBI]))))</Statement>
+                      <ReferencedParameters>
+                        <ReferencedParameter>
+                          <Name>FromDIMDateYearMonthNum</Name>
+                        </ReferencedParameter>
+                        <ReferencedParameter>
+                          <Name>ToDIMDateYearMonthNum</Name>
+                        </ReferencedParameter>
+                        <ReferencedParameter>
+                          <Name>DIMCompanyCOMPANYSURNAME</Name>
+                        </ReferencedParameter>
+                        <ReferencedParameter>
+                          <Name>DIMThirdReportPlanReportPlanLevelName</Name>
+                        </ReferencedParameter>
+                        <ReferencedParameter>
+                          <Name>DIMThirdReportPlanReportPlanLevelName2</Name>
+                        </ReferencedParameter>
+                      </ReferencedParameters>
+                    </ParameterizedStatement>
+                  </ParameterValuesQuery>
+                  <MultipleValues>true</MultipleValues>
+                </ParameterDefinition>
+              </ParameterDefinitions>
+            </Query>
+          </QueryDefinition>
+        </rd:DesignerState>
+      </Query>
+      <Fields>
+        <Field Name="Account_Entry_Document_Num">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Account Entry Details].[Account Entry Document Num].[Account Entry Document Num]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Account_Entry_Ledger_Date">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Account Entry Details].[Account Entry Ledger Date].[Account Entry Ledger Date]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Account_Level6_Label_Eng">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Accounting Plan].[Account Level6 Label Eng].[Account Level6 Label Eng]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Account_Entry_Ledger_Num">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Account Entry Details].[Account Entry Ledger Num].[Account Entry Ledger Num]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Month_Name_En">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Date].[Month Name En].[Month Name En]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Account_Entry_Document_Date">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Account Entry Details].[Account Entry Document Date].[Account Entry Document Date]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Year_Num">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Date].[Year Num].[Year Num]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Account_Entry_Invoice_URL">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Account Entry Details].[Account Entry Invoice URL].[Account Entry Invoice URL]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ACCOUNT_ENTRY_BALANCE">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ACCOUNT ENTRY BALANCE]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Account_Entry_Remarks">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Account Entry Details].[Account Entry Remarks].[Account Entry Remarks]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ACCOUNTING_PLAN_NUM">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Accounting Plan].[ACCOUNTING PLAN NUM].[ACCOUNTING PLAN NUM]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Year_Month_Num">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Date].[Year Month Num].[Year Month Num]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="THIRD_PARTY_NAME">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Third Party].[THIRD PARTY NAME].[THIRD PARTY NAME]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PRIMARY_ANALYTICAL_ACCOUNT_CODE">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Primary Analytical Account].[PRIMARY ANALYTICAL ACCOUNT CODE].[PRIMARY ANALYTICAL ACCOUNT CODE]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ACCOUNT_ENTRY_BALANCE_INVERTED">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ACCOUNT ENTRY BALANCE INVERTED]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Account_Entry_Amount_Debit">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[Account Entry Amount Debit]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Account_Entry_Amount_Credit">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[Account Entry Amount Credit]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="DIMCompanyCOMPANYSURNAME">
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText>WITH 
+  MEMBER [Measures].[ParameterCaption] AS 
+    [DIM Company].[Company Surname].CurrentMember.Member_Caption 
+  MEMBER [Measures].[ParameterValue] AS 
+    [DIM Company].[Company Surname].CurrentMember.UniqueName 
+  MEMBER [Measures].[ParameterLevel] AS 
+    [DIM Company].[Company Surname].CurrentMember.Level.Ordinal 
+SELECT 
+  {
+    [Measures].[ParameterCaption]
+   ,[Measures].[ParameterValue]
+   ,[Measures].[ParameterLevel]
+  } ON COLUMNS
+ ,Filter([DIM Company].[Company Surname].ALLMEMBERS,
+		 [DIM Company].[Company Surname].CurrentMember.Member_Caption &lt;&gt; 'All'		 
+ )
+ ON ROWS
+FROM [DWH_BDORadissonBI]
+WHERE 
+[DIM Company].[Company Is Adjusting Company].&amp;[False];</CommandText>
+        <rd:DesignerState>
+          <QueryDefinition xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition">
+            <CommandType>MDX</CommandType>
+            <Type>Query</Type>
+            <QuerySpecification xsi:type="MDXQuerySpecification" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <Select>
+                <Items>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Company</DimensionName>
+                      <HierarchyName>COMPANY SURNAME</HierarchyName>
+                      <HierarchyUniqueName>[DIM Company].[COMPANY SURNAME]</HierarchyUniqueName>
+                      <LevelName>COMPANY SURNAME</LevelName>
+                      <UniqueName>[DIM Company].[COMPANY SURNAME].[COMPANY SURNAME]</UniqueName>
+                    </ID>
+                    <ItemCaption>COMPANY SURNAME</ItemCaption>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterCaption</MeasureName>
+                      <UniqueName>[Measures].[ParameterCaption]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterCaption</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterValue</MeasureName>
+                      <UniqueName>[Measures].[ParameterValue]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterValue</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterLevel</MeasureName>
+                      <UniqueName>[Measures].[ParameterLevel]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterLevel</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                </Items>
+              </Select>
+              <From>DWH_BDORadissonBI</From>
+              <Filter>
+                <FilterItems />
+              </Filter>
+              <Calculations />
+              <Aggregates />
+              <QueryProperties />
+            </QuerySpecification>
+            <Query>
+              <Statement>WITH 
+  MEMBER [Measures].[ParameterCaption] AS 
+    [DIM Company].[Company Surname].CurrentMember.Member_Caption 
+  MEMBER [Measures].[ParameterValue] AS 
+    [DIM Company].[Company Surname].CurrentMember.UniqueName 
+  MEMBER [Measures].[ParameterLevel] AS 
+    [DIM Company].[Company Surname].CurrentMember.Level.Ordinal 
+SELECT 
+  {
+    [Measures].[ParameterCaption]
+   ,[Measures].[ParameterValue]
+   ,[Measures].[ParameterLevel]
+  } ON COLUMNS
+ ,Filter([DIM Company].[Company Surname].ALLMEMBERS,
+		 [DIM Company].[Company Surname].CurrentMember.Member_Caption &lt;&gt; 'All'		 
+ )
+ ON ROWS
+FROM [DWH_BDORadissonBI]
+WHERE 
+[DIM Company].[Company Is Adjusting Company].&amp;[False];</Statement>
+              <ParameterDefinitions />
+            </Query>
+          </QueryDefinition>
+        </rd:DesignerState>
+        <rd:Hidden>true</rd:Hidden>
+      </Query>
+      <Fields>
+        <Field Name="COMPANY_SURNAME">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Company].[COMPANY SURNAME].[COMPANY SURNAME]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ParameterCaption">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterCaption]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ParameterValue">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterValue]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ParameterLevel">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterLevel]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ParameterCaptionIndented">
+          <Value>=Space(3*Fields!ParameterLevel.Value) + Fields!ParameterCaption.Value</Value>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="DIMThirdReportPlanReportPlanLevel5Name">
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Third Report Plan].[Report Plan Level5 Name].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Third Report Plan].[Report Plan Level5 Name].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Third Report Plan].[Report Plan Level5 Name].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Third Report Plan].[Report Plan Level5 Name].ALLMEMBERS ON ROWS FROM [DWH_BDORadissonBI]</CommandText>
+        <rd:DesignerState>
+          <QueryDefinition xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition">
+            <CommandType>MDX</CommandType>
+            <Type>Query</Type>
+            <QuerySpecification xsi:type="MDXQuerySpecification" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <Select>
+                <Items>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Third Report Plan</DimensionName>
+                      <HierarchyName>Report Plan Level5 Name</HierarchyName>
+                      <HierarchyUniqueName>[DIM Third Report Plan].[Report Plan Level5 Name]</HierarchyUniqueName>
+                      <LevelName>Report Plan Level5 Name</LevelName>
+                      <UniqueName>[DIM Third Report Plan].[Report Plan Level5 Name].[Report Plan Level5 Name]</UniqueName>
+                    </ID>
+                    <ItemCaption>Report Plan Level5 Name</ItemCaption>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterCaption</MeasureName>
+                      <UniqueName>[Measures].[ParameterCaption]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterCaption</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterValue</MeasureName>
+                      <UniqueName>[Measures].[ParameterValue]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterValue</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterLevel</MeasureName>
+                      <UniqueName>[Measures].[ParameterLevel]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterLevel</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                </Items>
+              </Select>
+              <From>DWH_BDORadissonBI</From>
+              <Filter>
+                <FilterItems />
+              </Filter>
+              <Calculations />
+              <Aggregates />
+              <QueryProperties />
+            </QuerySpecification>
+            <Query>
+              <Statement>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Third Report Plan].[Report Plan Level5 Name].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Third Report Plan].[Report Plan Level5 Name].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Third Report Plan].[Report Plan Level5 Name].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Third Report Plan].[Report Plan Level5 Name].ALLMEMBERS ON ROWS FROM [DWH_BDORadissonBI]</Statement>
+              <ParameterDefinitions />
+            </Query>
+          </QueryDefinition>
+        </rd:DesignerState>
+        <rd:Hidden>true</rd:Hidden>
+      </Query>
+      <Fields>
+        <Field Name="Report_Plan_Level5_Name">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Third Report Plan].[Report Plan Level5 Name].[Report Plan Level5 Name]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ParameterCaption">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterCaption]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ParameterValue">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterValue]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ParameterLevel">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterLevel]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ParameterCaptionIndented">
+          <Value>=Space(3*Fields!ParameterLevel.Value) + Fields!ParameterCaption.Value</Value>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="DIMThirdReportPlanReportPlanLevel6Name">
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Third Report Plan].[Report Plan Level6 Name].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Third Report Plan].[Report Plan Level6 Name].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Third Report Plan].[Report Plan Level6 Name].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Third Report Plan].[Report Plan Level6 Name].ALLMEMBERS ON ROWS FROM [DWH_BDORadissonBI]</CommandText>
+        <rd:DesignerState>
+          <QueryDefinition xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition">
+            <CommandType>MDX</CommandType>
+            <Type>Query</Type>
+            <QuerySpecification xsi:type="MDXQuerySpecification" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <Select>
+                <Items>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Third Report Plan</DimensionName>
+                      <HierarchyName>Report Plan Level6 Name</HierarchyName>
+                      <HierarchyUniqueName>[DIM Third Report Plan].[Report Plan Level6 Name]</HierarchyUniqueName>
+                      <LevelName>Report Plan Level6 Name</LevelName>
+                      <UniqueName>[DIM Third Report Plan].[Report Plan Level6 Name].[Report Plan Level6 Name]</UniqueName>
+                    </ID>
+                    <ItemCaption>Report Plan Level6 Name</ItemCaption>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterCaption</MeasureName>
+                      <UniqueName>[Measures].[ParameterCaption]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterCaption</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterValue</MeasureName>
+                      <UniqueName>[Measures].[ParameterValue]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterValue</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterLevel</MeasureName>
+                      <UniqueName>[Measures].[ParameterLevel]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterLevel</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                </Items>
+              </Select>
+              <From>DWH_BDORadissonBI</From>
+              <Filter>
+                <FilterItems />
+              </Filter>
+              <Calculations />
+              <Aggregates />
+              <QueryProperties />
+            </QuerySpecification>
+            <Query>
+              <Statement>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Third Report Plan].[Report Plan Level6 Name].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Third Report Plan].[Report Plan Level6 Name].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Third Report Plan].[Report Plan Level6 Name].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Third Report Plan].[Report Plan Level6 Name].ALLMEMBERS ON ROWS FROM [DWH_BDORadissonBI]</Statement>
+              <ParameterDefinitions />
+            </Query>
+          </QueryDefinition>
+        </rd:DesignerState>
+        <rd:Hidden>true</rd:Hidden>
+      </Query>
+      <Fields>
+        <Field Name="Report_Plan_Level6_Name">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Third Report Plan].[Report Plan Level6 Name].[Report Plan Level6 Name]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ParameterCaption">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterCaption]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ParameterValue">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterValue]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ParameterLevel">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterLevel]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ParameterCaptionIndented">
+          <Value>=Space(3*Fields!ParameterLevel.Value) + Fields!ParameterCaption.Value</Value>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="DIMAccountingPlanACCOUNTINGPLANNUM">
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Accounting Plan].[ACCOUNTING PLAN NUM].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Accounting Plan].[ACCOUNTING PLAN NUM].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Accounting Plan].[ACCOUNTING PLAN NUM].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Accounting Plan].[ACCOUNTING PLAN NUM].ALLMEMBERS ON ROWS FROM [DWH_BDORadissonBI]</CommandText>
+        <rd:DesignerState>
+          <QueryDefinition xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition">
+            <CommandType>MDX</CommandType>
+            <Type>Query</Type>
+            <QuerySpecification xsi:type="MDXQuerySpecification" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <Select>
+                <Items>
+                  <Item>
+                    <ID xsi:type="Level">
+                      <DimensionName>DIM Accounting Plan</DimensionName>
+                      <HierarchyName>ACCOUNTING PLAN NUM</HierarchyName>
+                      <HierarchyUniqueName>[DIM Accounting Plan].[ACCOUNTING PLAN NUM]</HierarchyUniqueName>
+                      <LevelName>ACCOUNTING PLAN NUM</LevelName>
+                      <UniqueName>[DIM Accounting Plan].[ACCOUNTING PLAN NUM].[ACCOUNTING PLAN NUM]</UniqueName>
+                    </ID>
+                    <ItemCaption>ACCOUNTING PLAN NUM</ItemCaption>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterCaption</MeasureName>
+                      <UniqueName>[Measures].[ParameterCaption]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterCaption</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterValue</MeasureName>
+                      <UniqueName>[Measures].[ParameterValue]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterValue</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                  <Item>
+                    <ID xsi:type="Measure">
+                      <MeasureName>ParameterLevel</MeasureName>
+                      <UniqueName>[Measures].[ParameterLevel]</UniqueName>
+                    </ID>
+                    <ItemCaption>ParameterLevel</ItemCaption>
+                    <FormattedValue>true</FormattedValue>
+                  </Item>
+                </Items>
+              </Select>
+              <From>DWH_BDORadissonBI</From>
+              <Filter>
+                <FilterItems />
+              </Filter>
+              <Calculations />
+              <Aggregates />
+              <QueryProperties />
+            </QuerySpecification>
+            <Query>
+              <Statement>WITH MEMBER [Measures].[ParameterCaption] AS [DIM Accounting Plan].[ACCOUNTING PLAN NUM].CURRENTMEMBER.MEMBER_CAPTION MEMBER [Measures].[ParameterValue] AS [DIM Accounting Plan].[ACCOUNTING PLAN NUM].CURRENTMEMBER.UNIQUENAME MEMBER [Measures].[ParameterLevel] AS [DIM Accounting Plan].[ACCOUNTING PLAN NUM].CURRENTMEMBER.LEVEL.ORDINAL SELECT {[Measures].[ParameterCaption], [Measures].[ParameterValue], [Measures].[ParameterLevel]} ON COLUMNS , [DIM Accounting Plan].[ACCOUNTING PLAN NUM].ALLMEMBERS ON ROWS FROM [DWH_BDORadissonBI]</Statement>
+              <ParameterDefinitions />
+            </Query>
+          </QueryDefinition>
+        </rd:DesignerState>
+        <rd:Hidden>true</rd:Hidden>
+      </Query>
+      <Fields>
+        <Field Name="ACCOUNTING_PLAN_NUM">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Level" UniqueName="[DIM Accounting Plan].[ACCOUNTING PLAN NUM].[ACCOUNTING PLAN NUM]" /&gt;</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ParameterCaption">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterCaption]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ParameterValue">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterValue]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ParameterLevel">
+          <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Measure" UniqueName="[Measures].[ParameterLevel]" /&gt;</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ParameterCaptionIndented">
+          <Value>=Space(3*Fields!ParameterLevel.Value) + Fields!ParameterCaption.Value</Value>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportParameters>
+    <ReportParameter Name="DIMDateYearMonth">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>=Format(Today(), "yyyyMM")</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Month : </Prompt>
+      <Hidden>true</Hidden>
+      <ValidValues>
+        <DataSetReference>
+          <DataSetName>DIMDateYearMonth</DataSetName>
+          <ValueField>ParameterValue</ValueField>
+          <LabelField>ParameterCaptionYearMonth</LabelField>
+        </DataSetReference>
+      </ValidValues>
+    </ReportParameter>
+    <ReportParameter Name="ReportPlanLevel5">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <DataSetReference>
+          <DataSetName>DIMThirdReportPlanReportPlanLevel5Name</DataSetName>
+          <ValueField>ParameterValue</ValueField>
+        </DataSetReference>
+      </DefaultValue>
+      <Prompt>ReportParameter1</Prompt>
+      <Hidden>true</Hidden>
+    </ReportParameter>
+    <ReportParameter Name="AccountLevel6Num">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <DataSetReference>
+          <DataSetName>DIMAccountingPlanACCOUNTINGPLANNUM</DataSetName>
+          <ValueField>ParameterValue</ValueField>
+        </DataSetReference>
+      </DefaultValue>
+      <Prompt>ReportParameter1</Prompt>
+      <Hidden>true</Hidden>
+      <ValidValues>
+        <DataSetReference>
+          <DataSetName>DIMAccountingPlanACCOUNTINGPLANNUM</DataSetName>
+          <ValueField>ParameterValue</ValueField>
+          <LabelField>ParameterCaption</LabelField>
+        </DataSetReference>
+      </ValidValues>
+    </ReportParameter>
+    <ReportParameter Name="DIMCompanyCOMPANYSURNAME">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <DataSetReference>
+          <DataSetName>DIMCompanyCOMPANYSURNAME</DataSetName>
+          <ValueField>ParameterValue</ValueField>
+        </DataSetReference>
+      </DefaultValue>
+      <Prompt>COMPANY SURNAME</Prompt>
+      <Hidden>true</Hidden>
+      <ValidValues>
+        <DataSetReference>
+          <DataSetName>DIMCompanyCOMPANYSURNAME</DataSetName>
+          <ValueField>ParameterValue</ValueField>
+          <LabelField>ParameterCaption</LabelField>
+        </DataSetReference>
+      </ValidValues>
+      <MultiValue>true</MultiValue>
+    </ReportParameter>
+    <ReportParameter Name="ReportPlanLevel6">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <DataSetReference>
+          <DataSetName>DIMThirdReportPlanReportPlanLevel6Name</DataSetName>
+          <ValueField>ParameterValue</ValueField>
+        </DataSetReference>
+      </DefaultValue>
+      <Prompt>ReportPlanLevel6</Prompt>
+      <Hidden>true</Hidden>
+      <ValidValues>
+        <DataSetReference>
+          <DataSetName>DIMThirdReportPlanReportPlanLevel6Name</DataSetName>
+          <ValueField>ParameterValue</ValueField>
+          <LabelField>ParameterCaptionIndented</LabelField>
+        </DataSetReference>
+      </ValidValues>
+      <MultiValue>true</MultiValue>
+    </ReportParameter>
+    <ReportParameter Name="FromReport">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>="MONTHLY OPERATIONAL REPORT "</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>ReportParameter1</Prompt>
+      <Hidden>true</Hidden>
+    </ReportParameter>
+    <ReportParameter Name="FromDIMDateYearMonth">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <DefaultValue>
+        <Values>
+          <Value />
+        </Values>
+      </DefaultValue>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>From</Prompt>
+      <Hidden>true</Hidden>
+      <ValidValues>
+        <DataSetReference>
+          <DataSetName>DIMDateYearMonth</DataSetName>
+          <ValueField>ParameterValue</ValueField>
+          <LabelField>ParameterCaptionYearMonth</LabelField>
+        </DataSetReference>
+      </ValidValues>
+    </ReportParameter>
+  </ReportParameters>
+  <Code>Public Shared Function SafeDivide(ByVal ValueA As Decimal, ByVal ValueB As Decimal) As Decimal
+    If (ValueB = 0) Then
+        Return 0
+    Else
+        Return (ValueA / ValueB )
+    End If
+End Function
+
+
+Function LittleDot(tParam as object) as String
+	Dim i as Integer
+	Dim sChaine as String
+ 	sChaine = ""
+
+ 	For i = 0 to UBound(tParam)
+		If i = 3 then
+	                               	sChaine =  RTRIM(LTRIM(sChaine)) + "...  "
+			Exit For                                
+		Else
+			sChaine = schaine + RTRIM(LTRIM(tParam(i))) + ", "
+		End If
+	Next
+ 	Return  Mid(sChaine, 1, Len(sChaine)-2)
+ End Function
+
+</Code>
+  <EmbeddedImages>
+    <EmbeddedImage Name="the_rezidor_group_white">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="ReportGo32">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>08b3dc54-808e-422f-b480-4defbee9fda5</rd:ReportID>
+</Report>

@@ -1,0 +1,121 @@
+SELECT 
+    {
+      [Measures].[Account Entry Balance]
+     ,[Measures].[Budget Amount]
+     ,[Measures].[%(CA - Conso Marchandises)/CA]
+     ,[Measures].[%(CA - Conso Totale)/CA]
+     ,[Measures].[%BE/CA]
+     ,[Measures].[%BE/Marge]
+     ,[Measures].[%BN/CA]
+     ,[Measures].[%CFN/CA]
+     ,[Measures].[%Charges salariales/Brut]
+     ,[Measures].[%COD/Marge]
+     ,[Measures].[%Ecart/Seuil de Liquidite]
+     ,[Measures].[%Ecart/Seuil de Rentabilite]
+     ,[Measures].[%FGB/Marge]
+     ,[Measures].[%FGS/Marge]
+     ,[Measures].[%Rémunérations Indépendants/Marge]
+     ,[Measures].[%Rémunérations O+E Total/Marge]
+     ,[Measures].[%ResFin/Marge]
+     ,[Measures].[Budget - %(CA - Conso Marchandises)/CA]
+     ,[Measures].[Budget - %(CA - Conso Totale)/CA]
+     ,[Measures].[Budget - %BE/CA]
+     ,[Measures].[Budget - %BE/Marge]
+     ,[Measures].[Budget - %BN/CA]
+     ,[Measures].[Budget - %CFN/CA]
+     ,[Measures].[Budget - %Charges salariales/Brut]
+     ,[Measures].[Budget - %COD/Marge]
+     ,[Measures].[Budget - %Ecart/Seuil de Liquidite]
+     ,[Measures].[Budget - %Ecart/Seuil de Rentabilite]
+     ,[Measures].[Budget - %FGB/Marge]
+     ,[Measures].[Budget - %FGS/Marge]
+     ,[Measures].[Budget - %Rémunérations Indépendants/Marge]
+     ,[Measures].[Budget - %Rémunérations O+E Total/Marge]
+     ,[Measures].[Budget - %ResFin/Marge]
+     ,[Measures].[Budget - Cash Flow Net (Amort Exc Exclus)]
+     ,[Measures].[Budget - Frais Fixes Courants Decaisses]
+     ,[Measures].[Budget - Mark Up]
+     ,[Measures].[Budget - Seuil de Liquidite (Cash Flow = 0)]
+     ,[Measures].[Budget - Seuil de Rentabilite Courant (BN = 0)]
+     ,[Measures].[Cash Flow Net (Amort Exc Exclus)]
+     ,[Measures].[Frais Fixes Courants Decaisses]
+     ,[Measures].[Mark Up]
+     ,[Measures].[Seuil de Liquidite (Cash Flow = 0)]
+     ,[Measures].[Seuil de Rentabilite Courant (BN = 0)]
+    } ON COLUMNS
+ ,NON EMPTY
+    {
+        [Account Entry Date].[Year].[Year].ALLMEMBERS
+    }
+  DIMENSION PROPERTIES 
+    MEMBER_CAPTION
+   ,MEMBER_UNIQUE_NAME
+   ON ROWS
+FROM 
+(
+  SELECT 
+    StrToSet
+    (@CompanyCompanySurname
+     ,CONSTRAINED
+    ) ON COLUMNS
+  FROM 
+  (
+    SELECT 
+        [Account Entry Date].[Month Of Year].&[1]        
+      : 
+        StrToMember
+        (@ToAccountEntryDateMonth
+         ,CONSTRAINED
+        ) ON COLUMNS
+    FROM 
+    (
+	  SELECT 
+        ParallelPeriod(
+          [Account Entry Date].[Calendar].[Year]
+          ,
+          2,
+          StrToMember
+          (@ToAccountEntryDateYear
+           ,CONSTRAINED
+          )
+          )
+      : 
+        StrToMember
+        (@ToAccountEntryDateYear
+         ,CONSTRAINED
+        ) ON COLUMNS
+      FROM  
+      (
+        SELECT 
+          {[Third Report Plan].[Report Plan Type Name].&[Compte de résultats]} ON COLUMNS
+        FROM [DWH_BI]
+      )
+    )
+  )
+)
+WHERE 
+  (
+    [Third Report Plan].[Report Plan Type Name].&[Compte de résultats]
+   ,IIF
+    (
+        StrToSet
+        (@CompanyCompanySurname
+         ,CONSTRAINED
+        ).Count
+      = 1
+     ,StrToSet
+      (@CompanyCompanySurname
+       ,CONSTRAINED
+      )
+     ,[Company].[Company Surname].CurrentMember
+    )
+  )
+CELL PROPERTIES 
+  VALUE
+ ,BACK_COLOR
+ ,FORE_COLOR
+ ,FORMATTED_VALUE
+ ,FORMAT_STRING
+ ,FONT_NAME
+ ,FONT_SIZE
+ ,FONT_FLAGS;
