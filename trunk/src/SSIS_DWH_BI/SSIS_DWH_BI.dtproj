@@ -18,7 +18,12 @@
   <DataSourceViews />
   <MiningModels />
   <Roles />
-  <Miscellaneous />
+  <Miscellaneous>
+    <ProjectItem>
+      <Name>DWH_BI_Configuration.dtsConfig</Name>
+      <FullPath>DWH_BI_Configuration.dtsConfig</FullPath>
+    </ProjectItem>
+  </Miscellaneous>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
@@ -45,13 +50,13 @@
   </Configurations>
   <DTSPackages>
     <DtsPackage FormatVersion="3">
-      <Name>VeniceToCSV.dtsx</Name>
-      <FullPath>VeniceToCSV.dtsx</FullPath>
+      <Name>Create CSV Files.dtsx</Name>
+      <FullPath>Create CSV Files.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>ActiveDirectory.dtsx</Name>
-      <FullPath>ActiveDirectory.dtsx</FullPath>
+      <Name>BI Security.dtsx</Name>
+      <FullPath>BI Security.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
@@ -60,23 +65,18 @@
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>Create CSV Files.dtsx</Name>
-      <FullPath>Create CSV Files.dtsx</FullPath>
+      <Name>Data Import.dtsx</Name>
+      <FullPath>Data Import.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>DataImport.dtsx</Name>
-      <FullPath>DataImport.dtsx</FullPath>
+      <Name>BI Master Import.dtsx</Name>
+      <FullPath>BI Master Import.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>BI_Automation.dtsx</Name>
-      <FullPath>BI_Automation.dtsx</FullPath>
-      <References />
-    </DtsPackage>
-    <DtsPackage FormatVersion="3">
-      <Name>BI_OLAPProcess.dtsx</Name>
-      <FullPath>BI_OLAPProcess.dtsx</FullPath>
+      <Name>Process Cube.dtsx</Name>
+      <FullPath>Process Cube.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
@@ -102,6 +102,16 @@
     <DtsPackage FormatVersion="3">
       <Name>Update Chart Of Accounts.dtsx</Name>
       <FullPath>Update Chart Of Accounts.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Cube Partition.dtsx</Name>
+      <FullPath>Cube Partition.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="0">
+      <Name>Create CSV Files deprecated.dtsx</Name>
+      <FullPath>Create CSV Files deprecated.dtsx</FullPath>
       <References />
     </DtsPackage>
   </DTSPackages>
