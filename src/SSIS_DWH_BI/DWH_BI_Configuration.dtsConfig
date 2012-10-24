@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+	<DTSConfigurationHeading>
+		<DTSConfigurationFileInfo GeneratedBy="CS5WXN1-PC\Manuel" GeneratedFromPackageName="Accounting BI Master" GeneratedFromPackageID="{5762EBD3-2ED5-49DD-BF3C-351190F12B52}" GeneratedDate="23/10/2012 18:28:49"/>
+	</DTSConfigurationHeading>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWH_BI].Properties[ConnectionString]" ValueType="String">
+		<ConfiguredValue>Data Source=CS5WXN1-PC\MSSQLSERVER_R2;Initial Catalog=DWH_BI;Provider=SQLNCLI10.1;Integrated Security=SSPI;</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWH_BI].Properties[Description]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWH_BI].Properties[InitialCatalog]" ValueType="String">
+		<ConfiguredValue>DWH_BI</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWH_BI].Properties[Name]" ValueType="String">
+		<ConfiguredValue>DWH_BI</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWH_BI].Properties[Password]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWH_BI].Properties[ProtectionLevel]" ValueType="Int32">
+		<ConfiguredValue>1</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWH_BI].Properties[RetainSameConnection]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWH_BI].Properties[ServerName]" ValueType="String">
+		<ConfiguredValue>CS5WXN1-PC\MSSQLSERVER_R2</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWH_BI].Properties[UserName]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::CreateCSVFiles].Properties[Description]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::CreateCSVFiles].Properties[EvaluateAsExpression]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::CreateCSVFiles].Properties[Expression]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::CreateCSVFiles].Properties[IncludeInDebugDump]" ValueType="Boolean">
+		<ConfiguredValue>-1</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::CreateCSVFiles].Properties[Name]" ValueType="String">
+		<ConfiguredValue>CreateCSVFiles</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::CreateCSVFiles].Properties[Namespace]" ValueType="String">
+		<ConfiguredValue>User</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::CreateCSVFiles].Properties[RaiseChangedEvent]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::CreateCSVFiles].Properties[ReadOnly]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::CreateCSVFiles].Properties[Value]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::HasSecurityEnabled].Properties[Description]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::HasSecurityEnabled].Properties[EvaluateAsExpression]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::HasSecurityEnabled].Properties[Expression]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::HasSecurityEnabled].Properties[IncludeInDebugDump]" ValueType="Boolean">
+		<ConfiguredValue>-1</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::HasSecurityEnabled].Properties[Name]" ValueType="String">
+		<ConfiguredValue>HasSecurityEnabled</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::HasSecurityEnabled].Properties[Namespace]" ValueType="String">
+		<ConfiguredValue>User</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::HasSecurityEnabled].Properties[RaiseChangedEvent]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::HasSecurityEnabled].Properties[ReadOnly]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::HasSecurityEnabled].Properties[Value]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::IsPartitionedCube].Properties[Description]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::IsPartitionedCube].Properties[EvaluateAsExpression]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::IsPartitionedCube].Properties[Expression]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::IsPartitionedCube].Properties[IncludeInDebugDump]" ValueType="Boolean">
+		<ConfiguredValue>-1</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::IsPartitionedCube].Properties[Name]" ValueType="String">
+		<ConfiguredValue>IsPartitionedCube</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::IsPartitionedCube].Properties[Namespace]" ValueType="String">
+		<ConfiguredValue>User</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::IsPartitionedCube].Properties[RaiseChangedEvent]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::IsPartitionedCube].Properties[ReadOnly]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::IsPartitionedCube].Properties[Value]" ValueType="Boolean">
+		<ConfiguredValue>-1</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::UpdateBI4C].Properties[Description]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::UpdateBI4C].Properties[EvaluateAsExpression]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::UpdateBI4C].Properties[Expression]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::UpdateBI4C].Properties[IncludeInDebugDump]" ValueType="Boolean">
+		<ConfiguredValue>-1</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::UpdateBI4C].Properties[Name]" ValueType="String">
+		<ConfiguredValue>UpdateBI4C</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::UpdateBI4C].Properties[Namespace]" ValueType="String">
+		<ConfiguredValue>User</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::UpdateBI4C].Properties[RaiseChangedEvent]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::UpdateBI4C].Properties[ReadOnly]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::UpdateBI4C].Properties[Value]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+</DTSConfiguration>
