@@ -180,7 +180,7 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="9e03a0d3-074f-449b-88a6-eed3a75dfaff">
-    <DataSourceViewID>DWH_BDOBI_DSW</DataSourceViewID>
+    <DataSourceViewID>DWH_BI_DSW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
   <ErrorConfiguration dwd:design-time-name="b3b45897-db9b-4d9a-9d5d-4a43fda5093d">
@@ -193,6 +193,7 @@
       <ID>Specific Account Num</ID>
       <Name>Specific Account Num</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>9428</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="4f74c9f2-d87e-408b-82c4-16b492ec3686">
           <NullProcessing>UnknownMember</NullProcessing>
@@ -257,6 +258,7 @@
     <Attribute dwd:design-time-name="adc64b0c-901e-4247-b0c2-7c466b769c00">
       <ID>Specific Account Level1 Num</ID>
       <Name>Specific Account Level1 Num</Name>
+      <EstimatedCount>9</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="dd300d31-6c7d-4e09-8cd7-2fa26b3bd26c">
           <DataType>Integer</DataType>

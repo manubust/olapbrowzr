@@ -69,7 +69,7 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3d54b967-06f2-4ce7-b0e8-05f39b3420b0">
-    <DataSourceViewID>DWH_BDOBI_DSW</DataSourceViewID>
+    <DataSourceViewID>DWH_BI_DSW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
   <ErrorConfiguration dwd:design-time-name="2eccdd41-e4fc-40c9-a818-17056ccedba0">
@@ -82,6 +82,7 @@
       <ID>Third Party Sk</ID>
       <Name>Third Party Sk</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>1303</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="30c239a0-785f-4a34-b607-b69f023d73d9">
           <NullProcessing>UnknownMember</NullProcessing>

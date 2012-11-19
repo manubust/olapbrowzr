@@ -69,7 +69,7 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="785e59b6-bc2c-44b1-94da-3ec4edc2f27d">
-    <DataSourceViewID>DWH_BDOBI_DSW</DataSourceViewID>
+    <DataSourceViewID>DWH_BI_DSW</DataSourceViewID>
   </Source>
   <ErrorConfiguration dwd:design-time-name="8fbc9d68-f6ed-4f40-9575-09328490e078">
     <KeyNotFound>ReportAndStop</KeyNotFound>
@@ -81,6 +81,7 @@
       <ID>Account Entry Details SK</ID>
       <Name>Account Entry ID</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>124749</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="c0e0675d-00e2-4106-a528-bbedbd982355">
           <DataType>Integer</DataType>
