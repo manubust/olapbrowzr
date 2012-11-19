@@ -147,7 +147,7 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3c4eb5d4-e20d-4208-94b1-669738c1d027">
-    <DataSourceViewID>DWH_BDOBI_DSW</DataSourceViewID>
+    <DataSourceViewID>DWH_BI_DSW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
   <ErrorConfiguration dwd:design-time-name="6eb41ef6-4a31-411a-b1e9-8415544ca065">
@@ -160,6 +160,7 @@
       <ID>Report Plan Path Sk</ID>
       <Name>Report Plan Path Sk</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>490</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="e65b5428-7147-4760-bfa6-1a7c9581e05b">
           <NullProcessing>UnknownMember</NullProcessing>
@@ -412,6 +413,7 @@
     <Attribute dwd:design-time-name="a813068d-c0eb-4593-b032-79fd881a377c">
       <ID>Report Plan Type Name</ID>
       <Name>Report Plan Type Name</Name>
+      <EstimatedCount>5</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="0aab5998-268a-43f7-9bdb-0085f7a8b57f">
           <DataType>WChar</DataType>

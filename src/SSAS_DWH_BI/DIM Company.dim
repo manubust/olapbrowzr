@@ -144,7 +144,7 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="baf91b98-bdb0-44c0-acee-6cb77949910b">
-    <DataSourceViewID>DWH_BDOBI_DSW</DataSourceViewID>
+    <DataSourceViewID>DWH_BI_DSW</DataSourceViewID>
   </Source>
   <ErrorConfiguration dwd:design-time-name="70aff838-b27f-4b7a-8430-2918289b21cf">
     <KeyNotFound>ReportAndStop</KeyNotFound>
@@ -156,6 +156,7 @@
       <ID>Company SK</ID>
       <Name>Company SK</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>8</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="2eda97df-a257-4827-b028-f80d964cfb7b">
           <DataType>Integer</DataType>

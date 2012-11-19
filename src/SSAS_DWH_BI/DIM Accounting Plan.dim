@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2851" scrolltop="-4869" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10821" y="21325" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2851" scrolltop="-4869" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7382" y="21325" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -151,7 +151,7 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="159fb6b6-e5d2-424f-b08b-68701f7b1dfc">
-    <DataSourceViewID>DWH_BDOBI_DSW</DataSourceViewID>
+    <DataSourceViewID>DWH_BI_DSW</DataSourceViewID>
   </Source>
   <ErrorConfiguration dwd:design-time-name="74598e33-f78f-4b3d-95a7-47d7055bf9b2">
     <KeyNotFound>ReportAndStop</KeyNotFound>
@@ -163,6 +163,7 @@
       <ID>Accounting Plan Path SK</ID>
       <Name>Accounting Plan Num</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>1627</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="4591d60f-fe37-4770-8189-39ea100765f0">
           <DataType>Integer</DataType>
@@ -220,9 +221,11 @@
     <Attribute dwd:design-time-name="135990ec-4a7d-473b-8d0f-d7982f360ba9">
       <ID>Account Level1 Num</ID>
       <Name>Account Level1 Num</Name>
+      <EstimatedCount>9</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="d2b3daa8-d404-4c54-af52-781d9d566f68">
-          <DataType>Integer</DataType>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="919161f7-64a0-435b-9e25-f2f11234b1aa">
             <TableID>dbo_DIM_AccountingPlan</TableID>
             <ColumnID>AccountLevel1Num</ColumnID>
@@ -254,7 +257,8 @@
       <Name>Account Level2 Num</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="ecf5493c-7bd3-49ac-9acb-d72196ae3d5e">
-          <DataType>Integer</DataType>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="ce6a0025-f1b7-4034-a3cb-e3371b11cb5e">
             <TableID>dbo_DIM_AccountingPlan</TableID>
             <ColumnID>AccountLevel2Num</ColumnID>
@@ -286,7 +290,8 @@
       <Name>Account Level3 Num</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="81d44b7b-1292-4ab3-a81d-e01b6ba0b5f7">
-          <DataType>Integer</DataType>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="92766620-82d2-4fdc-9f0c-4a91af5287ee">
             <TableID>dbo_DIM_AccountingPlan</TableID>
             <ColumnID>AccountLevel3Num</ColumnID>
@@ -318,7 +323,8 @@
       <Name>Account Level4 Num</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="e8a6ecfa-7c6c-498d-b5b6-bbba895d6d2d">
-          <DataType>Integer</DataType>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="8c291f15-c357-4321-a85b-0d2d966ab318">
             <TableID>dbo_DIM_AccountingPlan</TableID>
             <ColumnID>AccountLevel4Num</ColumnID>
@@ -350,7 +356,8 @@
       <Name>Account Level5 Num</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="66e1a3c8-028e-4175-9f8a-edb4ee903a9f">
-          <DataType>Integer</DataType>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="0d28a4b5-5ab5-4df2-b58c-f5986aa33228">
             <TableID>dbo_DIM_AccountingPlan</TableID>
             <ColumnID>AccountLevel5Num</ColumnID>
@@ -382,7 +389,8 @@
       <Name>Account Level6 Num</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="c9b22ffd-2b0e-47c7-8c8a-52974b078f02">
-          <DataType>Integer</DataType>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="0e505bc6-df43-4b60-84d0-9e0ffcd0fad5">
             <TableID>dbo_DIM_AccountingPlan</TableID>
             <ColumnID>AccountLevel6Num</ColumnID>

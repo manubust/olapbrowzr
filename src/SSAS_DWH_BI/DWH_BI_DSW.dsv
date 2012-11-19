@@ -1,5 +1,5 @@
 ﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a1832468-7062-46d5-9f47-931c83c21635" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>DWH_BDOBI_DSW</ID>
+  <ID>DWH_BI_DSW</ID>
   <Name>DWH_BI_DSW</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="114" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="5911" scrolltop="-2103" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="26326" y="22648" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="114" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="5911" scrolltop="-2103" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="20029" y="22648" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                   </font>
@@ -530,7 +530,7 @@
                     <point x="14100" y="45926" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="12700" top="30626" logicalid="103" controlid="61" masterid="0" hint1="0" hint2="0" width="6919" height="5307" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="13800" top="30626" logicalid="103" controlid="61" masterid="0" hint1="0" hint2="0" width="5819" height="5307" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -543,11 +543,11 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="7" sourceattachpoint="9" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="7" sourceattachpoint="9" destattachpoint="24" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="19219" y="31125" />
                     <point x="19219" y="33379" />
-                    <point x="13000" y="33379" />
-                    <point x="13000" y="35633" />
+                    <point x="14100" y="33379" />
+                    <point x="14100" y="35633" />
                   </connector>
                 </ddscontrol>
                 <ddscontrol controlprogid="MSDDS.Polyline" left="6783" top="45626" logicalid="104" controlid="62" masterid="0" hint1="0" hint2="0" width="1017" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
@@ -590,7 +590,7 @@
                     <point x="10800" y="35633" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="11600" top="30626" logicalid="106" controlid="64" masterid="0" hint1="0" hint2="0" width="7469" height="5307" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="12700" top="30626" logicalid="106" controlid="64" masterid="0" hint1="0" hint2="0" width="6369" height="5307" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -603,11 +603,11 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="7" sourceattachpoint="7" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="7" sourceattachpoint="7" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="18669" y="31125" />
                     <point x="18669" y="33379" />
-                    <point x="11900" y="33379" />
-                    <point x="11900" y="35633" />
+                    <point x="13000" y="33379" />
+                    <point x="13000" y="35633" />
                   </connector>
                 </ddscontrol>
                 <ddscontrol controlprogid="MSDDS.Polyline" left="12150" top="30626" logicalid="107" controlid="65" masterid="0" hint1="0" hint2="0" width="6369" height="5307" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
@@ -650,7 +650,7 @@
                     <point x="14385" y="35829" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="13250" top="30626" logicalid="109" controlid="67" masterid="0" hint1="0" hint2="0" width="4719" height="5307" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="11600" top="30626" logicalid="109" controlid="67" masterid="0" hint1="0" hint2="0" width="6369" height="5307" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -663,11 +663,11 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="7" sourceattachpoint="3" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="7" sourceattachpoint="3" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="17569" y="31125" />
                     <point x="17569" y="33379" />
-                    <point x="13550" y="33379" />
-                    <point x="13550" y="35633" />
+                    <point x="11900" y="33379" />
+                    <point x="11900" y="35633" />
                   </connector>
                 </ddscontrol>
                 <ddscontrol controlprogid="MSDDS.Polyline" left="8201" top="32734" logicalid="110" controlid="68" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
@@ -706,7 +706,7 @@
                     <point x="7215" y="38579" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="13800" top="30626" logicalid="112" controlid="70" masterid="0" hint1="0" hint2="0" width="3619" height="5307" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="13250" top="30626" logicalid="112" controlid="70" masterid="0" hint1="0" hint2="0" width="4169" height="5307" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -719,11 +719,11 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="7" sourceattachpoint="1" destattachpoint="24" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="7" sourceattachpoint="1" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="17019" y="31125" />
                     <point x="17019" y="33379" />
-                    <point x="14100" y="33379" />
-                    <point x="14100" y="35633" />
+                    <point x="13550" y="33379" />
+                    <point x="13550" y="35633" />
                   </connector>
                 </ddscontrol>
                 <ddscontrol controlprogid="MSDDS.Polyline" left="30043" top="41406" logicalid="113" controlid="71" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
@@ -760,10 +760,10 @@
       </Value>
     </Annotation>
   </Annotations>
-  <DataSourceID>DWH_BDOBI_DS</DataSourceID>
+  <DataSourceID>DWH_BI_DS</DataSourceID>
   <Schema>
-    <xs:schema id="DWH_BDOBI_DSW" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
-      <xs:element name="DWH_BDOBI_DSW" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="70ef7e55-2f37-4d11-97af-69d14a0f49f4">
+    <xs:schema id="DWH_BI_DSW" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="DWH_BI_DSW" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="70ef7e55-2f37-4d11-97af-69d14a0f49f4">
         <xs:complexType>
           <xs:choice minOccurs="0" maxOccurs="unbounded">
             <xs:element name="dbo_DIM_AccountEntryDetails" msprop:FriendlyName="DIM_AccountEntryDetails" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_AccountEntryDetails" msprop:design-time-name="d4c26b40-d5c0-4a75-885a-0b21c8957074" msprop:TableType="Table">
@@ -839,16 +839,76 @@
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="AccountingPlanPathSK" msprop:FriendlyName="AccountingPlanPathSK" msprop:DbColumnName="AccountingPlanPathSK" msprop:design-time-name="3504b4b9-f36f-4710-b016-5120bdcc765a" type="xs:long" />
-                  <xs:element name="AccountingPlanNum" msprop:FriendlyName="AccountingPlanNum" msprop:DbColumnName="AccountingPlanNum" msprop:design-time-name="ecee8251-1fdd-486b-8438-e91845352068" type="xs:long" minOccurs="0" />
-                  <xs:element name="AccountLevel1Num" msprop:FriendlyName="AccountLevel1Num" msprop:DbColumnName="AccountLevel1Num" msprop:design-time-name="dec696ac-bb0a-4c56-ad46-753da2788e7b" type="xs:long" minOccurs="0" />
-                  <xs:element name="AccountLevel2Num" msprop:FriendlyName="AccountLevel2Num" msprop:DbColumnName="AccountLevel2Num" msprop:design-time-name="a0d0eb09-7dc0-4b81-ae50-0daf86ac5844" type="xs:long" minOccurs="0" />
-                  <xs:element name="AccountLevel3Num" msprop:FriendlyName="AccountLevel3Num" msprop:DbColumnName="AccountLevel3Num" msprop:design-time-name="454d0b64-ef1e-486d-a7db-b48282f6ec0c" type="xs:long" minOccurs="0" />
-                  <xs:element name="AccountLevel4Num" msprop:FriendlyName="AccountLevel4Num" msprop:DbColumnName="AccountLevel4Num" msprop:design-time-name="db200108-4106-4e46-9fcd-43a746b6e746" type="xs:long" minOccurs="0" />
-                  <xs:element name="AccountLevel5Num" msprop:FriendlyName="AccountLevel5Num" msprop:DbColumnName="AccountLevel5Num" msprop:design-time-name="7d780db9-5f4e-41ca-ae81-bd1e1d709ab7" type="xs:long" minOccurs="0" />
-                  <xs:element name="AccountLevel6Num" msprop:FriendlyName="AccountLevel6Num" msprop:DbColumnName="AccountLevel6Num" msprop:design-time-name="b274959a-a9fb-482a-9c33-7002a01c3a20" type="xs:long" minOccurs="0" />
-                  <xs:element name="AccountLevel7Num" msprop:FriendlyName="AccountLevel7Num" msprop:DbColumnName="AccountLevel7Num" msprop:design-time-name="825991ce-ff1d-4da3-8220-499e69ece6b3" type="xs:long" minOccurs="0" />
-                  <xs:element name="AccountLevel8Num" msprop:FriendlyName="AccountLevel8Num" msprop:DbColumnName="AccountLevel8Num" msprop:design-time-name="99563e87-0ea2-431f-a66c-0034f20682b7" type="xs:long" minOccurs="0" />
-                  <xs:element name="AccountLevel9Num" msprop:FriendlyName="AccountLevel9Num" msprop:DbColumnName="AccountLevel9Num" msprop:design-time-name="8c26ccf4-7ef6-4b70-8019-504efed5cf28" type="xs:long" minOccurs="0" />
+                  <xs:element name="AccountingPlanNum" msprop:FriendlyName="AccountingPlanNum" msprop:DbColumnName="AccountingPlanNum" msprop:design-time-name="ecee8251-1fdd-486b-8438-e91845352068" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountLevel1Num" msprop:FriendlyName="AccountLevel1Num" msprop:DbColumnName="AccountLevel1Num" msprop:design-time-name="dec696ac-bb0a-4c56-ad46-753da2788e7b" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountLevel2Num" msprop:FriendlyName="AccountLevel2Num" msprop:DbColumnName="AccountLevel2Num" msprop:design-time-name="a0d0eb09-7dc0-4b81-ae50-0daf86ac5844" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountLevel3Num" msprop:FriendlyName="AccountLevel3Num" msprop:DbColumnName="AccountLevel3Num" msprop:design-time-name="454d0b64-ef1e-486d-a7db-b48282f6ec0c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountLevel4Num" msprop:FriendlyName="AccountLevel4Num" msprop:DbColumnName="AccountLevel4Num" msprop:design-time-name="db200108-4106-4e46-9fcd-43a746b6e746" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountLevel5Num" msprop:FriendlyName="AccountLevel5Num" msprop:DbColumnName="AccountLevel5Num" msprop:design-time-name="7d780db9-5f4e-41ca-ae81-bd1e1d709ab7" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountLevel6Num" msprop:FriendlyName="AccountLevel6Num" msprop:DbColumnName="AccountLevel6Num" msprop:design-time-name="b274959a-a9fb-482a-9c33-7002a01c3a20" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountLevel7Num" msprop:FriendlyName="AccountLevel7Num" msprop:DbColumnName="AccountLevel7Num" msprop:design-time-name="825991ce-ff1d-4da3-8220-499e69ece6b3" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountLevel8Num" msprop:FriendlyName="AccountLevel8Num" msprop:DbColumnName="AccountLevel8Num" msprop:design-time-name="99563e87-0ea2-431f-a66c-0034f20682b7" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountLevel9Num" msprop:FriendlyName="AccountLevel9Num" msprop:DbColumnName="AccountLevel9Num" msprop:design-time-name="8c26ccf4-7ef6-4b70-8019-504efed5cf28" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="AccountIsInterco" msprop:FriendlyName="AccountIsInterco" msprop:DbColumnName="AccountIsInterco" msprop:design-time-name="b4be8158-361b-4139-a02a-7cc229d94d6e" type="xs:boolean" minOccurs="0" />
                   <xs:element name="AccountLevel1LabelFR" msprop:design-time-name="fcb70068-14c5-4974-856d-b59b0d92a01e" msprop:DbColumnName="AccountLevel1LabelFR" minOccurs="0">
                     <xs:simpleType>
@@ -1109,7 +1169,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="AccountLevel10Num" msprop:design-time-name="95d73101-2996-4341-9d79-423a6ef2cd5d" msprop:DbColumnName="AccountLevel10Num" type="xs:long" minOccurs="0" />
+                  <xs:element name="AccountLevel10Num" msprop:design-time-name="95d73101-2996-4341-9d79-423a6ef2cd5d" msprop:DbColumnName="AccountLevel10Num" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="AccountLevel10LabelFR" msprop:design-time-name="39b5a3fd-09fa-4370-809c-edb6742c86ac" msprop:DbColumnName="AccountLevel10LabelFR" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -1138,7 +1204,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="AccountLevel11Num" msprop:design-time-name="6b3350e2-8f19-4dd8-94aa-a0570d048866" msprop:DbColumnName="AccountLevel11Num" type="xs:long" minOccurs="0" />
+                  <xs:element name="AccountLevel11Num" msprop:design-time-name="6b3350e2-8f19-4dd8-94aa-a0570d048866" msprop:DbColumnName="AccountLevel11Num" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="AccountLevel11LabelFR" msprop:design-time-name="b34bb477-c9fd-426e-9da0-5f0f73ceae3d" msprop:DbColumnName="AccountLevel11LabelFR" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -1167,7 +1239,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="AccountLevel12Num" msprop:design-time-name="82ca5521-163b-4786-98b7-204537cf2d78" msprop:DbColumnName="AccountLevel12Num" type="xs:long" minOccurs="0" />
+                  <xs:element name="AccountLevel12Num" msprop:design-time-name="82ca5521-163b-4786-98b7-204537cf2d78" msprop:DbColumnName="AccountLevel12Num" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="AccountLevel12LabelFR" msprop:design-time-name="74125093-4994-4db2-9e8b-0c9038ed5b61" msprop:DbColumnName="AccountLevel12LabelFR" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -1196,7 +1274,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="AccountLevel13Num" msprop:design-time-name="98e9fb19-77c4-434f-b53b-8eea2929b781" msprop:DbColumnName="AccountLevel13Num" type="xs:long" minOccurs="0" />
+                  <xs:element name="AccountLevel13Num" msprop:design-time-name="98e9fb19-77c4-434f-b53b-8eea2929b781" msprop:DbColumnName="AccountLevel13Num" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="AccountLevel13LabelFR" msprop:design-time-name="4d4ce21b-0b9f-4582-9ad0-dc07f9f37b9b" msprop:DbColumnName="AccountLevel13LabelFR" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -1225,7 +1309,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="AccountLevel14Num" msprop:design-time-name="4c569f90-f2d1-402a-98f1-576164e54384" msprop:DbColumnName="AccountLevel14Num" type="xs:long" minOccurs="0" />
+                  <xs:element name="AccountLevel14Num" msprop:design-time-name="4c569f90-f2d1-402a-98f1-576164e54384" msprop:DbColumnName="AccountLevel14Num" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="AccountLevel14LabelFR" msprop:design-time-name="f21a8655-0902-4fe7-93e8-4a7dece42ada" msprop:DbColumnName="AccountLevel14LabelFR" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -1254,7 +1344,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="AccountLevel15Num" msprop:design-time-name="4707ee02-a19a-42c7-98a3-e676fcd2ce27" msprop:DbColumnName="AccountLevel15Num" type="xs:long" minOccurs="0" />
+                  <xs:element name="AccountLevel15Num" msprop:design-time-name="4707ee02-a19a-42c7-98a3-e676fcd2ce27" msprop:DbColumnName="AccountLevel15Num" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="AccountLevel15LabelFR" msprop:design-time-name="2f4f95d8-f834-40b3-b24f-df9b9916c527" msprop:DbColumnName="AccountLevel15LabelFR" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2563,113 +2659,113 @@
           <xs:selector xpath=".//dbo_DIM_SpecificAccountingPlan" />
           <xs:field xpath="SpecificAccountPlanSk" />
         </xs:unique>
-        <xs:keyref name="FK_FACTLESS_ActiveDirectory_DIM_Company" refer="dbo_DIM_Company_Constraint1">
-          <xs:selector xpath=".//dbo_FACTLESS_ActiveDirectory" />
-          <xs:field xpath="CompanySkFk" />
-        </xs:keyref>
         <xs:keyref name="FK_FACTLESS_ActiveDirectory_DIM_ActiveDirectory" refer="dbo_DIM_ActiveDirectory_Constraint1">
           <xs:selector xpath=".//dbo_FACTLESS_ActiveDirectory" />
           <xs:field xpath="ActiveDirectoryGroupSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_PrimaryAnalyticalAccount" refer="dbo_DIM_FirstAnalyticalCode_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetAnalyticalAccountSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_AccountingPlan" refer="dbo_DIM_AccountingPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetAccountingPlanSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_Company" refer="dbo_DIM_Company_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetCompanySkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan2" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetThirdReportPlanSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetFirstReportPlanSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan1" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetSecondReportPlanSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan5" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetSixthReportPlanSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan3" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetFourthReportPlanSkFk" />
+        <xs:keyref name="FK_FACTLESS_ActiveDirectory_DIM_Company" refer="dbo_DIM_Company_Constraint1">
+          <xs:selector xpath=".//dbo_FACTLESS_ActiveDirectory" />
+          <xs:field xpath="CompanySkFk" />
         </xs:keyref>
         <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan4" refer="dbo_DIM_ReportPlan_Constraint1">
           <xs:selector xpath=".//dbo_FACT_Budget" />
           <xs:field xpath="BudgetFifthReportPlanSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_SpecificAccountingPlan" refer="dbo_DIM_SpecificAccountingPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntrySpecificAccountingPlanSkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan3" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetFourthReportPlanSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_SecondaryAnalyticalAccount" refer="dbo_DIM_SecondAnalyticalCode_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntrySecondaryAnalyticalAccountSkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan5" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetSixthReportPlanSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_PrimaryAnalyticalAccount" refer="dbo_DIM_FirstAnalyticalCode_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryPrimaryAnalyticalAccountSkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan1" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetSecondReportPlanSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_Time2" refer="dbo_DIM_Time_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryImputationDateNumSkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetFirstReportPlanSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_Time1" refer="dbo_DIM_Time_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryDateNumSkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan2" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetThirdReportPlanSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_Time" refer="dbo_DIM_Time_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryMaturityDateSkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_Company" refer="dbo_DIM_Company_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetCompanySkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_AccountEntryDetails" refer="Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryDetailsSkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_AccountingPlan" refer="dbo_DIM_AccountingPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetAccountingPlanSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_Company" refer="dbo_DIM_Company_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryCompanySkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_PrimaryAnalyticalAccount" refer="dbo_DIM_FirstAnalyticalCode_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetAnalyticalAccountSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_ThirdParty" refer="dbo_DIM_ThirdParty_Constraint1">
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_FifthReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
           <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryThirdPartySkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_AccountingPlan" refer="dbo_DIM_AccountingPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryAccountingPlanSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_FirstReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryFirstReportPlanSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_SecondReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntrySecondReportPlanSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_FourthReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryFourthReportPlaSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_ThirdReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryThirdReportPlanSkFk" />
+          <xs:field xpath="AccountEntryFifthReportPlanSkFk" />
         </xs:keyref>
         <xs:keyref name="FK_FACT_AccountEntry_DIM_SixthReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
           <xs:selector xpath=".//dbo_FACT_AccountEntry" />
           <xs:field xpath="AccountEntrySixthReportPlanSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_FifthReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_ThirdReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
           <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryFifthReportPlanSkFk" />
+          <xs:field xpath="AccountEntryThirdReportPlanSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_FourthReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryFourthReportPlaSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_SecondReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntrySecondReportPlanSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_FirstReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryFirstReportPlanSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_AccountingPlan" refer="dbo_DIM_AccountingPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryAccountingPlanSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_ThirdParty" refer="dbo_DIM_ThirdParty_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryThirdPartySkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_Company" refer="dbo_DIM_Company_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryCompanySkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_AccountEntryDetails" refer="Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryDetailsSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_Time" refer="dbo_DIM_Time_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryMaturityDateSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_Time1" refer="dbo_DIM_Time_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryDateNumSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_Time2" refer="dbo_DIM_Time_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryImputationDateNumSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_PrimaryAnalyticalAccount" refer="dbo_DIM_FirstAnalyticalCode_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryPrimaryAnalyticalAccountSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_SecondaryAnalyticalAccount" refer="dbo_DIM_SecondAnalyticalCode_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntrySecondaryAnalyticalAccountSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_SpecificAccountingPlan" refer="dbo_DIM_SpecificAccountingPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntrySpecificAccountingPlanSkFk" />
         </xs:keyref>
         <xs:keyref name="FK_DIM_Company_DIM_Country" refer="dbo_DIM_Country_Constraint1">
           <xs:selector xpath=".//dbo_DIM_Company" />

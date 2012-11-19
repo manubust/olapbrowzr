@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1621" scrolltop="-8453" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8414" y="21325" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1621" scrolltop="-8453" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7514" y="21325" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DIM_FirstAnalyticalCode" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5133" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DIM_FirstAnalyticalCode" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5133" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800000d14000043110000" />
             </control>
@@ -69,7 +69,7 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f3d8ec35-9fff-473b-a45c-2717bcdcef2f">
-    <DataSourceViewID>DWH_BDOBI_DSW</DataSourceViewID>
+    <DataSourceViewID>DWH_BI_DSW</DataSourceViewID>
   </Source>
   <ErrorConfiguration dwd:design-time-name="8d849fe0-440a-4ec4-8dad-f92c474a6a9a">
     <KeyNotFound>ReportAndStop</KeyNotFound>
@@ -80,7 +80,7 @@
   <Attributes>
     <Attribute dwd:design-time-name="1682434b-c402-4947-8aaa-1708729276dd">
       <ID>First Analytical Code SK</ID>
-      <Name>First Analytical Code</Name>
+      <Name>First Analytical Code SK</Name>
       <Usage>Key</Usage>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="57010faa-5334-4422-897b-66c4b7a198c0">
@@ -94,9 +94,9 @@
       <NameColumn dwd:design-time-name="f6928e0c-5034-4b61-b111-8bea931feeb9">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="846df4bc-5733-4882-9e00-97d37208d8f6">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="451036f1-3478-4886-9153-69211efe1089">
           <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
-          <ColumnID>FirstAnalyticalCode</ColumnID>
+          <ColumnID>FirstAnalyticalCodeSK</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
@@ -104,7 +104,12 @@
           <AttributeID>First Analytical Code Label FR</AttributeID>
           <Name>First Analytical Code Label</Name>
         </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7bfeeb29-ea1f-486e-bdf0-ff2b76434ee3">
+          <AttributeID>First Analytical Code</AttributeID>
+          <Name>First Analytical Code</Name>
+        </AttributeRelationship>
       </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="2e5cb482-cdfc-40e2-8ce7-4f930e27430a">
@@ -117,6 +122,21 @@
           <Source xsi:type="ColumnBinding" dwd:design-time-name="2b814221-b189-4aea-9820-8548d36ad095">
             <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
             <ColumnID>FirstAnalyticalCodeLabelFR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9c368ccc-d580-454a-b2bd-a969f5287f20">
+      <ID>First Analytical Code</ID>
+      <Name>First Analytical Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="709f3ab2-a997-4aeb-9ac9-0ce72fc6a028">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="01b05158-6c0c-4708-a5f1-990470c98014">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCode</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

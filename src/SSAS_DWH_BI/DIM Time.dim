@@ -97,7 +97,7 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f4571b77-8527-4ab4-a92f-b78321ce3c61">
-    <DataSourceViewID>DWH_BDOBI_DSW</DataSourceViewID>
+    <DataSourceViewID>DWH_BI_DSW</DataSourceViewID>
   </Source>
   <Type>Time</Type>
   <UnknownMember>Visible</UnknownMember>
@@ -119,6 +119,7 @@
       <Name>Date</Name>
       <Type>Date</Type>
       <Usage>Key</Usage>
+      <EstimatedCount>9497</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="6b3a4ffd-c529-45f3-8690-482f5fbdd89d">
           <NullProcessing>UnknownMember</NullProcessing>
@@ -155,6 +156,7 @@
       <ID>Year</ID>
       <Name>Year</Name>
       <Type>Years</Type>
+      <EstimatedCount>26</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="eada8cea-0672-49eb-8574-1a29b653409b">
           <DataType>Date</DataType>
@@ -184,6 +186,7 @@
       <ID>Month</ID>
       <Name>Month</Name>
       <Type>Months</Type>
+      <EstimatedCount>312</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="2c903b3b-4d19-4694-9376-b2b84b9b7de7">
           <DataType>Integer</DataType>

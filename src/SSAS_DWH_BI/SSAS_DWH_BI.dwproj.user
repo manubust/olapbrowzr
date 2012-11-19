@@ -4,7 +4,7 @@
       <Name>Development</Name>
       <Options>
         <TargetServer>CS5WXN1-PC\MSSQLSERVER_R2</TargetServer>
-        <TargetDatabase>DWH_BI</TargetDatabase>
+        <TargetDatabase>DWH_Radisson_BI_TEST</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>

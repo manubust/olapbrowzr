@@ -69,7 +69,7 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="35affbd4-5017-4c2d-a24c-cf10318710a2">
-    <DataSourceViewID>DWH_BDOBI_DSW</DataSourceViewID>
+    <DataSourceViewID>DWH_BI_DSW</DataSourceViewID>
   </Source>
   <ErrorConfiguration dwd:design-time-name="b695cb37-9753-4949-80ab-a713ac69455c">
     <KeyNotFound>ReportAndStop</KeyNotFound>

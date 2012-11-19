@@ -2,7 +2,7 @@
 <RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL_BI_DS">
   <ConnectionProperties>
     <Extension>SQL</Extension>
-    <ConnectString>Data Source=CS5WXN1-PC\MSSQLSERVER_R2;Initial Catalog=DWH_BI</ConnectString>
+    <ConnectString>Data Source=CS5WXN1-PC\MSSQLSERVER_R2;Initial Catalog=DWH_Radisson_BI_TEST</ConnectString>
     <IntegratedSecurity>true</IntegratedSecurity>
   </ConnectionProperties>
   <DataSourceID>ba96d39c-9ace-4888-a9e5-cbf9db8321b9</DataSourceID>
