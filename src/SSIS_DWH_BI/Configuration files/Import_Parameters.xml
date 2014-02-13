@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="PartitionCube">
+	<name>Partition Cube</name>	
+	<measuregroups>
+		<measure_group id="01">
+			<OLAPCubeName>DWH_BI</OLAPCubeName>
+			<MeasureGroupName>FACT Account Entry</MeasureGroupName>
+			<CubePartitionNamePrefix>FACT Account Entry </CubePartitionNamePrefix>
+			<PartitionQueryCOMPANY>SELECT [dbo].[FACT_AccountEntry].[AccountEntryAccountingPlanSkFk],[dbo].[FACT_AccountEntry].[AccountEntryDetailsSkFk],[dbo].[FACT_AccountEntry].[AccountEntryDateNumSkFk],[dbo].[FACT_AccountEntry].[AccountEntryAmountDebit],[dbo].[FACT_AccountEntry].[AccountEntryAmountCredit],[dbo].[FACT_AccountEntry].[AccountEntryBalance],[dbo].[FACT_AccountEntry].[AccountEntryBalanceInverted],[dbo].[FACT_AccountEntry].[AccountEntryAmountDebitInEUR],[dbo].[FACT_AccountEntry].[AccountEntryAmountCreditInEUR],[dbo].[FACT_AccountEntry].[AccountEntryBalanceInEur],[dbo].[FACT_AccountEntry].[AccountEntryBalanceInEurInverted],[dbo].[FACT_AccountEntry].[AccountEntryPrimaryAnalyticalAccountSkFk],[dbo].[FACT_AccountEntry].[AccountEntrySecondaryAnalyticalAccountSkFk],[dbo].[FACT_AccountEntry].[AccountEntryCompanySkFk],[dbo].[FACT_AccountEntry].[AccountEntryThirdPartySkFk],[dbo].[FACT_AccountEntry].[AccountEntryFirstReportPlanSkFk],[dbo].[FACT_AccountEntry].[AccountEntrySecondReportPlanSkFk],[dbo].[FACT_AccountEntry].[AccountEntryThirdReportPlanSkFk],[dbo].[FACT_AccountEntry].[AccountEntryFourthReportPlaSkFk],[dbo].[FACT_AccountEntry].[AccountEntrySpecificAccountingPlanSkFk],[dbo].[FACT_AccountEntry].[AccountEntryMaturityDateSkFk],[dbo].[FACT_AccountEntry].[AccountEntryFifthReportPlanSkFk],[dbo].[FACT_AccountEntry].[AccountEntrySixthReportPlanSkFk],[dbo].[FACT_AccountEntry].[AccountEntryImputationDateNumSkFk]
+FROM [dbo].[FACT_AccountEntry]
+LEFT JOIN [dbo].[DIM_Company] ON [dbo].[DIM_Company].[CompanySK] = [dbo].[FACT_AccountEntry].[AccountEntryCompanySkFk]
+WHERE [dbo].[DIM_Company].[CompanyCode] = </PartitionQueryCOMPANY>
+			<PartitionQueryTIME>SELECT [dbo].[FACT_AccountEntry].[AccountEntryAccountingPlanSkFk],[dbo].[FACT_AccountEntry].[AccountEntryDetailsSkFk],[dbo].[FACT_AccountEntry].[AccountEntryDateNumSkFk],[dbo].[FACT_AccountEntry].[AccountEntryAmountDebit],[dbo].[FACT_AccountEntry].[AccountEntryAmountCredit],[dbo].[FACT_AccountEntry].[AccountEntryBalance],[dbo].[FACT_AccountEntry].[AccountEntryBalanceInverted],[dbo].[FACT_AccountEntry].[AccountEntryAmountDebitInEUR],[dbo].[FACT_AccountEntry].[AccountEntryAmountCreditInEUR],[dbo].[FACT_AccountEntry].[AccountEntryBalanceInEur],[dbo].[FACT_AccountEntry].[AccountEntryBalanceInEurInverted],[dbo].[FACT_AccountEntry].[AccountEntryPrimaryAnalyticalAccountSkFk],[dbo].[FACT_AccountEntry].[AccountEntrySecondaryAnalyticalAccountSkFk],[dbo].[FACT_AccountEntry].[AccountEntryCompanySkFk],[dbo].[FACT_AccountEntry].[AccountEntryThirdPartySkFk],[dbo].[FACT_AccountEntry].[AccountEntryFirstReportPlanSkFk],[dbo].[FACT_AccountEntry].[AccountEntrySecondReportPlanSkFk],[dbo].[FACT_AccountEntry].[AccountEntryThirdReportPlanSkFk],[dbo].[FACT_AccountEntry].[AccountEntryFourthReportPlaSkFk],[dbo].[FACT_AccountEntry].[AccountEntrySpecificAccountingPlanSkFk],[dbo].[FACT_AccountEntry].[AccountEntryMaturityDateSkFk],[dbo].[FACT_AccountEntry].[AccountEntryFifthReportPlanSkFk],[dbo].[FACT_AccountEntry].[AccountEntrySixthReportPlanSkFk],[dbo].[FACT_AccountEntry].[AccountEntryImputationDateNumSkFk]
+FROM [dbo].[FACT_AccountEntry]
+LEFT JOIN [dbo].[DIM_Time] ON [dbo].[DIM_Time].[DateSk] = [dbo].[FACT_AccountEntry].[AccountEntryImputationDateNumSkFk]
+WHERE YEAR([dbo].[DIM_Time].[Date_Time]) = </PartitionQueryTIME>
+		</measure_group>		
+		<measure_group id="02">
+			<OLAPCubeName>DWH_BI</OLAPCubeName>
+			<MeasureGroupName>FACT Budget</MeasureGroupName>
+			<CubePartitionNamePrefix>FACT Budget </CubePartitionNamePrefix>
+			<PartitionQueryCOMPANY>SELECT [dbo].[FACT_Budget].[BudgetAccountingPlanSkFk],[dbo].[FACT_Budget].[BudgetAnalyticalAccountSkFk],[dbo].[FACT_Budget].[BudgetYearMonthSkFk],[dbo].[FACT_Budget].[BudgetCompanySkFk],[dbo].[FACT_Budget].[BudgetAmount],[dbo].[FACT_Budget].[BudgetFirstReportPlanSkFk],[dbo].[FACT_Budget].[BudgetSecondReportPlanSkFk],[dbo].[FACT_Budget].[BudgetThirdReportPlanSkFk],[dbo].[FACT_Budget].[BudgetFourthReportPlanSkFk],[dbo].[FACT_Budget].[BudgetFifthReportPlanSkFk],[dbo].[FACT_Budget].[BudgetSixthReportPlanSkFk]
+FROM [dbo].[FACT_Budget]
+LEFT JOIN [dbo].[DIM_Company] ON [dbo].[DIM_Company].[CompanySK] = [dbo].[FACT_Budget].[BudgetCompanySkFk]
+WHERE [dbo].[DIM_Company].[CompanyCode] = </PartitionQueryCOMPANY>
+			<PartitionQueryTIME>SELECT [dbo].[FACT_Budget].[BudgetAccountingPlanSkFk],[dbo].[FACT_Budget].[BudgetAnalyticalAccountSkFk],[dbo].[FACT_Budget].[BudgetYearMonthSkFk],[dbo].[FACT_Budget].[BudgetCompanySkFk],[dbo].[FACT_Budget].[BudgetAmount],[dbo].[FACT_Budget].[BudgetFirstReportPlanSkFk],[dbo].[FACT_Budget].[BudgetSecondReportPlanSkFk],[dbo].[FACT_Budget].[BudgetThirdReportPlanSkFk],[dbo].[FACT_Budget].[BudgetFourthReportPlanSkFk],[dbo].[FACT_Budget].[BudgetFifthReportPlanSkFk],[dbo].[FACT_Budget].[BudgetSixthReportPlanSkFk]
+FROM [dbo].[FACT_Budget]
+LEFT JOIN [dbo].[DIM_Time] ON [dbo].[DIM_Time].[YearMonth] = [dbo].[FACT_Budget].[BudgetYearMonthSkFk]
+WHERE YEAR([dbo].[DIM_Time].[Date_Time]) = </PartitionQueryTIME>
+		</measure_group>
+	</measuregroups>	
+</package>
