@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+	<DTSConfigurationHeading>
+		<DTSConfigurationFileInfo GeneratedBy="manuelbustamant\manuel.bustamante" GeneratedFromPackageName="Create CSV Files" GeneratedFromPackageID="{6478AEBA-BD03-4BE5-9277-A4E0BD24601E}" GeneratedDate="13/11/2012 18:52:38"/>
+	</DTSConfigurationHeading>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::CubeHasSecurity].Properties[Value]" ValueType="Boolean">
+		<ConfiguredValue>1</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::ImportType].Properties[Value]" ValueType="String">
+		<ConfiguredValue>FULL</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::IsCubePartitioned].Properties[Value]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::PartitionName].Properties[Value]" ValueType="String">
+		<ConfiguredValue>Default</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::PartitionType].Properties[Value]" ValueType="String">
+		<ConfiguredValue>Default</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::ServerFolderPath].Properties[Value]" ValueType="String">
+		<ConfiguredValue>D:\Radisson BI\03 - Input Files New\</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::SpeGenTypeRule].Properties[Value]" ValueType="String">
+		<ConfiguredValue>Default</ConfiguredValue>
+	</Configuration>
+</DTSConfiguration>

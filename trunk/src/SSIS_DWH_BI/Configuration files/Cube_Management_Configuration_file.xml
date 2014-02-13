@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+	<DTSConfigurationHeading>
+		<DTSConfigurationFileInfo GeneratedBy="manuel.bustamante@metrum.lu" GeneratedFromPackageName="Cube Management" GeneratedFromPackageID="{842B648C-D3E9-4646-8F8B-2726B5077C51}" GeneratedDate="26/11/2013 10:16:46"/>
+	</DTSConfigurationHeading>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWH BI].Properties[ConnectionString]" ValueType="String">
+		<ConfiguredValue>Data Source=ASPEX099\METRUM;Initial Catalog=DWH_BI;Provider=SQLNCLI10.1;Integrated Security=SSPI;</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWH BI SSAS].Properties[ConnectionString]" ValueType="String">
+		<ConfiguredValue>Data Source=HPDMLX1-PC;Initial Catalog=DWH_BI;Provider=MSOLAP.4;Integrated Security=SSPI;</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::ConfigurationFolderPath].Properties[Value]" ValueType="String">
+		<ConfiguredValue>C:\Users\Manuel\Work\Projects\M-Team\02 - Solution\DWH_BI\Configuration_Files\</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::CubeHasSecurity].Properties[Value]" ValueType="Boolean">
+		<ConfiguredValue>True</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::ImportType].Properties[Value]" ValueType="String">
+		<ConfiguredValue>FULL</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::IsCubePartitioned].Properties[Value]" ValueType="Boolean">
+		<ConfiguredValue>False</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::IsPartitionExists].Properties[Value]" ValueType="Boolean">
+		<ConfiguredValue>False</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::PartitionFolderPath].Properties[Value]" ValueType="String">
+		<ConfiguredValue>C:\Users\Manuel\Work\Projects\M-Team\02 - Solution\DWH_BI\SSAS_DWH_BI\</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::PartitionType].Properties[Value]" ValueType="String">
+		<ConfiguredValue>Default</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::SpeGenTypeRule].Properties[Value]" ValueType="String">
+		<ConfiguredValue>Default</ConfiguredValue>
+	</Configuration>
+</DTSConfiguration>
