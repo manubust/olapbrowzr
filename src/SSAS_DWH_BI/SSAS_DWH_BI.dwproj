@@ -20,36 +20,52 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>DIM Report Plan.dim</Name>
-      <FullPath>DIM Report Plan.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>DIM Company.dim</Name>
-      <FullPath>DIM Company.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>DIM Third Party.dim</Name>
-      <FullPath>DIM Third Party.dim</FullPath>
+      <Name>DIM Account Entry Details.dim</Name>
+      <FullPath>DIM Account Entry Details.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DIM Accounting Plan.dim</Name>
       <FullPath>DIM Accounting Plan.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DIM Account Entry Details.dim</Name>
-      <FullPath>DIM Account Entry Details.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>DIM Active Directory.dim</Name>
       <FullPath>DIM Active Directory.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DIM Time.dim</Name>
-      <FullPath>DIM Time.dim</FullPath>
+      <Name>DIM Budget Details.dim</Name>
+      <FullPath>DIM Budget Details.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Budget Type.dim</Name>
+      <FullPath>DIM Budget Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Company.dim</Name>
+      <FullPath>DIM Company.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Fifth Analytical Code.dim</Name>
+      <FullPath>DIM Fifth Analytical Code.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DIM First Analytical Code.dim</Name>
       <FullPath>DIM First Analytical Code.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Forecast Details.dim</Name>
+      <FullPath>DIM Forecast Details.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Forecast Type.dim</Name>
+      <FullPath>DIM Forecast Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Fourth Analytical Code.dim</Name>
+      <FullPath>DIM Fourth Analytical Code.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Report Plan.dim</Name>
+      <FullPath>DIM Report Plan.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DIM Second Analytical Code.dim</Name>
@@ -58,6 +74,18 @@
     <ProjectItem>
       <Name>DIM Specific Accounting Plan.dim</Name>
       <FullPath>DIM Specific Accounting Plan.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Third Analytical Code.dim</Name>
+      <FullPath>DIM Third Analytical Code.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Third Party.dim</Name>
+      <FullPath>DIM Third Party.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Time.dim</Name>
+      <FullPath>DIM Time.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
@@ -68,8 +96,8 @@
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>DWH_BI_DSW.dsv</Name>
-      <FullPath>DWH_BI_DSW.dsv</FullPath>
+      <Name>DWH BI.dsv</Name>
+      <FullPath>DWH BI.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Miscellaneous>
@@ -90,14 +118,14 @@
           <ConfigurationSetting>
             <Id>DWH_BI_DS</Id>
             <Name>DWH_BI_DS</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=CS5WXN1-PC\MSSQLSERVER_R2;Integrated Security=SSPI;Initial Catalog=DWH_Radisson_BI_TEST</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=HPDMLX1-PC;Persist Security Info=True;Password=;User ID=;Initial Catalog=DWH_BI</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
             <Id>DWH_BI_DS</Id>
             <Name>DWH_BI_DS</Name>
-            <Value xsi:type="xsd:int">0</Value>
+            <Value xsi:type="xsd:int">1</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
       </Options>

@@ -3,8 +3,8 @@
   <Name>DWH_BI_DS</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-  <ConnectionString>Provider=SQLNCLI10.1;Data Source=CS5WXN1-PC\MSSQLSERVER_R2;Integrated Security=SSPI;Initial Catalog=DWH_Radisson_BI_TEST</ConnectionString>
-  <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
+  <ConnectionString>Provider=SQLNCLI10.1;Data Source=HPDMLX1-PC;Persist Security Info=True;Password=;User ID=;Initial Catalog=DWH_BI</ConnectionString>
+  <ConnectionStringSecurity>PasswordRemoved</ConnectionStringSecurity>
   <ImpersonationInfo>
     <ImpersonationMode>Default</ImpersonationMode>
     <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>

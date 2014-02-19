@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="114" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="5911" scrolltop="-2103" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="20029" y="22648" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="114" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="5911" scrolltop="-2103" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="26829" y="22834" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                   </font>
@@ -1637,13 +1637,6 @@
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ThirdPartySk" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ThirdPartySk" msprop:DbColumnName="ThirdPartySk" msprop:design-time-name="1f20c507-1992-4085-976f-0632500cabeb" type="xs:int" />
-                  <xs:element name="ThirdPartyAlias" msprop:FriendlyName="ThirdPartyAlias" msprop:DbColumnName="ThirdPartyAlias" msprop:design-time-name="cd7a31eb-4dda-426e-aef2-f4dbac1196fc" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="100" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
                   <xs:element name="ThirdPartyName" msprop:FriendlyName="ThirdPartyName" msprop:DbColumnName="ThirdPartyName" msprop:design-time-name="0b9015d9-d356-44c3-8780-c8d2f97ff3fe" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -1680,13 +1673,6 @@
                     </xs:simpleType>
                   </xs:element>
                   <xs:element name="ThirdPartyTel2" msprop:FriendlyName="ThirdPartyTel2" msprop:DbColumnName="ThirdPartyTel2" msprop:design-time-name="a552d502-40a7-48eb-8dd9-dbd77ab31c2c" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="ThirdPartyTel3" msprop:FriendlyName="ThirdPartyTel3" msprop:DbColumnName="ThirdPartyTel3" msprop:design-time-name="0c9f3e65-fa83-4470-8d79-8a552fa1206a" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
@@ -1735,35 +1721,7 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="ThirdPartyInfo" msprop:FriendlyName="ThirdPartyInfo" msprop:DbColumnName="ThirdPartyInfo" msprop:design-time-name="afe8be75-52bb-4dda-8429-52f922a562a0" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="255" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
                   <xs:element name="ThirdPartyNumber" msprop:FriendlyName="ThirdPartyNumber" msprop:DbColumnName="ThirdPartyNumber" msprop:design-time-name="d098b1a6-cc5c-49b2-845f-0d5c53685da3" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="ThirdPartySubNumber" msprop:FriendlyName="ThirdPartySubNumber" msprop:DbColumnName="ThirdPartySubNumber" msprop:design-time-name="4873db76-e79a-4a95-a7e8-e18a388544cb" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="ThirdPartyPayNumber" msprop:FriendlyName="ThirdPartyPayNumber" msprop:DbColumnName="ThirdPartyPayNumber" msprop:design-time-name="4bc1e011-a27b-448f-a4a5-0cce77ee072e" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="ThirdPartyPaySubNumber" msprop:FriendlyName="ThirdPartyPaySubNumber" msprop:DbColumnName="ThirdPartyPaySubNumber" msprop:design-time-name="cd0debc1-e6d5-4707-89b3-d05bdbf46bdb" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
@@ -1778,13 +1736,6 @@
                     </xs:simpleType>
                   </xs:element>
                   <xs:element name="ThirdPartySwiftCode" msprop:FriendlyName="ThirdPartySwiftCode" msprop:DbColumnName="ThirdPartySwiftCode" msprop:design-time-name="51ef075b-35d9-45d7-aa7c-53bd38028c63" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="ThirdPartyCardUse" msprop:FriendlyName="ThirdPartyCardUse" msprop:DbColumnName="ThirdPartyCardUse" msprop:design-time-name="595f3d1c-60fe-49d4-a288-469af114af2c" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
@@ -1828,20 +1779,6 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="ThirdPartyTraccAccount" msprop:design-time-name="7699fa56-4ac7-47fb-9b61-3134de4643dc" msprop:DbColumnName="ThirdPartyTraccAccount" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="ThirdPartyImputationAccount" msprop:design-time-name="3e92b31e-a410-4f2b-9b6e-c54137ab85a1" msprop:DbColumnName="ThirdPartyImputationAccount" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
                   <xs:element name="ThirdPartyCountry" msprop:design-time-name="3520d9a0-6a1d-4a80-b400-42470742c90a" msprop:DbColumnName="ThirdPartyCountry" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -1853,6 +1790,13 @@
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ThirdPartySurname" msprop:design-time-name="0bb2661c-18d6-4fab-9ffe-e5aa3f4253b3" msprop:DbColumnName="ThirdPartySurname" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
@@ -2151,8 +2095,20 @@
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="SpecificAccountPlanSk" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="SpecificAccountPlanSk" msprop:DbColumnName="SpecificAccountPlanSk" msprop:design-time-name="0cef2b92-d8da-4582-9c75-2dc69ce2807a" type="xs:long" />
-                  <xs:element name="SpecificAccountNum" msprop:FriendlyName="SpecificAccountNum" msprop:DbColumnName="SpecificAccountNum" msprop:design-time-name="f5403c4f-1e8c-4780-9abc-12b02ce23bdc" type="xs:long" minOccurs="0" />
-                  <xs:element name="SpecificAccountLevel1Num" msprop:FriendlyName="SpecificAccountLevel1Num" msprop:DbColumnName="SpecificAccountLevel1Num" msprop:design-time-name="08699500-25e1-4a05-a642-8e1cbb2919f8" type="xs:long" minOccurs="0" />
+                  <xs:element name="SpecificAccountNum" msprop:FriendlyName="SpecificAccountNum" msprop:DbColumnName="SpecificAccountNum" msprop:design-time-name="f5403c4f-1e8c-4780-9abc-12b02ce23bdc" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SpecificAccountLevel1Num" msprop:FriendlyName="SpecificAccountLevel1Num" msprop:DbColumnName="SpecificAccountLevel1Num" msprop:design-time-name="08699500-25e1-4a05-a642-8e1cbb2919f8" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="SpecificAccountLevel1LabelFR" msprop:FriendlyName="SpecificAccountLevel1LabelFR" msprop:DbColumnName="SpecificAccountLevel1LabelFR" msprop:design-time-name="9c0e50d5-932c-4279-a1f4-2bef84d2b402" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2181,7 +2137,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SpecificAccountLevel2Num" msprop:FriendlyName="SpecificAccountLevel2Num" msprop:DbColumnName="SpecificAccountLevel2Num" msprop:design-time-name="5bfa5b37-4bec-4f56-9f33-df51f090076c" type="xs:long" minOccurs="0" />
+                  <xs:element name="SpecificAccountLevel2Num" msprop:FriendlyName="SpecificAccountLevel2Num" msprop:DbColumnName="SpecificAccountLevel2Num" msprop:design-time-name="5bfa5b37-4bec-4f56-9f33-df51f090076c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="SpecificAccountLevel2LabelFR" msprop:FriendlyName="SpecificAccountLevel2LabelFR" msprop:DbColumnName="SpecificAccountLevel2LabelFR" msprop:design-time-name="9aebb39c-d4f0-416e-9682-83f9e2da0a92" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2210,7 +2172,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SpecificAccountLevel3Num" msprop:FriendlyName="SpecificAccountLevel3Num" msprop:DbColumnName="SpecificAccountLevel3Num" msprop:design-time-name="da2f2570-ffc7-4cc1-9dad-db515ebf9b02" type="xs:long" minOccurs="0" />
+                  <xs:element name="SpecificAccountLevel3Num" msprop:FriendlyName="SpecificAccountLevel3Num" msprop:DbColumnName="SpecificAccountLevel3Num" msprop:design-time-name="da2f2570-ffc7-4cc1-9dad-db515ebf9b02" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="SpecificAccountLevel3LabelFR" msprop:FriendlyName="SpecificAccountLevel3LabelFR" msprop:DbColumnName="SpecificAccountLevel3LabelFR" msprop:design-time-name="8558234d-c2e7-4c5c-a958-db33e43ea748" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2239,7 +2207,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SpecificAccountLevel4Num" msprop:FriendlyName="SpecificAccountLevel4Num" msprop:DbColumnName="SpecificAccountLevel4Num" msprop:design-time-name="00e07af3-aa80-43ff-9793-75c70924bc22" type="xs:long" minOccurs="0" />
+                  <xs:element name="SpecificAccountLevel4Num" msprop:FriendlyName="SpecificAccountLevel4Num" msprop:DbColumnName="SpecificAccountLevel4Num" msprop:design-time-name="00e07af3-aa80-43ff-9793-75c70924bc22" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="SpecificAccountLevel4LabelFR" msprop:FriendlyName="SpecificAccountLevel4LabelFR" msprop:DbColumnName="SpecificAccountLevel4LabelFR" msprop:design-time-name="ee034929-a131-4875-8b47-5e88723fd9a8" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2268,7 +2242,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SpecificAccountLevel5Num" msprop:FriendlyName="SpecificAccountLevel5Num" msprop:DbColumnName="SpecificAccountLevel5Num" msprop:design-time-name="532927d4-da6c-4d78-afbf-11673214c2eb" type="xs:long" minOccurs="0" />
+                  <xs:element name="SpecificAccountLevel5Num" msprop:FriendlyName="SpecificAccountLevel5Num" msprop:DbColumnName="SpecificAccountLevel5Num" msprop:design-time-name="532927d4-da6c-4d78-afbf-11673214c2eb" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="SpecificAccountLevel5LabelFR" msprop:FriendlyName="SpecificAccountLevel5LabelFR" msprop:DbColumnName="SpecificAccountLevel5LabelFR" msprop:design-time-name="def99e40-ae27-4902-a296-c39391b81d69" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2297,7 +2277,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SpecificAccountLevel6Num" msprop:FriendlyName="SpecificAccountLevel6Num" msprop:DbColumnName="SpecificAccountLevel6Num" msprop:design-time-name="1f000dd9-c798-4dc5-a710-e9653cfd1a8c" type="xs:long" minOccurs="0" />
+                  <xs:element name="SpecificAccountLevel6Num" msprop:FriendlyName="SpecificAccountLevel6Num" msprop:DbColumnName="SpecificAccountLevel6Num" msprop:design-time-name="1f000dd9-c798-4dc5-a710-e9653cfd1a8c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="SpecificAccountLevel6LabelFR" msprop:FriendlyName="SpecificAccountLevel6LabelFR" msprop:DbColumnName="SpecificAccountLevel6LabelFR" msprop:design-time-name="13212e9c-706e-4967-8e68-78e10e71fa94" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2326,7 +2312,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SpecificAccountLevel7Num" msprop:FriendlyName="SpecificAccountLevel7Num" msprop:DbColumnName="SpecificAccountLevel7Num" msprop:design-time-name="e2767db4-ec28-417f-8d33-bc0d4a93592d" type="xs:long" minOccurs="0" />
+                  <xs:element name="SpecificAccountLevel7Num" msprop:FriendlyName="SpecificAccountLevel7Num" msprop:DbColumnName="SpecificAccountLevel7Num" msprop:design-time-name="e2767db4-ec28-417f-8d33-bc0d4a93592d" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="SpecificAccountLevel7LabelFR" msprop:FriendlyName="SpecificAccountLevel7LabelFR" msprop:DbColumnName="SpecificAccountLevel7LabelFR" msprop:design-time-name="f366101b-2325-49f7-831a-a8e0ef04088d" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2355,7 +2347,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SpecificAccountLevel8Num" msprop:FriendlyName="SpecificAccountLevel8Num" msprop:DbColumnName="SpecificAccountLevel8Num" msprop:design-time-name="6cde846c-de15-4b25-bacf-f83d140dc14f" type="xs:long" minOccurs="0" />
+                  <xs:element name="SpecificAccountLevel8Num" msprop:FriendlyName="SpecificAccountLevel8Num" msprop:DbColumnName="SpecificAccountLevel8Num" msprop:design-time-name="6cde846c-de15-4b25-bacf-f83d140dc14f" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="SpecificAccountLevel8LabelFR" msprop:FriendlyName="SpecificAccountLevel8LabelFR" msprop:DbColumnName="SpecificAccountLevel8LabelFR" msprop:design-time-name="ae780caa-2a43-43d7-aaef-7ba5f0127f83" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2384,7 +2382,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SpecificAccountLevel9Num" msprop:FriendlyName="SpecificAccountLevel9Num" msprop:DbColumnName="SpecificAccountLevel9Num" msprop:design-time-name="0d13f425-e351-4b2a-9616-303ada35e8b4" type="xs:long" minOccurs="0" />
+                  <xs:element name="SpecificAccountLevel9Num" msprop:FriendlyName="SpecificAccountLevel9Num" msprop:DbColumnName="SpecificAccountLevel9Num" msprop:design-time-name="0d13f425-e351-4b2a-9616-303ada35e8b4" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="SpecificAccountLevel9LabelFR" msprop:FriendlyName="SpecificAccountLevel9LabelFR" msprop:DbColumnName="SpecificAccountLevel9LabelFR" msprop:design-time-name="493d555d-b578-4c2d-b684-7aefb87b37a3" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2421,7 +2425,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SpecificAccountLevel10Num" msprop:design-time-name="15fedcf4-40ac-43d0-a37a-1b1271b4a7f3" msprop:DbColumnName="SpecificAccountLevel10Num" type="xs:long" minOccurs="0" />
+                  <xs:element name="SpecificAccountLevel10Num" msprop:design-time-name="15fedcf4-40ac-43d0-a37a-1b1271b4a7f3" msprop:DbColumnName="SpecificAccountLevel10Num" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="SpecificAccountLevel10LabelFR" msprop:design-time-name="ce5bf4a8-2795-4fb0-84aa-60c855fa1fe7" msprop:DbColumnName="SpecificAccountLevel10LabelFR" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2450,7 +2460,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SpecificAccountLevel11Num" msprop:design-time-name="552c073c-7977-49ec-be6f-8ec5c421daab" msprop:DbColumnName="SpecificAccountLevel11Num" type="xs:long" minOccurs="0" />
+                  <xs:element name="SpecificAccountLevel11Num" msprop:design-time-name="552c073c-7977-49ec-be6f-8ec5c421daab" msprop:DbColumnName="SpecificAccountLevel11Num" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="SpecificAccountLevel11LabelFR" msprop:design-time-name="43598b68-53c3-4526-8a71-c48e96d7812b" msprop:DbColumnName="SpecificAccountLevel11LabelFR" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2479,7 +2495,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SpecificAccountLevel12Num" msprop:design-time-name="78110e2d-df18-44c1-8fbf-67c7d642d9c8" msprop:DbColumnName="SpecificAccountLevel12Num" type="xs:long" minOccurs="0" />
+                  <xs:element name="SpecificAccountLevel12Num" msprop:design-time-name="78110e2d-df18-44c1-8fbf-67c7d642d9c8" msprop:DbColumnName="SpecificAccountLevel12Num" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="SpecificAccountLevel12LabelFR" msprop:design-time-name="947ec7bf-451c-43bb-b65e-9689739a9d29" msprop:DbColumnName="SpecificAccountLevel12LabelFR" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2508,7 +2530,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SpecificAccountLevel13Num" msprop:design-time-name="cfcfb5e1-ebde-4020-bec3-b6e3b8588bf9" msprop:DbColumnName="SpecificAccountLevel13Num" type="xs:long" minOccurs="0" />
+                  <xs:element name="SpecificAccountLevel13Num" msprop:design-time-name="cfcfb5e1-ebde-4020-bec3-b6e3b8588bf9" msprop:DbColumnName="SpecificAccountLevel13Num" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="SpecificAccountLevel13LabelFR" msprop:design-time-name="c10ef66b-7cba-4623-b309-93d7b2c10eb6" msprop:DbColumnName="SpecificAccountLevel13LabelFR" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2537,7 +2565,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SpecificAccountLevel14Num" msprop:design-time-name="19626fa2-c940-4bf2-aa56-fc0c797e61b9" msprop:DbColumnName="SpecificAccountLevel14Num" type="xs:long" minOccurs="0" />
+                  <xs:element name="SpecificAccountLevel14Num" msprop:design-time-name="19626fa2-c940-4bf2-aa56-fc0c797e61b9" msprop:DbColumnName="SpecificAccountLevel14Num" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="SpecificAccountLevel14LabelFR" msprop:design-time-name="1ef81c57-5150-46f3-b832-9efabf10b1aa" msprop:DbColumnName="SpecificAccountLevel14LabelFR" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2566,7 +2600,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SpecificAccountLevel15Num" msprop:design-time-name="e4e4e6f5-6a89-4ba4-bf2d-a6b392706f02" msprop:DbColumnName="SpecificAccountLevel15Num" type="xs:long" minOccurs="0" />
+                  <xs:element name="SpecificAccountLevel15Num" msprop:design-time-name="e4e4e6f5-6a89-4ba4-bf2d-a6b392706f02" msprop:DbColumnName="SpecificAccountLevel15Num" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="SpecificAccountLevel15LabelFR" msprop:design-time-name="60030be9-432d-4063-b4cb-5b2cd74a9855" msprop:DbColumnName="SpecificAccountLevel15LabelFR" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -2659,113 +2699,113 @@
           <xs:selector xpath=".//dbo_DIM_SpecificAccountingPlan" />
           <xs:field xpath="SpecificAccountPlanSk" />
         </xs:unique>
-        <xs:keyref name="FK_FACTLESS_ActiveDirectory_DIM_ActiveDirectory" refer="dbo_DIM_ActiveDirectory_Constraint1">
-          <xs:selector xpath=".//dbo_FACTLESS_ActiveDirectory" />
-          <xs:field xpath="ActiveDirectoryGroupSkFk" />
-        </xs:keyref>
         <xs:keyref name="FK_FACTLESS_ActiveDirectory_DIM_Company" refer="dbo_DIM_Company_Constraint1">
           <xs:selector xpath=".//dbo_FACTLESS_ActiveDirectory" />
           <xs:field xpath="CompanySkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan4" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetFifthReportPlanSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan3" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetFourthReportPlanSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan5" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetSixthReportPlanSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan1" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetSecondReportPlanSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetFirstReportPlanSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan2" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetThirdReportPlanSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_Company" refer="dbo_DIM_Company_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetCompanySkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_Budget_DIM_AccountingPlan" refer="dbo_DIM_AccountingPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_Budget" />
-          <xs:field xpath="BudgetAccountingPlanSkFk" />
+        <xs:keyref name="FK_FACTLESS_ActiveDirectory_DIM_ActiveDirectory" refer="dbo_DIM_ActiveDirectory_Constraint1">
+          <xs:selector xpath=".//dbo_FACTLESS_ActiveDirectory" />
+          <xs:field xpath="ActiveDirectoryGroupSkFk" />
         </xs:keyref>
         <xs:keyref name="FK_FACT_Budget_DIM_PrimaryAnalyticalAccount" refer="dbo_DIM_FirstAnalyticalCode_Constraint1">
           <xs:selector xpath=".//dbo_FACT_Budget" />
           <xs:field xpath="BudgetAnalyticalAccountSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_FifthReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryFifthReportPlanSkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_AccountingPlan" refer="dbo_DIM_AccountingPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetAccountingPlanSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_SixthReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntrySixthReportPlanSkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_Company" refer="dbo_DIM_Company_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetCompanySkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_ThirdReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryThirdReportPlanSkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan2" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetThirdReportPlanSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_FourthReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryFourthReportPlaSkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetFirstReportPlanSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_SecondReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntrySecondReportPlanSkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan1" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetSecondReportPlanSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_FirstReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryFirstReportPlanSkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan5" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetSixthReportPlanSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_AccountingPlan" refer="dbo_DIM_AccountingPlan_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryAccountingPlanSkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan3" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetFourthReportPlanSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_ThirdParty" refer="dbo_DIM_ThirdParty_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryThirdPartySkFk" />
+        <xs:keyref name="FK_FACT_Budget_DIM_ReportPlan4" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Budget" />
+          <xs:field xpath="BudgetFifthReportPlanSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_Company" refer="dbo_DIM_Company_Constraint1">
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_SpecificAccountingPlan" refer="dbo_DIM_SpecificAccountingPlan_Constraint1">
           <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryCompanySkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_AccountEntryDetails" refer="Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryDetailsSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_Time" refer="dbo_DIM_Time_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryMaturityDateSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_Time1" refer="dbo_DIM_Time_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryDateNumSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_Time2" refer="dbo_DIM_Time_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryImputationDateNumSkFk" />
-        </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_PrimaryAnalyticalAccount" refer="dbo_DIM_FirstAnalyticalCode_Constraint1">
-          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntryPrimaryAnalyticalAccountSkFk" />
+          <xs:field xpath="AccountEntrySpecificAccountingPlanSkFk" />
         </xs:keyref>
         <xs:keyref name="FK_FACT_AccountEntry_DIM_SecondaryAnalyticalAccount" refer="dbo_DIM_SecondAnalyticalCode_Constraint1">
           <xs:selector xpath=".//dbo_FACT_AccountEntry" />
           <xs:field xpath="AccountEntrySecondaryAnalyticalAccountSkFk" />
         </xs:keyref>
-        <xs:keyref name="FK_FACT_AccountEntry_DIM_SpecificAccountingPlan" refer="dbo_DIM_SpecificAccountingPlan_Constraint1">
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_PrimaryAnalyticalAccount" refer="dbo_DIM_FirstAnalyticalCode_Constraint1">
           <xs:selector xpath=".//dbo_FACT_AccountEntry" />
-          <xs:field xpath="AccountEntrySpecificAccountingPlanSkFk" />
+          <xs:field xpath="AccountEntryPrimaryAnalyticalAccountSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_Time2" refer="dbo_DIM_Time_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryImputationDateNumSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_Time1" refer="dbo_DIM_Time_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryDateNumSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_Time" refer="dbo_DIM_Time_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryMaturityDateSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_AccountEntryDetails" refer="Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryDetailsSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_Company" refer="dbo_DIM_Company_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryCompanySkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_ThirdParty" refer="dbo_DIM_ThirdParty_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryThirdPartySkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_AccountingPlan" refer="dbo_DIM_AccountingPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryAccountingPlanSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_FirstReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryFirstReportPlanSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_SecondReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntrySecondReportPlanSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_FourthReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryFourthReportPlaSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_ThirdReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryThirdReportPlanSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_SixthReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntrySixthReportPlanSkFk" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_AccountEntry_DIM_FifthReportPlan" refer="dbo_DIM_ReportPlan_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_AccountEntry" />
+          <xs:field xpath="AccountEntryFifthReportPlanSkFk" />
         </xs:keyref>
         <xs:keyref name="FK_DIM_Company_DIM_Country" refer="dbo_DIM_Country_Constraint1">
           <xs:selector xpath=".//dbo_DIM_Company" />

@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="21123099-8e16-4f17-b1ce-f196a052cb48" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>DIM Company</ID>
-  <Name>DIM Company</Name>
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6a833ece-e52f-4f1b-9e11-40e8b75c7ae2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DIM Fifth Analytical Code</ID>
+  <Name>DIM Fifth Analytical Code</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -42,28 +42,28 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4dbf02b3-8601-4436-bb8c-509c21d0cdd3">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="2746b9bb-f2b4-451a-94b2-77784fa1c35f">
     <DataSourceViewID>DWH BI</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="29a8a0cd-97f9-4c0d-b680-97fc1b7a461c">
+  <ErrorConfiguration dwd:design-time-name="99ce741c-e56d-4b3d-ab6f-761b3aaffb68">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="bd9eea3e-f72f-4013-a263-abea4456631e">
-      <ID>Company SK</ID>
-      <Name>Company SK</Name>
+    <Attribute dwd:design-time-name="f2a14f74-bf86-4476-9c9d-08fe029afa4c">
+      <ID>Fifth Analytical Code SK</ID>
+      <Name>Fifth Analytical Code SK</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1e86f1b4-488e-4c58-a7f8-6c520217cd4b">
+        <KeyColumn dwd:design-time-name="3dbf196f-718d-4b72-9d71-bbf48e87a02c">
           <NullProcessing>UnknownMember</NullProcessing>
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cebf73f2-fd3d-458f-a7ae-ed9db09c1d51">
-            <TableID>dbo_DIM_Company</TableID>
-            <ColumnID>CompanySK</ColumnID>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6cdb90f5-28f3-4f71-ab05-666a25bd5568">
+            <TableID>dbo_DIM_FifthAnalyticalCode</TableID>
+            <ColumnID>FifthAnalyticalCodeSK</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

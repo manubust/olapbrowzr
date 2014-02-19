@@ -3,8 +3,22 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>CS5WXN1-PC\MSSQLSERVER_R2</TargetServer>
-        <TargetDatabase>DWH_Radisson_BI_TEST</TargetDatabase>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>DWH_BI_DS</Id>
+            <Name>DWH_BI_DS</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAY6UoyxblA0OTArC8GsQj4gAAAAAUAAAARABXAEgAXwBCAEkAXwBEAFMAAAAQZgAAAAEAACAAAABDlr97ETQzCc/gPqVfDVZ2WC4DKwvsT7D6/uNVGx/YfQAAAAAOgAAAAAIAACAAAAA78h4on867vptoRQpjaoYiI3eYCZY/K5HBH8gH97F19BAAAADzQWZlQjU3gnxdxdkhIO92QAAAAGV5wPvqjH0oFsraNbwN5GPkMrF/oVKwb/GEUaflgJ4In6us92W50Psbs7NF+NEiahDLcp3QKAxq6hxF3va9/0g=</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>DWH_BI_DS</Id>
+            <Name>DWH_BI_DS</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAY6UoyxblA0OTArC8GsQj4gAAAAAUAAAARABXAEgAXwBCAEkAXwBEAFMAAAAQZgAAAAEAACAAAABRhV53MB8iXLwn046mkS3DDZE2LUosrqR/jFB+h31fIgAAAAAOgAAAAAIAACAAAACh0cy+uIVuf5USK+Ja7PoG93joiD5d/n8DyOU7wxAExyAAAAAyMZoALcYlKrAE/K3wrDZ3Ed0l8Cu5r6cxOpE8/VGcskAAAABxFuWFKrel6P7jpSHVR4V1oRu+nikPiWCKWPrCu0e0NYC/K1hVq9a1gRtyLOVAhJkgqFQkaqqOIxwNP0zciN7W</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>HPDMLX1-PC</TargetServer>
+        <TargetDatabase>DWH_BI</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>
