@@ -2,7 +2,7 @@
 <RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DWH_BI_DS">
   <ConnectionProperties>
     <Extension>OLEDB-MD</Extension>
-    <ConnectString>Data Source=CS5WXN1-PC\MSSQLSERVER_R2;Initial Catalog=DWH_BI</ConnectString>
+    <ConnectString>Data Source=BQDJWW1-PC\MSSQLSERVER_R2;Initial Catalog=DWH_BI</ConnectString>
     <IntegratedSecurity>true</IntegratedSecurity>
   </ConnectionProperties>
   <DataSourceID>7a4ee7ca-f2f9-40cb-9913-2cd1e9e48609</DataSourceID>

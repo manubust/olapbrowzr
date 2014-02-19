@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d069fa14-ee30-4baf-aff2-f395eae31f30" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="af8cf3ac-5f1a-4091-91b4-5c417b628681" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DIM First Analytical Code</ID>
-  <Name>DIM First Analytical Code</Name>
+  <Name>IT Services</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1621" scrolltop="-8453" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7514" y="21325" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2427" scrolltop="-2922" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11324" y="21458" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,9 +19,9 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DIM_FirstAnalyticalCode" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5133" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DIM_FirstAnalyticalCode" left="-112" top="-6535" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="6244" height="15239" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000800000d14000043110000" />
+              <ddsxmlobjectstreaminitwrapper binary="0008000064180000873b0000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -47,19 +47,19 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-1621</Value>
+      <Value>-2427</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-8453</Value>
+      <Value>-2922</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>20</Value>
+      <Value>-112</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>0</Value>
+      <Value>-6535</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -68,73 +68,113 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f3d8ec35-9fff-473b-a45c-2717bcdcef2f">
-    <DataSourceViewID>DWH_BI_DSW</DataSourceViewID>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="cdf40c1e-be64-4d91-b19a-c1173fa686b1">
+    <DataSourceViewID>DWH BI</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="8d849fe0-440a-4ec4-8dad-f92c474a6a9a">
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="be94e275-35b2-4db8-a909-fa7c16ceb963">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="1682434b-c402-4947-8aaa-1708729276dd">
+    <Attribute dwd:design-time-name="360a5160-095c-4ebe-8165-7d82265327ea">
       <ID>First Analytical Code SK</ID>
       <Name>First Analytical Code SK</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="57010faa-5334-4422-897b-66c4b7a198c0">
+        <KeyColumn dwd:design-time-name="50c5d4cf-47d2-47c3-877d-4b85104a6751">
+          <NullProcessing>UnknownMember</NullProcessing>
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="edd9d2b8-c7ee-4004-8a6f-86e94e39d591">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="933b827b-fe61-479d-8045-05aa6df54192">
             <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
             <ColumnID>FirstAnalyticalCodeSK</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="f6928e0c-5034-4b61-b111-8bea931feeb9">
-        <DataType>WChar</DataType>
-        <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="451036f1-3478-4886-9153-69211efe1089">
-          <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
-          <ColumnID>FirstAnalyticalCodeSK</ColumnID>
-        </Source>
-      </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="fdc8e08b-dccd-459e-bda5-72315053c2bd">
-          <AttributeID>First Analytical Code Label FR</AttributeID>
-          <Name>First Analytical Code Label</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7bfeeb29-ea1f-486e-bdf0-ff2b76434ee3">
+        <AttributeRelationship dwd:design-time-name="dc1aa63e-22f3-4b3f-b551-ab919245e23b">
           <AttributeID>First Analytical Code</AttributeID>
           <Name>First Analytical Code</Name>
         </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9d5574cf-7bee-4f88-abc4-8d3865b92862">
+          <AttributeID>First Analytical Code Group</AttributeID>
+          <Name>First Analytical Code Group</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cf81d5f5-41b7-4d07-9193-6921f8180343">
+          <AttributeID>First Analytical Code Level0</AttributeID>
+          <Name>First Analytical Code Level0</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="58fe38d4-954c-4fee-b827-046d20ccadf3">
+          <AttributeID>First Analytical Code Level1</AttributeID>
+          <Name>First Analytical Code Level1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="23c59efb-a6ee-4ce4-8615-f4dfed476c7d">
+          <AttributeID>First Analytical Code Level2</AttributeID>
+          <Name>First Analytical Code Level2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="47e280d1-208c-4efa-acb3-6e8c0e0d89c7">
+          <AttributeID>First Analytical Code Level3</AttributeID>
+          <Name>First Analytical Code Level3</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="666a524f-2cb9-4e1a-929e-5d220a07952d">
+          <AttributeID>First Analytical Code Level4</AttributeID>
+          <Name>First Analytical Code Level4</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0e7a0a7b-ea4a-4115-94a3-ba710572d21f">
+          <AttributeID>First Analytical Code Level5</AttributeID>
+          <Name>First Analytical Code Level5</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="253d3941-4fea-49c5-acc9-93643f54073c">
+          <AttributeID>First Analytical Code Level6</AttributeID>
+          <Name>First Analytical Code Level6</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="afb6b46f-0291-4745-9633-a58d5abaa7b5">
+          <AttributeID>First Analytical Code Level7</AttributeID>
+          <Name>First Analytical Code Level7</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f346e770-c667-4fad-a35c-dd8bbea14811">
+          <AttributeID>First Analytical Code Level8</AttributeID>
+          <Name>First Analytical Code Level8</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="328e6ce9-4be8-4e0c-a933-a401ef08d073">
+          <AttributeID>First Analytical Code Level9</AttributeID>
+          <Name>First Analytical Code Level9</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2068604b-5e26-4a8b-b429-3e2e8448b85a">
+          <AttributeID>First Analytical Code Level0 Label1</AttributeID>
+          <Name>First Analytical Code Level0 Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="20d55830-ead1-4954-b83e-f9f2d78f039a">
+          <AttributeID>First Analytical Code Level1 Label1</AttributeID>
+          <Name>First Analytical Code Level1 Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="13ea3e05-7d04-445d-92e5-343a0dae1430">
+          <AttributeID>First Analytical Code Level2 Label1</AttributeID>
+          <Name>First Analytical Code Level2 Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4138326c-0525-4472-bef9-075f1f0ea2a9">
+          <AttributeID>First Analytical Code Level3 Label1</AttributeID>
+          <Name>First Analytical Code Level3 Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="def5c909-2bc2-4c8a-bda9-bf65d1b3c403">
+          <AttributeID>First Analytical Code Level4 Label1</AttributeID>
+          <Name>First Analytical Code Level4 Name</Name>
+        </AttributeRelationship>
       </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2e5cb482-cdfc-40e2-8ce7-4f930e27430a">
-      <ID>First Analytical Code Label FR</ID>
-      <Name>First Analytical Code Label</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="d607af5c-1e57-4d00-8119-d09def75a067">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2b814221-b189-4aea-9820-8548d36ad095">
-            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
-            <ColumnID>FirstAnalyticalCodeLabelFR</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="9c368ccc-d580-454a-b2bd-a969f5287f20">
+    <Attribute dwd:design-time-name="631b2644-15b5-440c-9428-daf92b4bc4ce">
       <ID>First Analytical Code</ID>
-      <Name>First Analytical Code</Name>
+      <Name>IT Services Code</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="709f3ab2-a997-4aeb-9ac9-0ce72fc6a028">
+        <KeyColumn dwd:design-time-name="e0f76a66-3997-469f-909d-f6ac080b6ed6">
           <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="01b05158-6c0c-4708-a5f1-990470c98014">
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="76e57db1-6df8-444d-a414-0b49e1ee6761">
             <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
             <ColumnID>FirstAnalyticalCode</ColumnID>
           </Source>
@@ -142,5 +182,421 @@
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
+    <Attribute dwd:design-time-name="3cc7f12b-b517-434a-9163-8982ed7c98bf">
+      <ID>First Analytical Code Group</ID>
+      <Name>IT Services Code Group</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="db15790d-1f12-4a61-be74-391e345f37d3">
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8dba55f3-85b0-4f84-a2d0-c692773e4c53">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeGroup</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cab6f4a5-68a9-4f39-8a3b-74ab97775ea1">
+      <ID>First Analytical Code Level0</ID>
+      <Name>First Analytical Code Level0</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3eb5eb0b-05bf-4c95-b9d8-fed9a888d2e1">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ad13331a-881e-46d0-8b35-f33161c52cdb">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeLevel0</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="dab97794-e166-4483-8b53-c3963f8d5cea">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d6be226d-208a-4ed4-9854-92b032237bde">
+          <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+          <ColumnID>FirstAnalyticalCodeLevel0Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a3743b54-d975-4150-857d-2e4996ffcd87">
+      <ID>First Analytical Code Level1</ID>
+      <Name>First Analytical Code Level1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="71b23ecb-5a4d-4b61-bba3-3d8c8e033b61">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="578a45be-0000-4d6a-baae-03a7fbc0d9ca">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeLevel1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="89ab336f-5d37-41c0-b83a-00b44afe26fd">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d45ea84e-2118-406b-81f5-917c3a28d4d8">
+          <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+          <ColumnID>FirstAnalyticalCodeLevel1Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="faae929b-1e27-4c26-936d-390cebf2e303">
+      <ID>First Analytical Code Level2</ID>
+      <Name>First Analytical Code Level2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5c47513c-a535-43bd-8d03-f2f5abadea20">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5675f1f2-01bf-4d82-b461-1390550b8668">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeLevel2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="c4575936-f929-4fd5-8bad-8e302d9e07ae">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="66b0ee56-7b77-4c04-9464-836f26caa85a">
+          <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+          <ColumnID>FirstAnalyticalCodeLevel2Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="aa2a272f-7615-4181-84a7-b83a323223b0">
+      <ID>First Analytical Code Level3</ID>
+      <Name>First Analytical Code Level3</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6240d87f-fbd5-47d6-bd92-47601560979a">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b3488b29-da37-413d-a4e2-be675603db4c">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeLevel3</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="86279b82-7e1f-4ac5-a2d0-ce577b1e6b35">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="198722de-b979-4a71-8c83-376d6c447542">
+          <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+          <ColumnID>FirstAnalyticalCodeLevel3Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="38c82119-642e-4990-a009-4defba72917f">
+      <ID>First Analytical Code Level4</ID>
+      <Name>First Analytical Code Level4</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5c648857-285a-4f8a-8396-9b34bf13b0cd">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aff112bb-b591-4834-8c87-8cda025e7539">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeLevel4</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="afb90fa4-8dca-4877-90af-81e78d39902e">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="fb878b8b-4592-422c-83f1-37d2425d5eb4">
+          <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+          <ColumnID>FirstAnalyticalCodeLevel4Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="275c52e3-a988-438b-ab97-6c05fc5e120a">
+      <ID>First Analytical Code Level5</ID>
+      <Name>First Analytical Code Level5</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ab7982f3-c5ee-4d9e-82bc-7021acd1b106">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="428aa53e-66a9-42cd-b475-82f76dddeaa7">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeLevel5</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="3a4dcd6a-f80b-44de-8a64-158d3c907b5b">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="eb4776ac-7502-43a1-8db4-7cbc39b77589">
+          <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+          <ColumnID>FirstAnalyticalCodeLevel5Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4188eb71-d037-405e-86ea-563fff4d404e">
+      <ID>First Analytical Code Level6</ID>
+      <Name>First Analytical Code Level6</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="342a6d24-ba5a-4d3c-8ee9-72b42be65d3f">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b8f8e72f-1cc8-4923-bc79-35f17e3445fc">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeLevel6</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="e33a6b17-a6b2-4197-8a36-2abca5459420">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ef13dc0d-249f-46c6-b2b7-007949d2cff6">
+          <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+          <ColumnID>FirstAnalyticalCodeLevel6Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f9ec448c-1d3b-4889-afc4-0e2521c44e9d">
+      <ID>First Analytical Code Level7</ID>
+      <Name>First Analytical Code Level7</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3c327319-b2f0-49a5-9033-e6eae0e38bcb">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d8d278bc-07cf-4624-8a1c-5f15b725fc52">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeLevel7</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="586cf19f-537c-439b-8ecc-60992d5c2a7f">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f33c6179-a074-4a3f-af7d-78c491850cda">
+          <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+          <ColumnID>FirstAnalyticalCodeLevel7Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cf746b30-bf86-4084-96c2-a6ee0a79685f">
+      <ID>First Analytical Code Level8</ID>
+      <Name>First Analytical Code Level8</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="09b4fa71-a212-4c0d-ac50-c4f1202476aa">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7e748ae3-15aa-4519-9bbb-2b52e2ad5e0d">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeLevel8</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="a604ce1b-bf01-4585-8931-dc754860f79d">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="4a3c0416-0801-41cd-96a0-356f6ca00543">
+          <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+          <ColumnID>FirstAnalyticalCodeLevel8Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1d6e651c-020b-4f63-989b-ea1d704bf36e">
+      <ID>First Analytical Code Level9</ID>
+      <Name>First Analytical Code Level9</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5232e264-8ea8-40af-bf12-96ec1445382b">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="697bd760-7d58-473c-94db-634048a29a99">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeLevel9</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="32f000b2-8597-4534-acfa-b86bdf363c38">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f3227691-25ad-40ee-b360-19b8730acea6">
+          <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+          <ColumnID>FirstAnalyticalCodeLevel9Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="054e3470-14e6-4471-a7f1-1f7951d48fdc">
+      <ID>First Analytical Code Level0 Label1</ID>
+      <Name>Level0 Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="aac33833-3604-4354-a7af-0c9af54e57e4">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="04881068-f312-4f3e-823f-2d4f2a8ff065">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeLevel0Label1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6212c350-b3fd-4234-8d00-938e1b0e88b4">
+      <ID>First Analytical Code Level1 Label1</ID>
+      <Name>Level1 Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f32bcc43-7998-4f20-a514-5545cc74b2a5">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="002cfded-14b0-4abb-8219-8c9314f638b3">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeLevel1Label1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="993ca3e3-3487-4fcf-9b93-681db14ba455">
+      <ID>First Analytical Code Level2 Label1</ID>
+      <Name>Level2 Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e1e28209-5b8a-412a-a964-b3cc36fd4702">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32995a40-3cea-4cfe-89e5-30bed938b136">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeLevel2Label1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ac7b01ba-77f5-4b1e-9dcd-c87dff72b2c4">
+      <ID>First Analytical Code Level3 Label1</ID>
+      <Name>Level3 Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8fb30512-1454-4ebb-8fb9-ceeccc60748a">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="22a2b67f-8fe6-48fb-80ed-7ef28b4450de">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeLevel3Label1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2a9ae0e2-97b7-43a4-b431-8fb941afb176">
+      <ID>First Analytical Code Level4 Label1</ID>
+      <Name>Level4 Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0d78c815-7293-4c3e-af27-c49a03ef1d4e">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="389337b1-e148-4e63-a96b-912431b75d88">
+            <TableID>dbo_DIM_FirstAnalyticalCode</TableID>
+            <ColumnID>FirstAnalyticalCodeLevel4Label1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="1f2f9c78-c497-44b3-91e2-354a5c400145">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy Code Group</Name>
+      <Levels>
+        <Level dwd:design-time-name="48892c58-3280-4d06-9849-27cc5d94731e">
+          <ID>First Analytical Code Group</ID>
+          <Name>IT Services Code Group</Name>
+          <SourceAttributeID>First Analytical Code Group</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="7c4e44af-54ba-474e-98fd-1bfa08eb7547">
+          <ID>First Analytical Code</ID>
+          <Name>IT Services Code</Name>
+          <SourceAttributeID>First Analytical Code</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="18ad9db6-7a4b-4788-b9fa-837fd06f79d5">
+      <ID>Hierarchy 1</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="4566ba06-c7b2-4b11-a37e-bc78223469ba">
+          <ID>First Analytical Code Level0</ID>
+          <Name>Level0</Name>
+          <SourceAttributeID>First Analytical Code Level0</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="397424ca-c422-46ff-820c-9db4d740cbda">
+          <ID>First Analytical Code Level1</ID>
+          <Name>Level1</Name>
+          <SourceAttributeID>First Analytical Code Level1</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="63856926-fb10-4184-8da5-08e843f65b86">
+          <ID>First Analytical Code Level2</ID>
+          <Name>Level2</Name>
+          <SourceAttributeID>First Analytical Code Level2</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="06a918bc-b6a1-4094-af9a-3e352ed0783b">
+          <ID>First Analytical Code Level3</ID>
+          <Name>Level3</Name>
+          <SourceAttributeID>First Analytical Code Level3</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="dc8d08f2-9b6b-4695-9c52-f7da2acb95e3">
+          <ID>First Analytical Code Level4</ID>
+          <Name>Level4</Name>
+          <SourceAttributeID>First Analytical Code Level4</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="9dd134e6-2afc-46b3-9165-47566db45bf9">
+          <ID>First Analytical Code Level5</ID>
+          <Name>Level5</Name>
+          <SourceAttributeID>First Analytical Code Level5</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="8b619932-8fbb-497e-a5a2-607685b0b72a">
+          <ID>First Analytical Code Level6</ID>
+          <Name>Level6</Name>
+          <SourceAttributeID>First Analytical Code Level6</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="c410fb44-3fc6-49ec-ad95-22df768f6bef">
+          <ID>First Analytical Code Level7</ID>
+          <Name>Level7</Name>
+          <SourceAttributeID>First Analytical Code Level7</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="1f3bf8d0-4d9e-47df-93a8-e251c74a3b00">
+          <ID>First Analytical Code Level8</ID>
+          <Name>Level8</Name>
+          <SourceAttributeID>First Analytical Code Level8</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="037e7953-c551-4dfe-9aca-5cd737921749">
+          <ID>First Analytical Code Level9</ID>
+          <Name>Level9</Name>
+          <SourceAttributeID>First Analytical Code Level9</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
 </Dimension>

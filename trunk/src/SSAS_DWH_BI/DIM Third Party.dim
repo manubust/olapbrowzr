@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7cfe43eb-c9da-4d03-a64d-0c358cc4df30" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="12037cb8-9742-4f0a-b2d5-bf8b2449d29f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DIM Third Party</ID>
   <Name>DIM Third Party</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2798" scrolltop="-7766" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11298" y="21325" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2679" scrolltop="-8229" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10081" y="21458" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,9 +19,9 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DIM_ThirdParty" left="20" top="-6904" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4445" height="16323" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DIM_ThirdParty" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5900" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000800005d110000c33f0000" />
+              <ddsxmlobjectstreaminitwrapper binary="000800000c17000088130000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -47,11 +47,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-2798</Value>
+      <Value>-2679</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-7766</Value>
+      <Value>-8229</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -59,7 +59,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>-6904</Value>
+      <Value>0</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -68,131 +68,76 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3d54b967-06f2-4ce7-b0e8-05f39b3420b0">
-    <DataSourceViewID>DWH_BI_DSW</DataSourceViewID>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="5defab62-6ece-4e36-8c8b-2083629bb8c7">
+    <DataSourceViewID>DWH BI</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="2eccdd41-e4fc-40c9-a818-17056ccedba0">
+  <ErrorConfiguration dwd:design-time-name="7eb94925-7228-4267-ab80-95818c2c3458">
     <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="a7f52852-f3ac-4f6a-b497-a4e950b72d97">
-      <ID>Third Party Sk</ID>
-      <Name>Third Party Sk</Name>
+    <Attribute dwd:design-time-name="1cf8d143-6427-4350-b1ca-37776088ba6b">
+      <ID>Third Party SK</ID>
+      <Name>Third Party SK</Name>
       <Usage>Key</Usage>
-      <EstimatedCount>1303</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="30c239a0-785f-4a34-b607-b69f023d73d9">
+        <KeyColumn dwd:design-time-name="fefe5df0-1619-4883-bcba-14bbddece65c">
           <NullProcessing>UnknownMember</NullProcessing>
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8845a933-fc3d-4ac7-9fd0-8786907c68c5">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a2ef01f6-cb00-45cc-8196-c3e885d99384">
             <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartySk</ColumnID>
+            <ColumnID>ThirdPartySK</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="42d79561-325c-4ba9-a94a-794b9f7d2e9a">
-          <AttributeID>Third Party Alias</AttributeID>
-          <Name>Third Party Alias</Name>
+        <AttributeRelationship dwd:design-time-name="f8fd86a3-34a1-4c4c-a810-e4414f01203d">
+          <AttributeID>Third Party Code</AttributeID>
+          <Name>Third Party Code</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="cb007886-b131-4d46-8c0b-2f839b9199ff">
+        <AttributeRelationship dwd:design-time-name="f44a1d5e-3627-4731-ac01-fb5111e1c17d">
           <AttributeID>Third Party Name</AttributeID>
           <Name>Third Party Name</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ecb64ef3-3c66-458f-ba81-6ba650424e14">
-          <AttributeID>Third Party Street</AttributeID>
-          <Name>Third Party Street</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="b40a69c7-58a1-4326-80f5-77ab332e8ee8">
-          <AttributeID>Third Party City</AttributeID>
-          <Name>Third Party City</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="af6757c7-148f-46c9-b54d-377bfde5a928">
-          <AttributeID>Third Party Zip Code</AttributeID>
-          <Name>Third Party Zip Code</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="e4839114-62c4-4d26-9dc8-6764a50c89d7">
-          <AttributeID>Third Party Tel1</AttributeID>
-          <Name>Third Party Tel1</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7780e4cb-ec9a-46c7-8b14-837d6db67add">
-          <AttributeID>Third Party Email</AttributeID>
-          <Name>Third Party Email</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="0649fe29-c301-41a6-82c9-66e7750838ac">
-          <AttributeID>Third Party WWW</AttributeID>
-          <Name>Third Party WWW</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ab684860-1242-4d69-8be3-ad74ab551a75">
-          <AttributeID>Third Party Language</AttributeID>
-          <Name>Third Party Language</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="bb5d25cc-6119-49a7-a6dd-6d19cab7dbc3">
-          <AttributeID>Third Party Contact</AttributeID>
-          <Name>Third Party Contact</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="c11ec072-e64b-4ffc-b6f3-7e6f23167a92">
-          <AttributeID>Third Party Vat Num</AttributeID>
-          <Name>Third Party Vat Num</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="24635d01-3f59-4ccf-85cf-b2fc202e0944">
-          <AttributeID>Third Party Info</AttributeID>
-          <Name>Third Party Info</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="3bd8c983-ff06-40b6-a6c5-c8d7c6fb2bab">
-          <AttributeID>Third Party Bank Account</AttributeID>
-          <Name>Third Party Bank Account</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5c6340ed-1f2b-4f0c-ac28-81051603351b">
-          <AttributeID>Third Party Swift Code</AttributeID>
-          <Name>Third Party Swift Code</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5fd3e4d5-18f9-42f9-ad2b-33fe778cdc75">
+        <AttributeRelationship dwd:design-time-name="12b17847-e1ae-4a2a-8d94-f0f0d464c5ed">
           <AttributeID>Third Party Is Supplier</AttributeID>
-          <Name>Third Party Is Supplier</Name>
+          <Name>Is Supplier</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5eb8b7ee-6c21-4dfc-b5e9-a7ee5240e747">
+        <AttributeRelationship dwd:design-time-name="6a2332a6-727a-4601-8085-0fee01899e49">
           <AttributeID>Third Party Is Customer</AttributeID>
-          <Name>Third Party Is Customer</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="b9beb03b-41bc-4bba-8bad-8180d44f0873">
-          <AttributeID>Third Party Currency Code</AttributeID>
-          <Name>Third Party Currency Code</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f7b952ec-1f20-4963-9748-86597aca64a4">
-          <AttributeID>Third Party Company Code</AttributeID>
-          <Name>Third Party Company Code</Name>
+          <Name>Is Customer</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b9b3e337-3777-4434-b7f9-16692639e095">
-      <ID>Third Party Alias</ID>
-      <Name>Third Party Alias</Name>
+    <Attribute dwd:design-time-name="5292f194-8d0f-4a55-8b67-a1a7e14be836">
+      <ID>Third Party Code</ID>
+      <Name>Third Party Code</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4f6f229e-9b25-472a-a7fb-aec183f9b109">
+        <KeyColumn dwd:design-time-name="b249e8b1-15bb-4abd-a25a-b298fdf777a6">
           <DataType>WChar</DataType>
-          <DataSize>70</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e2a1e9f7-41bb-4054-9d2c-a3bdcda4e929">
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="08bd239c-803f-46cf-ad3a-c2e2f72daf59">
             <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartyAlias</ColumnID>
+            <ColumnID>ThirdPartyCode</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7fb0cfb7-be62-499b-a133-61ef93ad23e4">
+    <Attribute dwd:design-time-name="6f333a93-67c7-4d37-b4d8-4e812e497586">
       <ID>Third Party Name</ID>
       <Name>Third Party Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f1fae488-aa6b-4ced-8968-2caad8880b07">
+        <KeyColumn dwd:design-time-name="50af6a34-b764-45e7-adcd-c8e8f91d9655">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4c9aa50e-8a1d-4a3f-ba40-26b085c350cc">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4f667014-a87d-497e-b569-44b9fd90448f">
             <TableID>dbo_DIM_ThirdParty</TableID>
             <ColumnID>ThirdPartyName</ColumnID>
           </Source>
@@ -200,193 +145,13 @@
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f085bb0c-6064-44da-90bf-942d18b7542c">
-      <ID>Third Party Street</ID>
-      <Name>Third Party Street</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="75a7c288-864b-483f-b751-f36f4a9fd02c">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f5271b92-eb21-4f24-8026-cd5bc2bcc8bf">
-            <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartyStreet</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="bbc9d113-e0fc-4c07-a440-ea18904ccd3a">
-      <ID>Third Party City</ID>
-      <Name>Third Party City</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="e0e06d2d-fb1b-4d42-aa3a-8f49ab17bf4a">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7491c070-21f5-43bd-8e03-f6fa33090787">
-            <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartyCity</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="f61a5d55-eae7-459a-bb23-4bd85868234f">
-      <ID>Third Party Zip Code</ID>
-      <Name>Third Party Zip Code</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="107aa624-d976-4d3e-b650-d385f3c056d4">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3bb88fa3-6c2e-4665-8396-ab330120ac49">
-            <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartyZipCode</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="3b1cc47b-4289-4f50-ba69-b7dc53d43b3c">
-      <ID>Third Party Tel1</ID>
-      <Name>Third Party Tel1</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="c91e5501-d815-4f07-8fd2-345162a9d9ce">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8e5bdd63-0962-4b5a-a5c8-74d6b3d36cc2">
-            <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartyTel1</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="e7422e08-90a2-440f-af94-c523e133a56f">
-      <ID>Third Party Email</ID>
-      <Name>Third Party Email</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="3ace866a-c442-441b-b421-a876e3f27e88">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="eb9e4a22-3211-4f66-945e-ebe104edd50c">
-            <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartyEmail</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="001a721a-e0f7-465f-ac07-75762502b943">
-      <ID>Third Party WWW</ID>
-      <Name>Third Party WWW</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="893a3f33-fca0-4365-9b35-c8b803a399f1">
-          <DataType>WChar</DataType>
-          <DataSize>70</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a05994bd-14c6-4f42-adb2-d5ce80583ebb">
-            <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartyWWW</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="3e3e8ab4-0caf-4718-9a93-ef1ad027e107">
-      <ID>Third Party Language</ID>
-      <Name>Third Party Language</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="ddcd8d57-c68f-4af3-be0a-ea834e28dcda">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9704368d-3664-4395-98df-b239a6fa6cb0">
-            <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartyLanguage</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="02b7fe1e-e569-41cd-92ac-feadaa295ce3">
-      <ID>Third Party Contact</ID>
-      <Name>Third Party Contact</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="37f067fa-1e57-4831-9013-36288ef90bc1">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3866ff82-cb55-44ef-87ce-d02b6f854376">
-            <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartyContact</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="710ac8ba-0a2e-4549-8573-519d28c635cd">
-      <ID>Third Party Vat Num</ID>
-      <Name>Third Party Vat Num</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="be2e6bf5-a1a4-4eda-98e0-75f46ca7e653">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cefb2305-d8e0-46a9-96aa-6c98af986089">
-            <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartyVatNum</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="49f362b1-6dfe-4093-b7d5-2b7e0d8e6be9">
-      <ID>Third Party Info</ID>
-      <Name>Third Party Info</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="7f2ea0d3-3302-4c44-8fff-25fe9991b3bf">
-          <DataType>WChar</DataType>
-          <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4ea8cde9-668e-4a1e-9aa0-ff340052c910">
-            <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartyInfo</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="cb869559-0b7f-4fe4-80f4-d0ebdace52ca">
-      <ID>Third Party Bank Account</ID>
-      <Name>Third Party Bank Account</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="ae05a5ca-954f-421a-83c5-aa8b9f3c657b">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d7739d23-2f0d-4c40-a537-8d522ed364cc">
-            <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartyBankAccount</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="ea11e006-4afa-4184-a1eb-9fdada3a3e6c">
-      <ID>Third Party Swift Code</ID>
-      <Name>Third Party Swift Code</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="68cbfb6b-a885-4900-8954-569b4ad38533">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f0452704-63a9-4243-9e4a-f4928d397205">
-            <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartySwiftCode</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="b5e9551d-dfdb-4675-85e9-c7b16a2f7879">
+    <Attribute dwd:design-time-name="ca7bdded-114d-417f-ba98-5dbdc04526fc">
       <ID>Third Party Is Supplier</ID>
       <Name>Is Supplier</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="cd2f4246-2697-4e75-b28f-13864cd51da7">
+        <KeyColumn dwd:design-time-name="c91f7ca8-6354-422f-959d-f5e77d735fc4">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4eb3c626-eaf4-4518-b6b2-695eb0037c85">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3adf371d-e57d-4097-b653-a59585899cb6">
             <TableID>dbo_DIM_ThirdParty</TableID>
             <ColumnID>ThirdPartyIsSupplier</ColumnID>
           </Source>
@@ -394,45 +159,15 @@
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="146bc215-7eb9-4311-b31a-db785c2c5d2b">
+    <Attribute dwd:design-time-name="2f6fd1fe-e063-4c12-8c6e-56204454fc80">
       <ID>Third Party Is Customer</ID>
       <Name>Is Customer</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2dffb336-311c-42ae-a9ba-130d71371a97">
+        <KeyColumn dwd:design-time-name="30ba907c-d71b-41be-a65b-31c30671c0b1">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b2de3b2a-3d51-4212-822e-3c67c5122660">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="51fa5641-109a-48f9-b7f6-66ab0a47773f">
             <TableID>dbo_DIM_ThirdParty</TableID>
             <ColumnID>ThirdPartyIsCustomer</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="bf9a7bb2-3942-4c5c-9676-487e0d1db012">
-      <ID>Third Party Currency Code</ID>
-      <Name>Third Party Currency Code</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="7a47dd78-c1de-48fa-b09e-caccb0ab224e">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4c1e6415-7afd-44da-8b2c-beebb914770a">
-            <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartyCurrencyCode</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="a5c23cfe-9c79-4380-b989-d03ed1c8fb4b">
-      <ID>Third Party Company Code</ID>
-      <Name>Third Party Company Code</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="1ebf362f-f30a-4898-8a4d-e4106dc5d236">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="eb90f719-28d3-4b41-b965-ce0bc21204f8">
-            <TableID>dbo_DIM_ThirdParty</TableID>
-            <ColumnID>ThirdPartyCompanyCode</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

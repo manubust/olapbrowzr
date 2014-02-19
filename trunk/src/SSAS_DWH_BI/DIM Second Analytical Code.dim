@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="29fc919c-eb29-4d77-9078-a19b6ba40502" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="47e935f3-1a2c-4e20-97b4-83342da5294b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DIM Second Analytical Code</ID>
-  <Name>DIM Second Analytical Code</Name>
+  <Name>Repository</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1819" scrolltop="-9511" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8414" y="21325" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1964" scrolltop="-8004" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11298" y="21458" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,9 +19,9 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DIM_SecondAnalyticalCode" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4736" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DIM_SecondAnalyticalCode" left="-536" top="-6218" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="6720" height="16695" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="0008000080120000fe080000" />
+              <ddsxmlobjectstreaminitwrapper binary="00080000401a000037410000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -47,19 +47,19 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-1819</Value>
+      <Value>-1964</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-9511</Value>
+      <Value>-8004</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>20</Value>
+      <Value>-536</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>0</Value>
+      <Value>-6218</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -68,61 +68,498 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="210ed0f3-ce91-4004-bc6b-fc51722b35aa">
-    <DataSourceViewID>DWH_BI_DSW</DataSourceViewID>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="563e7801-c277-40f0-afb9-60287218eff9">
+    <DataSourceViewID>DWH BI</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="9858e02c-ce9b-4e4a-a98b-62c4d201d520">
+  <ErrorConfiguration dwd:design-time-name="43eb8264-587d-412a-bb6e-8647a2c6d386">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="7212aa78-dd82-4073-9abc-f2ada9dcf9a1">
+    <Attribute dwd:design-time-name="2e638f46-5b0d-42a9-b30f-84cebe68b973">
       <ID>Second Analytical Code SK</ID>
-      <Name>Second Analytical Code</Name>
+      <Name>Second Analytical Code SK</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0dd1e9f6-34cf-42e0-a619-ecf2149aa924">
+        <KeyColumn dwd:design-time-name="58cb427e-a377-4fb3-8c2c-92e0969bd06b">
           <NullProcessing>UnknownMember</NullProcessing>
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e0b4b976-25a6-4d2a-babc-f6f33ae92891">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8d66918e-c539-49de-90db-f106a5147577">
             <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
             <ColumnID>SecondAnalyticalCodeSK</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="89da659e-0f9f-4e42-afa2-3ba13685e399">
-        <DataType>WChar</DataType>
-        <DataSize>10</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="6306dcd0-00b5-4d75-af2f-9fc6bebd7836">
-          <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
-          <ColumnID>SecondAnalyticalCode</ColumnID>
-        </Source>
-      </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="5f90c11f-4fce-4d19-b23a-ea1be2df6261">
-          <AttributeID>Second Analytical Code Label</AttributeID>
-          <Name>Second Analytical Code Label</Name>
+        <AttributeRelationship dwd:design-time-name="7b781b44-6934-42e1-b851-abf9ae2b3314">
+          <AttributeID>Second Analytical Code Level0</AttributeID>
+          <Name>Second Analytical Code Level0</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5e773e51-848c-4406-9b3c-4f6d323c9b7c">
+          <AttributeID>Second Analytical Code Level1</AttributeID>
+          <Name>Second Analytical Code Level1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bae48367-57f9-4109-a936-66d8612899f4">
+          <AttributeID>Second Analytical Code Level2</AttributeID>
+          <Name>Second Analytical Code Level2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6316fad1-520d-4d69-8815-b313369d2806">
+          <AttributeID>Second Analytical Code Level3</AttributeID>
+          <Name>Second Analytical Code Level3</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9199f32e-1185-4e9d-abf6-2666617c88dc">
+          <AttributeID>Second Analytical Code Level5</AttributeID>
+          <Name>Second Analytical Code Level5</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c6d4b936-456a-4ad0-b442-0490fd30889e">
+          <AttributeID>Second Analytical Code Level6</AttributeID>
+          <Name>Second Analytical Code Level6</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="43ad2576-bc2e-43de-8d96-defaa93cfa17">
+          <AttributeID>Second Analytical Code Level7</AttributeID>
+          <Name>Second Analytical Code Level7</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8c856f3c-7f23-4e99-8784-59de47c98a60">
+          <AttributeID>Second Analytical Code Level8</AttributeID>
+          <Name>Second Analytical Code Level8</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="48d75037-c9da-4e4d-88f9-4b7ec86a7471">
+          <AttributeID>Second Analytical Code Level9</AttributeID>
+          <Name>Second Analytical Code Level9</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c53cd757-fa8f-42fa-a7fa-c4dff84bc10a">
+          <AttributeID>Second Analytical Code Level4</AttributeID>
+          <Name>Second Analytical Code Level4</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bd977934-95c4-4963-adaf-2c93414eb4cd">
+          <AttributeID>Second Analytical Code</AttributeID>
+          <Name>Second Analytical Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a70d7659-69c9-4575-96f2-143d21371f47">
+          <AttributeID>Second Analytical Code Level0 Label1</AttributeID>
+          <Name>Level0 Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="31cc4c1b-9943-4f62-bf9a-f71f4acd08fb">
+          <AttributeID>Second Analytical Code Level1 Label1</AttributeID>
+          <Name>Level1 Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1f285c7b-e1a6-4de9-8dc1-ac598929aaa4">
+          <AttributeID>Second Analytical Code Level2 Label1</AttributeID>
+          <Name>Level2 Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9ec54f4d-fdb9-4d11-9125-192c2f1a5239">
+          <AttributeID>Second Analytical Code Level3 Label1</AttributeID>
+          <Name>Level3 Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2a7d25e5-2bcf-45cb-be3a-03f69f34c244">
+          <AttributeID>Second Analytical Code Level4 Label1</AttributeID>
+          <Name>Level4 Name</Name>
         </AttributeRelationship>
       </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d89faaea-0e1e-47ab-9e37-4e147d06e9f0">
-      <ID>Second Analytical Code Label</ID>
-      <Name>Second Analytical Code Label</Name>
+    <Attribute dwd:design-time-name="1e787bc7-3820-486c-9f34-19b33de79f10">
+      <ID>Second Analytical Code Level0</ID>
+      <Name>Second Analytical Code Level0</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b49516b4-2daa-4959-be6e-beaa9d17b8d6">
+        <KeyColumn dwd:design-time-name="796e1a3a-d3da-4695-b3bb-3f4266e946ed">
           <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="116f45d2-86da-4068-9c93-2d177a4fdb12">
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="327ad476-6626-4254-ba66-da2bdcc0358c">
             <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
-            <ColumnID>SecondAnalyticalCodeLabel</ColumnID>
+            <ColumnID>SecondAnalyticalCodeLevel0</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="b37869c6-fa5a-4657-8f5e-d48865b5190c">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="12227236-925d-4566-ba7d-72448b4f3e5e">
+          <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+          <ColumnID>SecondAnalyticalCodeLevel0Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f97f23ad-c030-4b5d-947d-b51a33092ba9">
+      <ID>Second Analytical Code Level1</ID>
+      <Name>Second Analytical Code Level1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="aa83a637-2d20-4762-98b7-62cec9285d0b">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="01773cf4-3ef3-4b29-a48e-a83df53c8154">
+            <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+            <ColumnID>SecondAnalyticalCodeLevel1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="594a5e0f-bb52-41e2-928b-bccb56130499">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="69a298f7-bea8-4ddb-a3be-e84bbc2d0f29">
+          <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+          <ColumnID>SecondAnalyticalCodeLevel1Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8be47644-9935-43ce-bbdc-d512b8414fb7">
+      <ID>Second Analytical Code Level2</ID>
+      <Name>Second Analytical Code Level2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2496dd95-fefe-4a5a-a02c-3778edf7cc2c">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a195e315-0855-4132-92b2-97ebc1ef3833">
+            <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+            <ColumnID>SecondAnalyticalCodeLevel2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="0f321180-dd42-412e-8d42-9d860bb589b6">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="940ce43d-44a7-4196-8594-b983a238e04d">
+          <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+          <ColumnID>SecondAnalyticalCodeLevel2Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f6dc3e79-eb4e-46bc-bc75-3be211085e65">
+      <ID>Second Analytical Code Level3</ID>
+      <Name>Second Analytical Code Level3</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1b99225c-e905-4acb-bb19-72741b16f631">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="39ef1f6f-8146-4d90-9c9d-7c1436da83c5">
+            <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+            <ColumnID>SecondAnalyticalCodeLevel3</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="d45528e0-21b8-4faf-a119-7510cbf83c0f">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="834ed4a7-28aa-4f50-a395-5d346434f253">
+          <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+          <ColumnID>SecondAnalyticalCodeLevel3Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="26fc799d-1417-48a0-8916-8ec78b45e667">
+      <ID>Second Analytical Code Level5</ID>
+      <Name>Second Analytical Code Level5</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1b956561-8092-46f8-9f34-04a94b4b9bbb">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f0ed550b-6bf4-4473-9700-dbce1813bf2e">
+            <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+            <ColumnID>SecondAnalyticalCodeLevel5</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="9c7a871d-92b2-4673-8d17-be3c4143fce0">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="82b74529-8afd-4263-9531-2f1a1fdcbc4d">
+          <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+          <ColumnID>SecondAnalyticalCodeLevel5Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d11de7c8-2300-4133-b0aa-77751c8af7a8">
+      <ID>Second Analytical Code Level6</ID>
+      <Name>Second Analytical Code Level6</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c9385c6c-ef87-4ac0-9311-d776b4dee84a">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e45b64c3-fc50-4d13-ad5e-d14e057de52e">
+            <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+            <ColumnID>SecondAnalyticalCodeLevel6</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="cf96218d-97fe-433c-873b-24b27302e424">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b0a39300-85fb-4746-ad70-6bdfe1bb00d6">
+          <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+          <ColumnID>SecondAnalyticalCodeLevel6Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9693fbaa-7c70-45f8-9e22-21ae2e5671f8">
+      <ID>Second Analytical Code Level7</ID>
+      <Name>Second Analytical Code Level7</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="631ebbd7-fc03-4228-9d1b-4fc7b4c29baa">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d4caf0c2-e30a-4167-abaa-03dc86985ce0">
+            <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+            <ColumnID>SecondAnalyticalCodeLevel7</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f5dcbbc4-a84e-4639-84b6-b495e6213121">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="265ad8a9-4227-4ba7-b6ce-ab4f1a95bb02">
+          <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+          <ColumnID>SecondAnalyticalCodeLevel7Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a3f956ac-4701-448d-912c-bd6662e45fe3">
+      <ID>Second Analytical Code Level8</ID>
+      <Name>Second Analytical Code Level8</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0d19f2d0-8341-4686-ae79-b08132cbdb3a">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="22a90de1-03c2-4c0f-83ee-05b5e8c23efb">
+            <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+            <ColumnID>SecondAnalyticalCodeLevel8</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="0e674605-9598-49b0-8e91-5ff133c0c765">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f0ab51f8-f3b9-41a1-b03d-afe87c93ec8e">
+          <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+          <ColumnID>SecondAnalyticalCodeLevel8Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1c7984e9-4293-4ebc-a0a3-00f070f9f8bd">
+      <ID>Second Analytical Code Level9</ID>
+      <Name>Second Analytical Code Level9</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ef93c2fb-3499-4671-a1f2-52e86cbe661b">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="835d51da-90bf-4081-9350-d55b9ef47d90">
+            <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+            <ColumnID>SecondAnalyticalCodeLevel9</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="b62089b9-b7af-4e4f-a4eb-3545cbed3abe">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="cc6797bb-cd54-4487-baa6-458829fdb985">
+          <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+          <ColumnID>SecondAnalyticalCodeLevel9Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f6d98433-73da-41b9-b532-4bf653104ec9">
+      <ID>Second Analytical Code Level4</ID>
+      <Name>Second Analytical Code Level4</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ee8959cb-7375-4df5-af36-1b9dbb5f7193">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c6ffd008-2de4-4f37-9f2b-310d09894fcf">
+            <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+            <ColumnID>SecondAnalyticalCodeLevel4</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="b59453bb-9d31-47a8-af23-d213796ff0dd">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="2c18b376-d4f5-4d87-a448-97113b0374e6">
+          <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+          <ColumnID>SecondAnalyticalCodeLevel4Label1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5f881cf4-6934-46a1-85d0-c1dbacb90a29">
+      <ID>Second Analytical Code</ID>
+      <Name>Repository Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6bed83d6-f560-4301-9340-2a361a2b4a67">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1fbdb96f-e25f-4f24-b7f4-b39a939255ef">
+            <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+            <ColumnID>SecondAnalyticalCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6645b1a3-439c-461b-b914-6ea0ef2e1b38">
+      <ID>Second Analytical Code Level0 Label1</ID>
+      <Name>Level0 Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="60b6ebdd-6fc6-404f-84e4-0c66e8db9273">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4e592af7-8568-4d94-8d0a-54a78d623894">
+            <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+            <ColumnID>SecondAnalyticalCodeLevel0Label1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4964e92a-d662-4255-880c-17b9dbf8da46">
+      <ID>Second Analytical Code Level1 Label1</ID>
+      <Name>Level1 Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f19af62b-869f-45e3-b02c-d566309ca67c">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="23a1e9e4-010b-484d-a543-40b077f97b82">
+            <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+            <ColumnID>SecondAnalyticalCodeLevel1Label1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="35a33826-6c28-4e1b-9011-d1d82b6218bf">
+      <ID>Second Analytical Code Level2 Label1</ID>
+      <Name>Level2 Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2d8a2255-1b0f-40c7-b55c-2de59c409577">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="292d5c2e-a78b-4401-9c86-69535a9b5395">
+            <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+            <ColumnID>SecondAnalyticalCodeLevel2Label1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3676dfcf-cc4b-42cc-81fd-17591ccf181e">
+      <ID>Second Analytical Code Level3 Label1</ID>
+      <Name>Level3 Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d81a435f-c2d8-4608-82d7-be39c5ca81a7">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="20607844-99a7-4f2b-916c-ed8eadef6628">
+            <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+            <ColumnID>SecondAnalyticalCodeLevel3Label1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1dc6fd10-91ee-42c5-8056-449f76319c26">
+      <ID>Second Analytical Code Level4 Label1</ID>
+      <Name>Level4 Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c151d3b7-889d-44fb-a308-bcac3758e9f4">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="78c3581e-bb63-4777-9f0e-0a94ef12717a">
+            <TableID>dbo_DIM_SecondAnalyticalCode</TableID>
+            <ColumnID>SecondAnalyticalCodeLevel4Label1</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="cbbc0dc0-a729-4014-95ab-f71bf55f6e2a">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="8e51f363-2915-443a-9695-940abae66260">
+          <ID>Second Analytical Code Level0</ID>
+          <Name>Level0</Name>
+          <SourceAttributeID>Second Analytical Code Level0</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="880c89ee-8f0b-49e1-8614-e9e576fb59a8">
+          <ID>Second Analytical Code Level1</ID>
+          <Name>Level1</Name>
+          <SourceAttributeID>Second Analytical Code Level1</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="88ee6d6c-6bf5-408e-b344-0f2039f7a51c">
+          <ID>Second Analytical Code Level2</ID>
+          <Name>Level2</Name>
+          <SourceAttributeID>Second Analytical Code Level2</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="df385337-599a-4ce5-aad5-2023161be626">
+          <ID>Second Analytical Code Level3</ID>
+          <Name>Level3</Name>
+          <SourceAttributeID>Second Analytical Code Level3</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="e3c92342-7004-44f5-abbb-cf2d57b81c31">
+          <ID>Second Analytical Code Level4</ID>
+          <Name>Level4</Name>
+          <SourceAttributeID>Second Analytical Code Level4</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="4ceef1c2-e494-4778-aeac-10c416d35e94">
+          <ID>Second Analytical Code Level5</ID>
+          <Name>Level5</Name>
+          <SourceAttributeID>Second Analytical Code Level5</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="561f34cc-dbac-4ce1-a209-8c896c044bb4">
+          <ID>Second Analytical Code Level6</ID>
+          <Name>Level6</Name>
+          <SourceAttributeID>Second Analytical Code Level6</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="eb6f9709-7b62-444e-8fe1-33a98f368fb8">
+          <ID>Second Analytical Code Level7</ID>
+          <Name>Level7</Name>
+          <SourceAttributeID>Second Analytical Code Level7</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="e022b9c5-6764-4842-b5fa-62246c233909">
+          <ID>Second Analytical Code Level8</ID>
+          <Name>Level8</Name>
+          <SourceAttributeID>Second Analytical Code Level8</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="c1c78c3a-8c3d-4f59-af4d-734c516e325b">
+          <ID>Second Analytical Code Level9</ID>
+          <Name>Level9</Name>
+          <SourceAttributeID>Second Analytical Code Level9</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
 </Dimension>

@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3563f84c-0c63-4c63-a6c1-d6977be41ab9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9f1f6353-343b-4ce0-8dde-c5e9a2847716" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DIM Accounting Plan</ID>
   <Name>DIM Accounting Plan</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2851" scrolltop="-4869" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7382" y="21325" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3366" scrolltop="-8229" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11642" y="16854" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,9 +19,9 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DIM_AccountingPlan" left="46" top="-11906" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4339" height="22066" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DIM_AccountingPlan" left="-377" top="-6615" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="12647" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="00080000f310000032560000" />
+              <ddsxmlobjectstreaminitwrapper binary="000800000e11000067310000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -47,19 +47,19 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-2851</Value>
+      <Value>-3366</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-4869</Value>
+      <Value>-8229</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>46</Value>
+      <Value>-377</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>-11906</Value>
+      <Value>-6615</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -68,80 +68,68 @@
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
       <Value>
-        <DiagramLayout ZoomPercent="50" ViewPortX="0" ViewPortY="0" xmlns="">
-          <Shapes NodeWidth="173">
-            <Shape Id="Accounting Plan Path SK" Expanded="true">
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="162">
+            <Shape Id="Accounting Plan SK" Expanded="false">
               <Attributes>
-                <Attribute Id="Accounting Plan Path SK" />
-                <Attribute Id="Account Is Interco" />
+                <Attribute Id="Accounting Plan SK" />
+                <Attribute Id="Accounting Plan Num" />
               </Attributes>
               <Position x="20" y="20" />
             </Shape>
-            <Shape Id="Account Level6 Num" Expanded="true">
+            <Shape Id="Account Level9 Num" Expanded="false">
+              <Attributes>
+                <Attribute Id="Account Level9 Num" />
+              </Attributes>
+              <Position x="227" y="20" />
+            </Shape>
+            <Shape Id="Account Level8 Num" Expanded="false">
+              <Attributes>
+                <Attribute Id="Account Level8 Num" />
+              </Attributes>
+              <Position x="227" y="68" />
+            </Shape>
+            <Shape Id="Account Level7 Num" Expanded="false">
+              <Attributes>
+                <Attribute Id="Account Level7 Num" />
+              </Attributes>
+              <Position x="227" y="116" />
+            </Shape>
+            <Shape Id="Account Level6 Num" Expanded="false">
               <Attributes>
                 <Attribute Id="Account Level6 Num" />
-                <Attribute Id="Account Level6 Label DE" />
-                <Attribute Id="Account Level6 Label EN" />
-                <Attribute Id="Account Level6 Label FR" />
-                <Attribute Id="Account Level6 Label NL" />
               </Attributes>
-              <Position x="241" y="20" />
+              <Position x="227" y="164" />
             </Shape>
             <Shape Id="Account Level5 Num" Expanded="false">
               <Attributes>
                 <Attribute Id="Account Level5 Num" />
-                <Attribute Id="Account Level5 Label DE" />
-                <Attribute Id="Account Level5 Label EN" />
-                <Attribute Id="Account Level5 Label FR" />
-                <Attribute Id="Account Level5 Label NL" />
               </Attributes>
-              <Position x="241" y="152" />
+              <Position x="227" y="212" />
             </Shape>
             <Shape Id="Account Level4 Num" Expanded="false">
               <Attributes>
                 <Attribute Id="Account Level4 Num" />
-                <Attribute Id="Account Level4 Label DE" />
-                <Attribute Id="Account Level4 Label EN" />
-                <Attribute Id="Account Level4 Label FR" />
-                <Attribute Id="Account Level4 Label NL" />
               </Attributes>
-              <Position x="241" y="200" />
+              <Position x="227" y="260" />
             </Shape>
             <Shape Id="Account Level3 Num" Expanded="false">
               <Attributes>
                 <Attribute Id="Account Level3 Num" />
-                <Attribute Id="Account Level3 Label DE" />
-                <Attribute Id="Account Level3 Label EN" />
-                <Attribute Id="Account Level3 Label FR" />
-                <Attribute Id="Account Level3 Label NL" />
               </Attributes>
-              <Position x="241" y="248" />
+              <Position x="227" y="308" />
             </Shape>
             <Shape Id="Account Level2 Num" Expanded="false">
               <Attributes>
                 <Attribute Id="Account Level2 Num" />
-                <Attribute Id="Account Level2 Label DE" />
-                <Attribute Id="Account Level2 Label EN" />
-                <Attribute Id="Account Level2 Label FR" />
-                <Attribute Id="Account Level2 Label NL" />
               </Attributes>
-              <Position x="241" y="296" />
+              <Position x="227" y="356" />
             </Shape>
-            <Shape Id="Account Label" Expanded="false">
-              <Attributes>
-                <Attribute Id="Account Label" />
-              </Attributes>
-              <Position x="241" y="344" />
-            </Shape>
-            <Shape Id="Account Level1 Num" Expanded="true">
+            <Shape Id="Account Level1 Num" Expanded="false">
               <Attributes>
                 <Attribute Id="Account Level1 Num" />
-                <Attribute Id="Account Level1 Label DE" />
-                <Attribute Id="Account Level1 Label EN" />
-                <Attribute Id="Account Level1 Label FR" />
-                <Attribute Id="Account Level1 Label NL" />
               </Attributes>
-              <Position x="241" y="392" />
+              <Position x="227" y="404" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -150,656 +138,248 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="159fb6b6-e5d2-424f-b08b-68701f7b1dfc">
-    <DataSourceViewID>DWH_BI_DSW</DataSourceViewID>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="975319a5-da56-4136-8d58-a0ccfedcfdc0">
+    <DataSourceViewID>DWH BI</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="74598e33-f78f-4b3d-95a7-47d7055bf9b2">
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="aada448b-4307-4c08-be12-aee9e144fda3">
     <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="0662c285-5cc9-4c3f-aec4-3b043c4d2eaf">
-      <ID>Accounting Plan Path SK</ID>
-      <Name>Accounting Plan Num</Name>
+    <Attribute dwd:design-time-name="872dbfd2-0f94-4b89-ba5d-0502fc9a560e">
+      <ID>Accounting Plan SK</ID>
+      <Name>Accounting Plan SK</Name>
       <Usage>Key</Usage>
-      <EstimatedCount>1627</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4591d60f-fe37-4770-8189-39ea100765f0">
+        <KeyColumn dwd:design-time-name="1be2ecaf-8b26-4672-8927-a34e4f567ed2">
+          <NullProcessing>UnknownMember</NullProcessing>
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4b83b418-a90d-4176-adc6-d2ff570e2414">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9e2b2b88-4204-4352-b3d5-09b3de59641f">
             <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountingPlanPathSK</ColumnID>
+            <ColumnID>AccountingPlanSK</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="456a88ed-8349-4dc1-99e7-755a622e6008">
-        <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="c99d92ae-a9e1-4e09-95aa-b19ba1171589">
-          <TableID>dbo_DIM_AccountingPlan</TableID>
-          <ColumnID>AccountingPlanNum</ColumnID>
-        </Source>
-      </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="584c5058-2cee-4930-b35b-628ac19ffdd0">
-          <AttributeID>Account Is Interco</AttributeID>
-          <Name>Account Is Interco</Name>
+        <AttributeRelationship dwd:design-time-name="3306ec0b-e85b-44a4-bf5a-d5169fd36429">
+          <AttributeID>Accounting Plan Num</AttributeID>
+          <Name>Accounting Plan Num</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="0555c013-a324-46f0-861d-5e9f31eb5c96">
+        <AttributeRelationship dwd:design-time-name="cec37838-615e-4cfd-9e98-a9073947bddd">
           <AttributeID>Account Level1 Num</AttributeID>
           <Name>Account Level1 Num</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7fba908d-2c16-49f4-8bf7-a23ea6b9b0d8">
-          <AttributeID>Account Label</AttributeID>
-          <Name>Account Label</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="260818fd-bb67-48ce-a2a8-b0fb040b3439">
+        <AttributeRelationship dwd:design-time-name="f4b54a6c-9a88-4ea9-8241-e7074ba6ed73">
           <AttributeID>Account Level2 Num</AttributeID>
           <Name>Account Level2 Num</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="224b27b9-6460-4b17-8d33-0f616e9e5001">
+        <AttributeRelationship dwd:design-time-name="83f62c8b-24eb-480f-a190-113588d3e238">
           <AttributeID>Account Level3 Num</AttributeID>
           <Name>Account Level3 Num</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9a299bdd-02f0-4d6a-9170-0e3d2aa305c0">
+        <AttributeRelationship dwd:design-time-name="90c7e760-1c2c-4a56-a323-77631cd6e637">
           <AttributeID>Account Level4 Num</AttributeID>
           <Name>Account Level4 Num</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="52e41d84-77ee-45e1-9eb7-f7f512e3a4da">
+        <AttributeRelationship dwd:design-time-name="53a37f3d-727b-4f7f-920e-f5d3395ddc50">
           <AttributeID>Account Level5 Num</AttributeID>
           <Name>Account Level5 Num</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="0bd7b869-0714-40cd-a298-b5c47a32c6a6">
+        <AttributeRelationship dwd:design-time-name="879e5433-cd19-470c-b7f1-3b877ad6e3c7">
           <AttributeID>Account Level6 Num</AttributeID>
           <Name>Account Level6 Num</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="67e4fde9-09e5-4b47-9da1-01a777363fca">
+          <AttributeID>Account Level7 Num</AttributeID>
+          <Name>Account Level7 Num</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a9aff7ee-78a7-43fd-a7be-1492a8e7e6a9">
+          <AttributeID>Account Level8 Num</AttributeID>
+          <Name>Account Level8 Num</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8f5b9f03-e1c5-4475-ae13-0069d48fe0be">
+          <AttributeID>Account Level9 Num</AttributeID>
+          <Name>Account Level9 Num</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a1e449fe-5bf9-46c5-95eb-4d1b91d0e5f1">
+          <AttributeID>Account Label</AttributeID>
+          <Name>Account Label</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="135990ec-4a7d-473b-8d0f-d7982f360ba9">
-      <ID>Account Level1 Num</ID>
-      <Name>Account Level1 Num</Name>
-      <EstimatedCount>9</EstimatedCount>
+    <Attribute dwd:design-time-name="baf4bdb9-0bb4-4947-bdfc-59f7d6dbe082">
+      <ID>Accounting Plan Num</ID>
+      <Name>Accounting Plan Num</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d2b3daa8-d404-4c54-af52-781d9d566f68">
+        <KeyColumn dwd:design-time-name="140942a7-110f-4c58-8cad-980ea8bc0d84">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="919161f7-64a0-435b-9e25-f2f11234b1aa">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6d46d143-0837-4df0-98e7-b9136fe0a1ea">
+            <TableID>dbo_DIM_AccountingPlan</TableID>
+            <ColumnID>AccountingPlanNum</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ed94e698-2b05-40f0-a22a-6d48260da4a4">
+      <ID>Account Level1 Num</ID>
+      <Name>Account Level1 Num</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d75197bb-3747-4dcc-a2c2-54a04ab2f930">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4942c911-c34c-4351-87bd-74a83f50922b">
             <TableID>dbo_DIM_AccountingPlan</TableID>
             <ColumnID>AccountLevel1Num</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="bb6a5245-43a4-451c-8d24-80adfac88808">
-          <AttributeID>Account Level1 Label FR</AttributeID>
-          <Name>Account Level1 Label FR</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ccc2957c-f22d-429f-b694-61ff6d3e6b3b">
-          <AttributeID>Account Level1 Label EN</AttributeID>
-          <Name>Account Level1 Label EN</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="0f1e2f6f-4cf3-479e-a962-1feaa59f6b8e">
-          <AttributeID>Account Level1 Label NL</AttributeID>
-          <Name>Account Level1 Label NL</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="0617fc16-a4fb-44c6-9e8d-bd87ed88800b">
-          <AttributeID>Account Level1 Label DE</AttributeID>
-          <Name>Account Level1 Label DE</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e6b8a743-65e0-4c5c-bda7-298d9f21878c">
+    <Attribute dwd:design-time-name="963c14dc-81bc-4a04-a40a-e7bdb04cd047">
       <ID>Account Level2 Num</ID>
       <Name>Account Level2 Num</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ecf5493c-7bd3-49ac-9acb-d72196ae3d5e">
+        <KeyColumn dwd:design-time-name="e78481c0-ce2e-47d2-b299-831025a47e02">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ce6a0025-f1b7-4034-a3cb-e3371b11cb5e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9b3c20eb-55cf-49a6-afa8-ef20897c6e25">
             <TableID>dbo_DIM_AccountingPlan</TableID>
             <ColumnID>AccountLevel2Num</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="e30252a9-3c07-4e05-9ecc-ffa184288f29">
-          <AttributeID>Account Level2 Label FR</AttributeID>
-          <Name>Account Level2 Label FR</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="35deaa24-1769-4c8f-9fa2-ca8ea07d5c82">
-          <AttributeID>Account Level2 Label EN</AttributeID>
-          <Name>Account Level2 Label EN</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="be223151-86e9-4afe-8bd8-b486df9688a2">
-          <AttributeID>Account Level2 Label NL</AttributeID>
-          <Name>Account Level2 Label NL</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ee7eb794-f46b-41dd-a727-b066164b2b1d">
-          <AttributeID>Account Level2 Label DE</AttributeID>
-          <Name>Account Level2 Label DE</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c8d8f34b-8a62-47e2-bdd3-e5d8477855b6">
+    <Attribute dwd:design-time-name="1424310e-5b15-40d3-8c30-9f577cabd1f2">
       <ID>Account Level3 Num</ID>
       <Name>Account Level3 Num</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="81d44b7b-1292-4ab3-a81d-e01b6ba0b5f7">
+        <KeyColumn dwd:design-time-name="7d64d9ed-41b7-4011-bcbc-7be923da5c3d">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="92766620-82d2-4fdc-9f0c-4a91af5287ee">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c5a9fe92-a8a0-4978-8afe-f6fca461ed13">
             <TableID>dbo_DIM_AccountingPlan</TableID>
             <ColumnID>AccountLevel3Num</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="296ce409-6af6-402c-8311-05f322cda4fa">
-          <AttributeID>Account Level3 Label FR</AttributeID>
-          <Name>Account Level3 Label FR</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d4702059-32b1-48b7-b858-ae3438ba53bb">
-          <AttributeID>Account Level3 Label EN</AttributeID>
-          <Name>Account Level3 Label EN</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7b0aa2bb-d887-45c9-b9e1-9268fc1bb647">
-          <AttributeID>Account Level3 Label NL</AttributeID>
-          <Name>Account Level3 Label NL</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="cc39d1f6-129b-4d4d-ac49-a17fa13dc4e6">
-          <AttributeID>Account Level3 Label DE</AttributeID>
-          <Name>Account Level3 Label DE</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="be0b9cce-69d0-460a-9f4e-3189eeaed8d9">
+    <Attribute dwd:design-time-name="c2122b37-a0a5-40bb-961c-cf3252c2d3d3">
       <ID>Account Level4 Num</ID>
       <Name>Account Level4 Num</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e8a6ecfa-7c6c-498d-b5b6-bbba895d6d2d">
+        <KeyColumn dwd:design-time-name="e07140d5-ed7f-417a-8128-a443f2d11db1">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8c291f15-c357-4321-a85b-0d2d966ab318">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="50ace539-dea4-4b82-a94b-a2c3aad09ba7">
             <TableID>dbo_DIM_AccountingPlan</TableID>
             <ColumnID>AccountLevel4Num</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="412fa362-73a0-44f1-996b-abc8120ba08b">
-          <AttributeID>Account Level4 Label FR</AttributeID>
-          <Name>Account Level4 Label FR</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="313d0d8b-8cdc-44ab-a257-330399bebe6b">
-          <AttributeID>Account Level4 Label EN</AttributeID>
-          <Name>Account Level4 Label EN</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="70adb13e-c42a-4853-80dd-2902a9aadc28">
-          <AttributeID>Account Level4 Label NL</AttributeID>
-          <Name>Account Level4 Label NL</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d51e92d6-fae3-4326-abe3-0496bc4a5a1c">
-          <AttributeID>Account Level4 Label DE</AttributeID>
-          <Name>Account Level4 Label DE</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d941d404-b701-4bbc-95de-705661fd3950">
+    <Attribute dwd:design-time-name="8d56f04d-e953-4b47-8129-0a62a4aa5e96">
       <ID>Account Level5 Num</ID>
       <Name>Account Level5 Num</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="66e1a3c8-028e-4175-9f8a-edb4ee903a9f">
+        <KeyColumn dwd:design-time-name="92ea66ca-3f6c-40f6-b8fd-d33c3ada5c6e">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0d28a4b5-5ab5-4df2-b58c-f5986aa33228">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="65e0458c-487f-4c87-ab8f-5a74c0428c71">
             <TableID>dbo_DIM_AccountingPlan</TableID>
             <ColumnID>AccountLevel5Num</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="0929ea57-f01d-432e-81f4-31a6e92e8eb4">
-          <AttributeID>Account Level5 Label FR</AttributeID>
-          <Name>Account Level5 Label FR</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="85d3172c-8c3c-4795-a5ff-a1dcadb4ba5c">
-          <AttributeID>Account Level5 Label EN</AttributeID>
-          <Name>Account Level5 Label EN</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="794fa6e6-8917-47ec-8209-ddc6c9e84588">
-          <AttributeID>Account Level5 Label NL</AttributeID>
-          <Name>Account Level5 Label NL</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="bc0c63b4-8c5e-4508-ac03-2000ac5fba9a">
-          <AttributeID>Account Level5 Label DE</AttributeID>
-          <Name>Account Level5 Label DE</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="cbc77f16-0d7d-4334-b775-08aabc972f65">
+    <Attribute dwd:design-time-name="e32757d6-6e41-4794-8e24-dd35f62ee4f2">
       <ID>Account Level6 Num</ID>
       <Name>Account Level6 Num</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c9b22ffd-2b0e-47c7-8c8a-52974b078f02">
+        <KeyColumn dwd:design-time-name="83c8c1de-1466-4742-98c3-9506ff1ca51d">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0e505bc6-df43-4b60-84d0-9e0ffcd0fad5">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94eaaa63-ab26-4bc2-a984-e4925fb57397">
             <TableID>dbo_DIM_AccountingPlan</TableID>
             <ColumnID>AccountLevel6Num</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="04c5917f-7b4f-4d1f-a349-59c3983972e1">
-          <AttributeID>Account Level6 Label EN</AttributeID>
-          <Name>Account Level6 Label EN</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7a3b85d8-f314-4476-98fb-2cbc45564397">
-          <AttributeID>Account Level6 Label FR</AttributeID>
-          <Name>Account Level6 Label FR</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="fb6b1058-cfd7-4dd6-b628-f84bc229bc4a">
-          <AttributeID>Account Level6 Label NL</AttributeID>
-          <Name>Account Level6 Label NL</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="063a64cc-0fb7-47eb-bc9a-462adf7d6151">
-          <AttributeID>Account Level6 Label DE</AttributeID>
-          <Name>Account Level6 Label DE</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="569d6539-3e44-4213-9ec9-7a8b2ba4c0c8">
-      <ID>Account Is Interco</ID>
-      <Name>Account Is Interco</Name>
+    <Attribute dwd:design-time-name="59825e8c-09fc-478e-b948-11071004c579">
+      <ID>Account Level7 Num</ID>
+      <Name>Account Level7 Num</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d48a2a31-8907-4265-bf44-eed336b3d64c">
-          <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ee915e8f-d59f-41bd-9259-8cb04de31d87">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountIsInterco</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="49988560-c956-4d93-8607-117b667c700e">
-      <ID>Account Level1 Label FR</ID>
-      <Name>Account Level1 Label FR</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="104e3b8a-3e60-45f7-8d3a-ec0e00384a62">
+        <KeyColumn dwd:design-time-name="3915ab3a-1cc4-468b-9637-802351d6e2dc">
           <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="aacde4af-7572-4f33-a0fe-bdaa42433c3a">
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9c33c33b-b9d0-4330-b97c-83abb8acb04f">
             <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel1LabelFR</ColumnID>
+            <ColumnID>AccountLevel7Num</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="aa704b88-363a-443f-a9e5-6e61a29f2b24">
-      <ID>Account Level1 Label EN</ID>
-      <Name>Account Level1 Label EN</Name>
+    <Attribute dwd:design-time-name="65ad4816-6e08-4120-a5ce-90032614de75">
+      <ID>Account Level8 Num</ID>
+      <Name>Account Level8 Num</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9ceb6fd4-ed47-4d97-8473-b66e31abba94">
+        <KeyColumn dwd:design-time-name="0fb96ba2-ec48-4d57-bf24-24dc9810d092">
           <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="30a439a0-6099-4705-8ac2-7971d9774e1f">
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c31fb231-5983-47e3-b5ce-8ee5cac69213">
             <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel1LabelEN</ColumnID>
+            <ColumnID>AccountLevel8Num</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="9199e016-2ec8-43e7-85dc-21b34963c80d">
-      <ID>Account Level1 Label NL</ID>
-      <Name>Account Level1 Label NL</Name>
+    <Attribute dwd:design-time-name="8aecaa7d-58c8-4d31-9551-2c9f12caa35f">
+      <ID>Account Level9 Num</ID>
+      <Name>Account Level9 Num</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b59b1e03-4475-4af0-b038-d92882bb1c89">
+        <KeyColumn dwd:design-time-name="e77b69cd-6a3b-4108-a3e4-967f10119a37">
           <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="5912d78d-b204-4bdc-9a58-446d05a0c1f6">
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c97864d5-d488-46fb-99a5-edc681c425b5">
             <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel1LabelNL</ColumnID>
+            <ColumnID>AccountLevel9Num</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="12edbdac-6ac3-40c6-bc64-c3888c59e993">
-      <ID>Account Level1 Label DE</ID>
-      <Name>Account Level1 Label DE</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="feb8bc45-5a1d-41ac-ac85-83f94b454adc">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="077c7087-a19f-45e3-9b3a-a1f271c03993">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel1LabelDE</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="9f67d272-f813-42aa-927e-f2a8d3cdd782">
-      <ID>Account Level2 Label FR</ID>
-      <Name>Account Level2 Label FR</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="9b9c7935-83c7-45c4-9930-9e6b9dbe5b00">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="fe0c8120-faea-40e8-a3a2-8073ea835b35">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel2LabelFR</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="147bff7f-bdcc-4861-bffc-ad880e24803a">
-      <ID>Account Level2 Label EN</ID>
-      <Name>Account Level2 Label EN</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="8955a7a2-f7a0-4749-9154-da6dcb7e807e">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="444d58f2-7e8b-444e-a07a-5bab8801f775">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel2LabelEN</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="c0d1beb4-a054-45bc-9fd3-eca1d8889293">
-      <ID>Account Level2 Label NL</ID>
-      <Name>Account Level2 Label NL</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="61fff088-42f9-41cb-acc1-035e14a70434">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cb26fe1a-533a-4dd3-8ec3-71436bf2438f">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel2LabelNL</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="47dd7a97-c45d-41c5-a68d-4f6340131204">
-      <ID>Account Level2 Label DE</ID>
-      <Name>Account Level2 Label DE</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="9ce8ffed-8e01-49e4-8f51-157c50c25af5">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="fb8bfa86-96c1-4190-a229-360438fe7dc3">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel2LabelDE</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="dbd32a7c-0319-42b8-8c0a-a14db508fbad">
-      <ID>Account Level3 Label FR</ID>
-      <Name>Account Level3 Label FR</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="c595e6bd-0f6a-421d-aea7-6e96bbd5368a">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7dc803af-bf49-4e69-af0f-96e09daf14d9">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel3LabelFR</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="1d2688e0-d6df-4e00-9a04-dfe03a46d596">
-      <ID>Account Level3 Label EN</ID>
-      <Name>Account Level3 Label EN</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="e88bbfc4-d3eb-4d31-94a7-4be8c4627fe7">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="113e8331-3333-4814-8571-9ac86162ba58">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel3LabelEN</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="40c9514b-ce4a-4111-a02d-f321b213d57d">
-      <ID>Account Level3 Label NL</ID>
-      <Name>Account Level3 Label NL</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="8e71e322-8281-4c6b-a752-8167cfe5693d">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="256d0d53-13c7-40e1-86f0-61166160ca1c">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel3LabelNL</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="73dc5ea8-5e09-4cb6-8f73-f584769f93e1">
-      <ID>Account Level3 Label DE</ID>
-      <Name>Account Level3 Label DE</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="4ae91d81-83b7-40cb-9907-d3ecbd686d42">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="87f668e4-ea2b-49d3-ba31-c4740a49957a">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel3LabelDE</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <MembersWithData>NonLeafDataHidden</MembersWithData>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="9a241110-1061-40ba-a7dc-2e71c4c126ca">
-      <ID>Account Level4 Label FR</ID>
-      <Name>Account Level4 Label FR</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="c72706a7-a2f6-42a8-9126-c1933f1c0b9e">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="308425ed-31c8-473a-94ed-1c5690628952">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel4LabelFR</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="66afab17-8202-4f07-9b44-cc5753ce3a74">
-      <ID>Account Level4 Label EN</ID>
-      <Name>Account Level4 Label EN</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="754c498c-acad-4a39-9763-2bc94cdd94fb">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="59ef01bf-4ded-4dc6-b73c-cfda9b84dea8">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel4LabelEN</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="7d10c5da-885e-4210-be3b-0a480c84c613">
-      <ID>Account Level4 Label NL</ID>
-      <Name>Account Level4 Label NL</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="cf80c25d-b94c-446f-9283-96afece697a4">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3a2ee6ff-1db3-49d4-833f-4484ef52d10c">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel4LabelNL</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="6dd73054-d3d1-4b6f-b4e2-5412c853c237">
-      <ID>Account Level4 Label DE</ID>
-      <Name>Account Level4 Label DE</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="bfd2f3fd-73e8-4b11-905f-670a5cd9b586">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b50eff52-87dc-4b91-ad7d-2924b6ebb402">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel4LabelDE</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="86c6a9d3-3cce-42fc-b2db-c73d0f651728">
-      <ID>Account Level5 Label FR</ID>
-      <Name>Account Level5 Label FR</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="24df4b1a-06ff-41f7-b19a-c6983cc318c3">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4fa2fb1c-a074-46cb-b6be-7d154d969268">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel5LabelFR</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="fa7d769e-f1cf-44cd-a65a-d0d99dfcf588">
-      <ID>Account Level5 Label EN</ID>
-      <Name>Account Level5 Label EN</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="d5c06d7c-d788-4467-8b61-9132c6570e3d">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3d1bf201-a119-4204-8786-a4fbf9013ba3">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel5LabelEN</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="50bf5bfa-a8cf-4858-9a04-2ce3550f693b">
-      <ID>Account Level5 Label NL</ID>
-      <Name>Account Level5 Label NL</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="74970855-e627-4135-b2a0-d0a6e5d2b34d">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="da141013-1dd8-4b95-ab27-0489e611c696">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel5LabelNL</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="4fe64207-c177-4f1a-8c0f-0dfb4c0151f5">
-      <ID>Account Level5 Label DE</ID>
-      <Name>Account Level5 Label DE</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="2a427a22-b1ee-42ee-9fd8-b277f0bb10d3">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="df60ba81-303a-4f02-92b0-0ce3195375f0">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel5LabelDE</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="339dd441-9282-4f94-9679-dcf28e284fec">
-      <ID>Account Level6 Label FR</ID>
-      <Name>Account Level6 Label FR</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="80ea6f49-34e8-4ccd-a5f3-750163c5ab55">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="89d41823-c1ab-4c78-b8bd-b52d360cadc8">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel6LabelFR</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="74b56059-fbe8-4a44-baa8-5ed31dd931bc">
-      <ID>Account Level6 Label EN</ID>
-      <Name>Account Level6 Label EN</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="0b5de60c-27b4-4d86-ac13-4008696d3f39">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="accc0748-49af-476d-aee7-70b5f7544d8d">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel6LabelEN</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="d4ec558b-a064-4819-944d-5dcb0e91a363">
-      <ID>Account Level6 Label NL</ID>
-      <Name>Account Level6 Label NL</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="3e9cac01-d1ca-42bb-9013-94bbe6584206">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="29d89ddf-3ad6-42b3-98b5-36ab4231a651">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel6LabelNL</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="4ab0ad6d-df7c-4140-b4a3-de685aed8cf9">
-      <ID>Account Level6 Label DE</ID>
-      <Name>Account Level6 Label DE</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="04769ac5-aad6-4253-bc7d-7101db26ccc4">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="021d4ef7-76ed-4583-9217-3fa260953d28">
-            <TableID>dbo_DIM_AccountingPlan</TableID>
-            <ColumnID>AccountLevel6LabelDE</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="557ee8d8-a753-4420-8458-7376111f2d09">
+    <Attribute dwd:design-time-name="83b10cd1-8f7d-4cfd-b5a8-6ade048a0ffa">
       <ID>Account Label</ID>
       <Name>Account Label</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9072b029-5c4a-4cc1-91c1-b85126fa0f18">
+        <KeyColumn dwd:design-time-name="e24ea58d-a716-488e-b493-279dd71fe2c1">
           <DataType>WChar</DataType>
-          <DataSize>83</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cb86dfcf-c09f-4c00-919f-c8207f565cbc">
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d443e3fe-5e52-4143-9038-6b5352578b1e">
             <TableID>dbo_DIM_AccountingPlan</TableID>
             <ColumnID>AccountLabel</ColumnID>
           </Source>
@@ -809,44 +389,62 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="ee8e30be-e29d-4825-b2e5-da04bc8d26ba">
+    <Hierarchy dwd:design-time-name="283bd50f-8a6a-4756-b303-7062696fd5ac">
       <ID>Hierarchy</ID>
-      <Name>Accounting Plan</Name>
+      <Name>Chart Of Accounts</Name>
       <Levels>
-        <Level dwd:design-time-name="d4331a7f-cd92-46de-ba09-9b9a08956382">
+        <Level dwd:design-time-name="209f95b1-a78a-47ad-9e71-6d3bf52557a3">
           <ID>Account Level1 Num</ID>
-          <Name>Account Level 1</Name>
+          <Name>Account Level1</Name>
           <SourceAttributeID>Account Level1 Num</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="1817599a-e4b1-4fb4-be9a-abb9cd992912">
+        <Level dwd:design-time-name="e9fa3813-d923-4103-9fb0-1cc867bc0531">
           <ID>Account Level2 Num</ID>
-          <Name>Account Level 2</Name>
+          <Name>Account Level2</Name>
           <SourceAttributeID>Account Level2 Num</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
         </Level>
-        <Level dwd:design-time-name="91f4cd03-43cb-4ac7-bef0-e3d8928e6ca5">
+        <Level dwd:design-time-name="cf20d490-516b-4808-8085-b9088240dd0b">
           <ID>Account Level3 Num</ID>
-          <Name>Account Level 3</Name>
+          <Name>Account Level3</Name>
           <SourceAttributeID>Account Level3 Num</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
         </Level>
-        <Level dwd:design-time-name="8c4a3966-17e5-4aae-be9c-388c3de931a2">
+        <Level dwd:design-time-name="3dd17d46-2a10-446a-9b28-b370109358dc">
           <ID>Account Level4 Num</ID>
-          <Name>Account Level 4</Name>
+          <Name>Account Level4</Name>
           <SourceAttributeID>Account Level4 Num</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
         </Level>
-        <Level dwd:design-time-name="dbb974fd-0e00-4c66-afb1-c943ae611b28">
+        <Level dwd:design-time-name="4c7968b9-879c-49db-801a-087aeab58c84">
           <ID>Account Level5 Num</ID>
-          <Name>Account Level 5</Name>
+          <Name>Account Level5</Name>
           <SourceAttributeID>Account Level5 Num</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
         </Level>
-        <Level dwd:design-time-name="525752b0-f6c6-4f28-9569-19a3a2ae50b1">
+        <Level dwd:design-time-name="6f686609-0ef4-4166-9310-7a40234d2364">
           <ID>Account Level6 Num</ID>
-          <Name>Account Level 6</Name>
+          <Name>Account Level6</Name>
           <SourceAttributeID>Account Level6 Num</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
         </Level>
-        <Level dwd:design-time-name="c56d1704-413f-4fb3-9f4c-79c686c4da5b">
-          <ID>Account Label</ID>
-          <Name>Account Label</Name>
-          <SourceAttributeID>Account Label</SourceAttributeID>
+        <Level dwd:design-time-name="caa95b96-08cf-4532-81b4-7ab4f66de2b1">
+          <ID>Account Level7 Num</ID>
+          <Name>Account Level7</Name>
+          <SourceAttributeID>Account Level7 Num</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="ffa92697-206c-4ff0-8f90-6d89c717642a">
+          <ID>Account Level8 Num</ID>
+          <Name>Account Level8</Name>
+          <SourceAttributeID>Account Level8 Num</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level dwd:design-time-name="8c61e49d-c7fc-4964-8ad5-e60952ff103f">
+          <ID>Account Level9 Num</ID>
+          <Name>Account Level9</Name>
+          <SourceAttributeID>Account Level9 Num</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
         </Level>
       </Levels>
     </Hierarchy>

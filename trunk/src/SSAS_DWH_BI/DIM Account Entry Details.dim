@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3295658e-eb60-4f50-8c9e-5032446404e6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f6647d30-1cd7-463d-a0ea-2b6bd4111aa8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DIM Account Entry Details</ID>
   <Name>DIM Account Entry Details</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3195" scrolltop="-8255" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12621" y="21325" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3234" scrolltop="-5636" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8811" y="21458" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,9 +19,9 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DIM_AccountEntryDetails" left="-509" top="-5080" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4789" height="13467" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DIM_AccountEntryDetails" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5556" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="00080000b51200009b340000" />
+              <ddsxmlobjectstreaminitwrapper binary="00080000b415000088130000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -47,19 +47,19 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-3195</Value>
+      <Value>-3234</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-8255</Value>
+      <Value>-5636</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>-509</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>-5080</Value>
+      <Value>0</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -68,170 +68,63 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="785e59b6-bc2c-44b1-94da-3ec4edc2f27d">
-    <DataSourceViewID>DWH_BI_DSW</DataSourceViewID>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="176b8966-5e56-4500-9e04-f5d338c162c2">
+    <DataSourceViewID>DWH BI</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="8fbc9d68-f6ed-4f40-9575-09328490e078">
+  <ErrorConfiguration dwd:design-time-name="12a96131-b98b-4bfe-b01d-c5dcb3b2004d">
     <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="5e2db411-bec8-4527-a518-14315ece6071">
+    <Attribute dwd:design-time-name="ce04e922-3671-42f9-bcad-fa0b690548fa">
       <ID>Account Entry Details SK</ID>
       <Name>Account Entry ID</Name>
       <Usage>Key</Usage>
-      <EstimatedCount>124749</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c0e0675d-00e2-4106-a528-bbedbd982355">
+        <KeyColumn dwd:design-time-name="12413a81-1ce8-4735-bfbb-f4ef7b340e92">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2941b493-a75c-47f0-a44c-6550b04f3bd8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a22be0da-18a3-4548-8e77-06e1da90df1d">
             <TableID>dbo_DIM_AccountEntryDetails</TableID>
             <ColumnID>AccountEntryDetailsSK</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="791c8fe6-5928-476d-aaeb-f9a9b68244f9">
+      <NameColumn dwd:design-time-name="3432ed51-949b-460f-9d5c-bb1aa33fc6de">
         <DataType>WChar</DataType>
-        <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="a01a5fd4-00e7-420a-ab43-24968a733ea5">
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="3ec67439-3ee4-4066-b8d2-f5fe1b0bc35f">
           <TableID>dbo_DIM_AccountEntryDetails</TableID>
           <ColumnID>AccountEntryID</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="31570955-fac8-4231-b70f-a0d78b8af102">
-          <AttributeID>Account Entry Document Date</AttributeID>
-          <Name>Account Entry Document Date</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="57c8051a-b92b-4ec1-ad6d-cb5254efcfb2">
-          <AttributeID>Account Entry Remarks</AttributeID>
-          <Name>Account Entry Remarks</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="dabbeef4-8aaf-44aa-ae97-edc3e2d7c5bf">
-          <AttributeID>Account Entry Fiscal Year</AttributeID>
-          <Name>Account Entry Fiscal Year</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="2b56220d-dd7a-4f8d-aca4-003559f07c67">
-          <AttributeID>Account Entry Invoice URL</AttributeID>
-          <Name>Account Entry Invoice URL</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="34add6e1-4db6-4a90-9be2-4ef3125cc0f9">
-          <AttributeID>Account Entry Bar Code</AttributeID>
-          <Name>Account Entry Bar Code</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d6433841-7919-4e43-a946-95a804b33ff2">
-          <AttributeID>Account Entry Document</AttributeID>
-          <Name>Account Entry Document</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5a40b49f-13e9-46de-a17a-26202eb3984f">
+        <AttributeRelationship dwd:design-time-name="93c1726f-24e3-41a9-b534-a2f1cb8cba2e">
           <AttributeID>Account Entry Book</AttributeID>
           <Name>Account Entry Book</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="c9117c53-7c39-459c-a1dd-d180d848212c">
-          <AttributeID>Account Entry Label Details</AttributeID>
-          <Name>Account Entry Label Details</Name>
+        <AttributeRelationship dwd:design-time-name="90e33da0-c1c2-486b-b5aa-066c45a64fe4">
+          <AttributeID>Account Entry Document</AttributeID>
+          <Name>Account Entry Document</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2dc84ddc-07ff-48e9-9066-a57098ccac0c">
+          <AttributeID>Account Entry Remarks</AttributeID>
+          <Name>Account Entry Remarks</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b8d89274-db52-47a7-95ca-df571be17615">
-      <ID>Account Entry Document Date</ID>
-      <Name>Account Entry Document Date</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="87f07720-bdf3-45a1-ad79-b413155fec81">
-          <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c8ae15f2-86ce-4ae8-bed3-2bc141d307d5">
-            <TableID>dbo_DIM_AccountEntryDetails</TableID>
-            <ColumnID>AccountEntryDocumentDate</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="2b800d22-0efb-4595-81c9-ae187ba872c0">
-      <ID>Account Entry Remarks</ID>
-      <Name>Account Entry Remarks</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="09311bc4-2888-416a-a025-6cb83e9c8e0f">
-          <DataType>WChar</DataType>
-          <DataSize>500</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8d6d263b-0a36-492e-bcc6-ff27124129f2">
-            <TableID>dbo_DIM_AccountEntryDetails</TableID>
-            <ColumnID>AccountEntryRemarks</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="2e296247-a812-43e3-82f9-2e6453fb5820">
-      <ID>Account Entry Fiscal Year</ID>
-      <Name>Account Entry Fiscal Year</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="1d9d1eb2-99c3-4212-aced-84a7167964ba">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="044ff570-8b23-401c-9849-8f685eba677e">
-            <TableID>dbo_DIM_AccountEntryDetails</TableID>
-            <ColumnID>AccountEntryFiscalYear</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="ea4a9349-0b34-4583-b478-9ac0b3fa50bb">
-      <ID>Account Entry Invoice URL</ID>
-      <Name>Account Entry Invoice URL</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="dbbc8d22-5e96-46ea-937f-c4d146f346cc">
-          <DataType>WChar</DataType>
-          <DataSize>200</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="900e0601-1221-4f6a-9ebd-9e0a770d353a">
-            <TableID>dbo_DIM_AccountEntryDetails</TableID>
-            <ColumnID>AccountEntryInvoiceURL</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="69772c11-33b4-4834-9e51-925ab3e35dfd">
-      <ID>Account Entry Bar Code</ID>
-      <Name>Account Entry Bar Code</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="004b1ed4-1a8b-411b-8d95-553c6de15c10">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dd66b1c4-91d6-41f2-886a-4a99362c6353">
-            <TableID>dbo_DIM_AccountEntryDetails</TableID>
-            <ColumnID>AccountEntryBarCode</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="9eeebddd-4e21-4eba-acc6-939d8b7e6a36">
-      <ID>Account Entry Document</ID>
-      <Name>Account Entry Document</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="4d88476f-6d4a-42ff-9d56-5880b20bd3b0">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="71270bb2-7943-4904-804f-47e570d26138">
-            <TableID>dbo_DIM_AccountEntryDetails</TableID>
-            <ColumnID>AccountEntryDocument</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="4ffd9d35-dee0-4d9e-ab50-036b445e64e9">
+    <Attribute dwd:design-time-name="4f066567-64ec-4511-8234-80be4241b348">
       <ID>Account Entry Book</ID>
       <Name>Account Entry Book</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ad38c9bc-05c8-4bc9-afbf-4b385811bb90">
+        <KeyColumn dwd:design-time-name="61901b4b-d610-4aac-b3d5-3224e9bc6f16">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a2d2318c-9c77-4cd5-bd14-04e9a5bf4bfe">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="acfb4b37-d818-46ba-a9c5-c0de6c77b846">
             <TableID>dbo_DIM_AccountEntryDetails</TableID>
             <ColumnID>AccountEntryBook</ColumnID>
           </Source>
@@ -239,16 +132,31 @@
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="ec3f1d9e-fe90-4234-a4df-68588785e012">
-      <ID>Account Entry Label Details</ID>
-      <Name>Account Entry Label Details</Name>
+    <Attribute dwd:design-time-name="5ec3241b-c80d-4d0b-8c1b-b6b02890db1e">
+      <ID>Account Entry Document</ID>
+      <Name>Account Entry Document</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9ff2bc29-23b4-480c-85b3-4341c175c2fb">
+        <KeyColumn dwd:design-time-name="b4756311-294e-4125-be30-24287c1fae30">
           <DataType>WChar</DataType>
-          <DataSize>700</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ed4ccfe4-6f4e-4d83-8617-8227522f4966">
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b8cdd1c2-0565-43a7-a4f1-44a7ffeff9c2">
             <TableID>dbo_DIM_AccountEntryDetails</TableID>
-            <ColumnID>AccountEntryLabelDetails</ColumnID>
+            <ColumnID>AccountEntryDocument</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6c96b272-004b-4ee7-90af-639c56ea63b0">
+      <ID>Account Entry Remarks</ID>
+      <Name>Account Entry Remarks</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="108ae007-3fa3-4715-b1cf-cdfc8a14f15e">
+          <DataType>WChar</DataType>
+          <DataSize>500</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="eab664e4-6ef7-48a3-a0e6-2f6b7b2e6b18">
+            <TableID>dbo_DIM_AccountEntryDetails</TableID>
+            <ColumnID>AccountEntryRemarks</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
