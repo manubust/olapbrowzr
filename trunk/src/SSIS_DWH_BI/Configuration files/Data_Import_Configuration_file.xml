@@ -4,7 +4,7 @@
 		<DTSConfigurationFileInfo GeneratedBy="manuel.bustamante@metrum.lu" GeneratedFromPackageName="Data Import" GeneratedFromPackageID="{73FDBBD6-1DB8-46BB-93D8-39E24FAE74B9}" GeneratedDate="27/01/2014 15:03:24"/>
 	</DTSConfigurationHeading>
 	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWH BI].Properties[ConnectionString]" ValueType="String">
-		<ConfiguredValue>Data Source=BQDJWW1-PC;Initial Catalog=DWH_BI_HRT;Provider=SQLNCLI10.1;Integrated Security=SSPI;</ConfiguredValue>
+		<ConfiguredValue>Data Source=BQDJWW1-PC;Initial Catalog=DWH_BI_BI4C;Provider=SQLNCLI10.1;Integrated Security=SSPI;</ConfiguredValue>
 	</Configuration>
 	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::CubeHasSecurity].Properties[Value]" ValueType="Boolean">
 		<ConfiguredValue>1</ConfiguredValue>
