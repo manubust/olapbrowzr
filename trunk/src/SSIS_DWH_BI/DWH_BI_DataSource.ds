@@ -3,7 +3,7 @@
   <Name>DWH_BI_DataSource</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-  <ConnectionString>Provider=SQLNCLI10.1;Data Source=CS5WXN1-PC\MSSQLSERVER_R2;Integrated Security=SSPI;Initial Catalog=DWH_Radisson_BI_TEST</ConnectionString>
+  <ConnectionString>Provider=SQLNCLI10.1;Data Source=HPDMLX1-PC;Integrated Security=SSPI;Initial Catalog=DWH_BI</ConnectionString>
   <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
   <Timeout>PT0S</Timeout>
 </DataSource>

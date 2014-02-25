@@ -8,7 +8,7 @@
         <Run64BitRuntime>false</Run64BitRuntime>
         <UserIDs />
         <UserPasswords />
-        <OfflineMode>false</OfflineMode>
+        <OfflineMode>true</OfflineMode>
         <ProgressReporting>true</ProgressReporting>
       </Options>
     </Configuration>
