@@ -14,6 +14,10 @@
       <Name>DWH_BI_DataSource.ds</Name>
       <FullPath>DWH_BI_DataSource.ds</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>BI4C2_DataSource.ds</Name>
+      <FullPath>BI4C2_DataSource.ds</FullPath>
+    </ProjectItem>
   </DataSources>
   <DataSourceViews />
   <MiningModels />
@@ -28,7 +32,12 @@
           <ConfigurationSetting>
             <Id>DWH_BDO_BI_DataSource</Id>
             <Name>DWH_BDO_BI_DataSource</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=CS5WXN1-PC\MSSQLSERVER_R2;Integrated Security=SSPI;Initial Catalog=DWH_Radisson_BI_TEST</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=HPDMLX1-PC;Integrated Security=SSPI;Initial Catalog=DWH_BI</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>BI4C2_DataSource</Id>
+            <Name>BI4C2_DataSource</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=HPDMLX1-PC;Integrated Security=SSPI;Initial Catalog=BI4C2_Radisson</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionProviderMappings />
@@ -36,6 +45,11 @@
           <ConfigurationSetting>
             <Id>DWH_BDO_BI_DataSource</Id>
             <Name>DWH_BDO_BI_DataSource</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>BI4C2_DataSource</Id>
+            <Name>BI4C2_DataSource</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
@@ -62,6 +76,11 @@
     <DtsPackage FormatVersion="3">
       <Name>Create_BI4C_InputFiles.dtsx</Name>
       <FullPath>Create_BI4C_InputFiles.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Update_BI4C_Web.dtsx</Name>
+      <FullPath>Update_BI4C_Web.dtsx</FullPath>
       <References />
     </DtsPackage>
   </DTSPackages>
