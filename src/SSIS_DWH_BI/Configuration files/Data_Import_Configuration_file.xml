@@ -4,7 +4,7 @@
 		<DTSConfigurationFileInfo GeneratedBy="manuel.bustamante@metrum.lu" GeneratedFromPackageName="Data Import" GeneratedFromPackageID="{73FDBBD6-1DB8-46BB-93D8-39E24FAE74B9}" GeneratedDate="27/01/2014 15:03:24"/>
 	</DTSConfigurationHeading>
 	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWH BI].Properties[ConnectionString]" ValueType="String">
-		<ConfiguredValue>Data Source=BQDJWW1-PC;Initial Catalog=DWH_BI_BI4C;Provider=SQLNCLI10.1;Integrated Security=SSPI;</ConfiguredValue>
+		<ConfiguredValue>Data Source=HPDMLX1-PC;Initial Catalog=DWH_BI;Provider=SQLNCLI10.1;Integrated Security=SSPI;</ConfiguredValue>
 	</Configuration>
 	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::CubeHasSecurity].Properties[Value]" ValueType="Boolean">
 		<ConfiguredValue>1</ConfiguredValue>
@@ -34,7 +34,7 @@
 		<ConfiguredValue>0</ConfiguredValue>
 	</Configuration>
 	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::InputFolderPath].Properties[Value]" ValueType="String">
-		<ConfiguredValue>C:\Users\Warda\Documents\Metrum\Project\HRT\03 - Input Files\</ConfiguredValue>
+		<ConfiguredValue>C:\Users\Manuel\Work\Projects\M-Team\03 - Input Files\</ConfiguredValue>
 	</Configuration>
 	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::IsDebitCreditColumnsExists].Properties[Value]" ValueType="Boolean">
 		<ConfiguredValue>0</ConfiguredValue>
@@ -43,7 +43,7 @@
 		<ConfiguredValue>0</ConfiguredValue>
 	</Configuration>
 	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::OutputFolderPath].Properties[Value]" ValueType="String">
-		<ConfiguredValue>C:\Users\Warda\Documents\Metrum\Project\HRT\04 - Output Files\</ConfiguredValue>
+		<ConfiguredValue>C:\Users\Manuel\Work\Projects\M-Team\04 - Output Files\</ConfiguredValue>
 	</Configuration>
 	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::PartitionName].Properties[Value]" ValueType="String">
 		<ConfiguredValue>Default</ConfiguredValue>
@@ -52,10 +52,10 @@
 		<ConfiguredValue>Default</ConfiguredValue>
 	</Configuration>
 	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::QueriesFolderPath].Properties[Value]" ValueType="String">
-		<ConfiguredValue>C:\Users\Warda\Documents\Metrum\Project\HRT\02 - Solution\HRT BI\SSIS_HRT_BI\Queries\</ConfiguredValue>
+		<ConfiguredValue>C:\Users\Manuel\Work\Projects\BI4C BI\02 - Solution\BI4C BI\SSIS_DWH_BI\Queries\</ConfiguredValue>
 	</Configuration>
 	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::ServerFolder].Properties[Value]" ValueType="String">
-		<ConfiguredValue>C:\Users\Warda\Documents\Metrum\Project\HRT\03 - Input Files\</ConfiguredValue>
+		<ConfiguredValue>C:\Users\Manuel\Work\Projects\M-Team\03 - Input Files\</ConfiguredValue>
 	</Configuration>
 	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::SpeGenType].Properties[Value]" ValueType="String">
 		<ConfiguredValue>1to1</ConfiguredValue>
